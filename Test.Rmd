@@ -3,26 +3,67 @@ title: "Untitled"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r include=FALSE}
+library(tidyverse)
+library(dplyr)
+library(purrr)
+library(lubridate)
 ```
 
-## R Markdown
+Reading into the 2020 csv files.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+planned_2020 <- read_csv("2020plannedappt.csv")
+head(planned_2020)
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r}
+addon_2020 <- read_csv("2020addon.csv")
+head(addon_2020)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Trying to clean up the date and time using `lubridate` function.
+
+```{r}
+cleaned_planned_2020 <- planned_2020 %>% 
+  mutate(
+    `PAC Date` = dmy(`PAC Date`),
+    `Visit Time` = hm(`Visit Time`),
+    Age = as.integer(Age),
+    `No Show / Attended` = if_else(`No Show / Attended` == "Attended", 1, 0),
+    `Listing Date` = dmy(`Listing Date`),
+    `No. of days between PAC date and listing date` = 
+      as.integer(`No. of days between PAC date and listing date`),
+    `Surgery Date` = dmy(`Surgery Date`),
+    `Lead time to Surgery` = as.integer(`Lead time to Surgery`),
+    `ASA Score` = as.integer(`ASA Score`),
+    `PAC Registration Time` = hms(`PAC Registration Time`),
+    `PAC End Time` = hms(`PAC End Time`),
+    `PAC Consult Duration` = as.integer(`PAC Consult Duration`)
+  )
+
+head(cleaned_planned_2020)
+```
+
+Some summary of `cleaned_planned_2020`.
+
+```{r}
+summary(cleaned_planned_2020)
+```
+
+Let's try to visualise something.
+```{r}
+consult_duration <- ggplot(cleaned_planned_2020) +
+  geom_histogram(aes(`PAC Consult Duration`), bins = 50)
+
+# consult_duration
+
+test <- cleaned_planned_2020 %>% 
+  select(`Age`, `PAC Consult Duration`) %>% 
+  na.omit() %>% 
+  mutate(AgeGroup = findInterval(Age, c(0, 20, 40, 60, 80, 100, 120))) %>% 
+  pivot_wider()
+
+test
+```
+
