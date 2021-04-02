@@ -1,0 +1,141 @@
+---
+title: "Amount of Time Being Served in PAC (Appointments)"
+subtitle: "2020"
+date: "Friday, 2 April 2021"
+author: "Vincent Leonardo"
+output:
+  pdf_document:
+    highlight: pygments
+    latex_engine: xelatex
+    number_sections: true
+    toc: false
+fontsize: 11pt
+geometry: margin=1in
+mainfont: STIX Two Text
+mathfont: STIX Two Math
+monofont: Fira Code
+---
+
+```{r include=FALSE}
+# knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
+# Remove all variables from the R environment to create a fresh start
+rm(list=ls())
+# Execute our custom script for loading packages
+source("usePackages.R")
+# Name of the packages 
+pkgnames <- c("ggplot2","dplyr","GGally","fmsb","tidyverse","knitr","lubridate",
+              "patchwork", "fitdistrplus")
+# Use our custom load function
+loadPkgs(pkgnames)
+
+source("2020_PAC_initial_cleaner.R")
+source("histogram_maker.R")
+source("cf_graph.R")
+source("find_dist.R")
+```
+
+```{r include=FALSE}
+planned_2020 <- PAC_initial_cleaner("Unedited CSV/2020_planned.csv")
+# head(planned_2020)
+```
+
+Some things to note:
+
+-   Not sure if total duration as denoted by the difference between `PAC Registration Time` and `PAC End Time` is a better fit than the `PAC Consult Duration`.
+-   Hence, both distributions are included.
+-   We are also looking preliminarily into other histograms, though we are not sure what to use it for yet.
+-   `PAC Consult Duration` is for $\geq$ 15 minutes, then translated to start at 0 instead for CF and exponential. Gamma is not translated. \textbf{Not sure if this is correct.}
+-   We should decide on whether to split based on ASA, Department or both.
+
+Some questions:
+
+-   Clarify that:
+    -   Visit time = time allocated
+    -   Listing date = when did they set the consult timing
+    -   Register time = when did they come
+    -   End time = when did they leave
+    -   Consult duration = how long to consult per se
+
+-   Department names:
+    -   e.g. DDR/HPB is it the same as HPB?
+    -   e.g. H&N ENT is it the same as ENT?
+    -   Maybe can have a brief explanation so that we can try to cluster things
+
+-   How was PAC registration/end time calculated?
+
+# Histograms
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, fig.keep='all'}
+histogram_maker(planned_2020)
+```
+
+# Cullen and Frey Graphs
+
+In order of:
+
+1.  `PAC_to_listing_days`
+2.  `PAC_consult_duration`
+3.  `PAC_duration_total`
+4.  `surgery_lead_time`
+
+```{r echo=FALSE}
+cf_graph(planned_2020)
+```
+
+# Distribution for Consult Duration
+
+\textbf{Disclaimer}: distributions are not validated by chi-squared test yet but through other tests. Will need to ask James about these too. Will do the chi-squared tests soon.
+
+
+## Exponential Fit (PAC Consult Duration Adjusted)
+```{r echo=FALSE, warning=FALSE}
+planned_2020_modified <- planned_2020 %>% 
+  filter(PAC_consult_duration >= 15) %>% 
+  mutate(PAC_consult_duration = PAC_consult_duration - 15)
+
+find_dist(planned_2020_modified$PAC_consult_duration, "exp")
+```
+## Gamma Distribution (Not Adjusted)
+```{r echo=FALSE, warning=FALSE}
+planned_2020_modified_a <- planned_2020 %>% 
+  filter(PAC_consult_duration >= 15)
+find_dist(planned_2020_modified_a$PAC_consult_duration, "gamma")
+```
+
+
+# Distribution for Total Duration
+
+\textbf{Disclaimer}: distributions are not validated by chi-squared test yet but through other tests. Will need to ask James about these too. Will do the chi-squared tests soon.
+
+```{r echo=FALSE, warning=FALSE}
+find_dist(planned_2020$PAC_duration_total, "gamma")
+```
+# Splitting by ASA
+
+## Consult Duration
+
+### Exponential
+```{r echo=FALSE, warning=FALSE}
+planned_2020_modified_1 <- planned_2020_modified %>% filter(asa == "1")
+planned_2020_modified_2 <- planned_2020_modified %>% filter(asa == "2")
+planned_2020_modified_3 <- planned_2020_modified %>% filter(asa == "3")
+# planned_2020_modified_4 <- planned_2020_modified %>% filter(asa == "4")
+
+find_dist(planned_2020_modified_1$PAC_consult_duration, "exp")
+find_dist(planned_2020_modified_2$PAC_consult_duration, "exp")
+find_dist(planned_2020_modified_3$PAC_consult_duration, "exp")
+# find_dist(planned_2020_modified_4$PAC_consult_duration, "exp")
+```
+### Gamma
+```{r echo=FALSE, warning=FALSE}
+planned_2020_modified_a_1 <- planned_2020_modified_a %>% filter(asa == "1")
+planned_2020_modified_a_2 <- planned_2020_modified_a %>% filter(asa == "2")
+planned_2020_modified_a_3 <- planned_2020_modified_a %>% filter(asa == "3")
+# planned_2020_modified_a_4 <- planned_2020_modified_a %>% filter(asa == "4")
+
+find_dist(planned_2020_modified_a_1$PAC_consult_duration, "gamma")
+find_dist(planned_2020_modified_a_2$PAC_consult_duration, "gamma")
+find_dist(planned_2020_modified_a_3$PAC_consult_duration, "gamma")
+# find_dist(planned_2020_modified_a_4$PAC_consult_duration, "gamma")
+```
+

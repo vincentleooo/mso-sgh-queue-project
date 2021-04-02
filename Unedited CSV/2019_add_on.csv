@@ -1,0 +1,1423 @@
+Visit Date,Visit Time,Identifier,Age,Visit dept. OU,Procedure Code,No Show / Attended,Listing Date,No. of days between PAC date and listing date,Surgery Date,Lead time to Surgery,Admit Specialty,ASA,PAC Registration Time,PAC End Time,PAC Consult Duration,TOSP Table Code,Complexity of Surgery
+5/7/19,15:00,43651099UMJ,38,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:58:00,13:41:00,12,No Code,#N/A
+5/7/19,14:00,43651565ZNC,51,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,07:59:00,11:39:00,12,No Code,#N/A
+5/7/19,12:00,43651094DEA,84,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:24:00,14:20:00,18,No Code,#N/A
+5/7/19,9:00,43651011DNH,66,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:21:00,11:40:00,41,No Code,#N/A
+5/7/19,13:30,43651338FDF,70,DDR \ Med Oncolog,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,No Code,#N/A
+5/7/19,11:30,43651716FNJ,66,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:39:00,16:24:00,23,No Code,#N/A
+5/7/19,14:00,43651066ZEA,#N/A,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,15:11:00,16:25:00,13,No Code,#N/A
+5/7/19,12:00,43651255X Z,59,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:34:00,16:59:00,30,No Code,#N/A
+5/7/19,13:00,43651138BGG,47,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:20:00,14:50:00,24,No Code,#N/A
+5/7/19,14:30,43651487GMF,64,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:33:00,16:02:00,(blank),No Code,#N/A
+5/7/19,16:00,43651999FXB,24,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:52:00,17:25:00,7,No Code,#N/A
+5/7/19,13:30,43651443FHI,83,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:12:00,17:02:00,27,No Code,#N/A
+8/7/19,10:00,43654115BEC,55,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:12:00,11:19:00,52,No Code,#N/A
+8/7/19,13:30,43654901CIE,76,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:36:00,13:28:00,0,No Code,#N/A
+8/7/19,8:00,43654784A F,73,GI/BARIATRIC,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:11:00,13:52:00,24,No Code,#N/A
+8/7/19,11:00,43654946IMZ,31,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:08:00,15:39:00,10,No Code,#N/A
+8/7/19,12:00,43654430CWB,66,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:27:00,15:54:00,12,No Code,#N/A
+8/7/19,11:30,43654803HGJ,81,H&N - ENT,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:53:00,16:55:00,83,No Code,#N/A
+8/7/19,16:00,43654240EGA,66,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:45:00,17:17:00,35,No Code,#N/A
+8/7/19,15:30,43654177ADD,70,Colorec Surg,SF701C*,Attended,8/7/19,0,10/7/19,2,GCLR,2,15:21:00,18:24:00,54,6C,Moderate
+8/7/19,11:00,43654611JAF,37,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:53:00,11:39:00,22,No Code,#N/A
+9/7/19,10:30,43655958ZAA,35,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:06:00,11:31:00,0,No Code,#N/A
+9/7/19,13:30,43655173AND,62,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:24:00,13:38:00,30,No Code,#N/A
+9/7/19,14:30,43655902ZRH,18,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:07:00,11:20:00,8,No Code,#N/A
+9/7/19,13:30,43655820JIH,29,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:48:00,11:46:00,15,No Code,#N/A
+9/7/19,,43655612END,70,Gastro,SF708B,Attended,11/6/19,28,16/7/19,35,GGAS,3,10:48:00,15:20:00,60,3C,Low
+9/7/19,15:00,43655253GGB,44,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:15:00,14:24:00,23,No Code,#N/A
+10/7/19,15:00,43656678ADB,51,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:00:00,09:22:00,13,No Code,#N/A
+10/7/19,10:30,43656632GGE,60,HPB,SF801G,Attended,9/7/19,1,11/7/19,2,GS0H,2,09:56:00,11:13:00,14,4A,Moderate
+10/7/19,12:30,43656580GYH,61,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:50:00,15:51:00,62,No Code,#N/A
+10/7/19,12:00,43656417GIE,51,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:41:00,14:04:00,32,No Code,#N/A
+10/7/19,14:00,4365632A GJ,#N/A,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,No Code,#N/A
+10/7/19,14:30,43656123JEF,38,Orthop Surg,#N/A,No Show,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:54:00,15:06:00,(blank),No Code,#N/A
+10/7/19,13:00,43656467AGB,32,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:04:00,15:44:00,18,No Code,#N/A
+10/7/19,15:30,43656747CNZ,33,Gynaecology,SI820U,Attended,10/7/19,0,12/7/19,2,GGYN,1,14:28:00,16:31:00,27,2A,Low
+10/7/19,16:00,43656930IGZ,73,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:29:00,17:11:00,28,No Code,#N/A
+11/7/19,12:00,43657541ZNE,63,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:35:00,12:06:00,14,No Code,#N/A
+11/7/19,11:00,43657539BNA,85,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:32:00,14:14:00,0,No Code,#N/A
+11/7/19,13:00,43657592AOD,85,HPB,SC817T,Attended,2/8/19,-22,7/8/19,5,GS0H,2,11:20:00,15:11:00,37,2C,Moderate
+11/7/19,11:00,43657131F C,63,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:12:00,16:45:00,39,No Code,#N/A
+11/7/19,15:30,43657633BEE,58,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:32:00,16:56:00,(blank),No Code,#N/A
+11/7/19,13:30,43657137DPJ,54,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:44:00,15:50:00,28,No Code,#N/A
+12/7/19,11:00,43658197JNH,46,Plastic Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:59:00,15:13:00,18,No Code,#N/A
+12/7/19,15:00,43658225DDI,56,H&N-SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:48:00,12:25:00,27,No Code,#N/A
+12/7/19,8:00,43658011A H,53,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:12:00,13:14:00,90,No Code,#N/A
+12/7/19,15:30,43658917BUA,35,Obstetrics,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,15:48:00,17:21:00,27,No Code,#N/A
+12/7/19,16:30,43658096CNJ,58,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,16:14:00,17:11:00,(blank),No Code,#N/A
+12/7/19,15:00,43658895BNH,41,Plastic Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,15:53:00,16:35:00,(blank),No Code,#N/A
+12/7/19,16:00,43658100BNG,64,ENT,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:56:00,18:20:00,59,No Code,#N/A
+15/7/19,9:30,43661539IIA,74,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:53:00,12:59:00,40,No Code,#N/A
+15/7/19,14:30,43661054DEA,31,Obstetrics ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:18:00,11:18:00,0,No Code,#N/A
+15/7/19,12:00,43661073HED,40,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:03:00,12:35:00,22,No Code,#N/A
+15/7/19,15:00,43661337ZED,48,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:02:00,15:12:00,13,No Code,#N/A
+15/7/19,10:00,43661219BGZ,71,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:23:00,12:58:00,10,No Code,#N/A
+15/7/19,13:00,43661709H Z,70,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:07:00,12:08:00,16,No Code,#N/A
+15/7/19,15:00,43661517GGH,46,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,07:55:00,12:33:00,12,No Code,#N/A
+15/7/19,13:00,43661447R Z,38,Obstetrics ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:36:00,14:32:00,16,No Code,#N/A
+15/7/19,13:30,43661456BEA,50,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:04:00,12:08:00,23,No Code,#N/A
+15/7/19,15:30,43661611GGD,38,Obstetrics ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:13:00,15:12:00,8,No Code,#N/A
+15/7/19,12:00,43661714EKD,49,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,13:15:00,15:25:00,0,No Code,#N/A
+15/7/19,16:00,43661451FQB,32,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:58:00,16:38:00,0,No Code,#N/A
+15/7/19,17:00,43661026DIC,57,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,16:31:00,17:19:00,(blank),No Code,#N/A
+15/7/19,16:30,43661366J E,59,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:27:00,17:02:00,(blank),No Code,#N/A
+16/7/19,14:30,43662663CHB,50,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:20:00,13:53:00,0,No Code,#N/A
+16/7/19,12:30,43662950WTD,44,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:58:00,15:15:00,79,No Code,#N/A
+16/7/19,11:30,43662130GNJ,51,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:14:00,14:20:00,18,No Code,#N/A
+16/7/19,14:00,43662519H I,53,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:46:00,17:51:00,0,No Code,#N/A
+16/7/19,14:00,43662242ZNG,56,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:25:00,15:05:00,12,No Code,#N/A
+16/7/19,17:00,43662543BGJ,41,Obstetrics,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,16:33:00,16:46:00,(blank),No Code,#N/A
+16/7/19,16:00,43662715GNZ,66,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,16:18:00,17:51:00,22,No Code,#N/A
+16/7/19,16:00,43662927CIG,79,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:46:00,17:09:00,19,No Code,#N/A
+17/7/19,14:00,43663629BIJ,24,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:05:00,09:46:00,11,No Code,#N/A
+17/7/19,11:30,43663090ZDB,31,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:41:00,12:02:00,9,No Code,#N/A
+17/7/19,12:00,43663170ZMF,38,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:16:00,14:04:00,23,No Code,#N/A
+17/7/19,11:00,43663421CIC,47,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,10:25:00,14:45:00,42,No Code,#N/A
+17/7/19,13:00,43663534GGA,56,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:50:00,14:49:00,23,No Code,#N/A
+17/7/19,12:30,43663550IMA,47,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:57:00,15:24:00,60,No Code,#N/A
+17/7/19,13:30,43663756JND,31,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:36:00,14:38:00,17,No Code,#N/A
+17/7/19,14:00,43663480GNZ,66,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:58:00,15:44:00,34,No Code,#N/A
+17/7/19,15:00,43663676CYF,77,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,14:35:00,16:24:00,12,No Code,#N/A
+17/7/19,14:30,43663504INB,35,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:05:00,15:51:00,21,No Code,#N/A
+17/7/19,16:00,43663402DGJ,60,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,15:17:00,17:34:00,0,No Code,#N/A
+17/7/19,16:00,43663091C B,37,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:41:00,16:52:00,(blank),No Code,#N/A
+17/7/19,16:00,43663414ZMH,65,GI/BARIATRIC,SF819A,Attended,17/7/19,0,25/7/19,8,GS0G,2,15:32:00,17:16:00,25,3B,Low
+17/7/19,16:30,43663643HME,67,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:25:00,17:16:00,16,No Code,#N/A
+18/7/19,16:00,43664499END,39,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:18:00,13:23:00,10,No Code,#N/A
+18/7/19,12:00,43664383ZMJ,37,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:48:00,13:26:00,11,No Code,#N/A
+18/7/19,16:00,43664285ENI,35,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:44:00,12:58:00,46,No Code,#N/A
+18/7/19,16:00,43664962JNE,69,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:45:00,16:12:00,258,No Code,#N/A
+18/7/19,16:00,43664380EMG,67,VASCULAR SUR,SD714V,Attended,18/7/19,0,22/7/19,4,GS0V,2,10:42:00,15:30:00,65,4A,Low
+18/7/19,14:00,43664411IWC,73,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:48:00,16:19:00,52,No Code,#N/A
+18/7/19,16:00,43664821BGZ,65,GEN SURGERY,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:04:00,16:15:00,18,No Code,#N/A
+18/7/19,15:30,43664005RRH,52,GEN SURGERY,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,15:09:00,16:46:00,10,No Code,#N/A
+18/7/19,16:00,43664080GNH,59,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:39:00,17:33:00,27,No Code,#N/A
+18/7/19,17:00,43664844A H,93,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,16:36:00,17:24:00,(blank),No Code,#N/A
+18/7/19,15:30,43664954D E,62,GI/BARIATRIC,SF819A,Attended,18/7/19,0,24/7/19,6,GS0G,2,14:56:00,16:58:00,27,3B,Low
+18/7/19,12:30,43664631JHC,78,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:00:00,16:49:00,36,No Code,#N/A
+18/7/19,13:30,43664632EYA,56,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,12:53:00,16:49:00,62,No Code,#N/A
+19/7/19,15:00,43665173ENI,69,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:50:00,10:22:00,(blank),No Code,#N/A
+19/7/19,10:30,43665273ZSZ,64,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:34:00,11:44:00,6,No Code,#N/A
+19/7/19,12:00,43665834FNJ,22,Plastic Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:45:00,12:42:00,14,No Code,#N/A
+19/7/19,16:00,43665903GMF,54,VASCULAR SUR,SD709A,Attended,11/6/19,38,26/7/19,45,GS0V,3,13:44:00,15:18:00,25,5A,Low
+19/7/19,11:30,43665121FDI,47,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:29:00,16:23:00,22,No Code,#N/A
+19/7/19,16:30,43665215ATI,64,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,16:13:00,16:38:00,(blank),No Code,#N/A
+19/7/19,16:00,43665414ZMH,65,GI/BARIATRIC,SF819A,Attended,17/7/19,2,25/7/19,8,GS0G,2,#N/A,#N/A,#N/A,3B,Low
+22/7/19,12:30,43668247ANI,75,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:55:00,10:20:00,0,No Code,#N/A
+22/7/19,13:30,43668453BNJ,45,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:41:00,12:46:00,25,No Code,#N/A
+22/7/19,15:00,43668179JGD,75,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:03:00,13:31:00,52,No Code,#N/A
+22/7/19,11:30,43668240JAJ,38,Otolary,SM716L,Attended,4/7/19,18,27/8/19,54,GENT,1,11:18:00,12:51:00,23,1B,Low
+22/7/19,15:30,43668443IIZ,34,Obstetrics,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:59:00,14:11:00,35,No Code,#N/A
+22/7/19,9:00,43668212BGJ,26,Dental,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:40:00,10:11:00,34,No Code,#N/A
+22/7/19,11:30,43668538JDD,79,GASTRO,SF702C,Attended,17/7/19,5,25/7/19,8,GGAS,2,11:40:00,15:00:00,58,2C,Low
+22/7/19,14:30,43668559HGE,51,GI/BARIATRIC,SF705S,Attended,8/7/19,14,7/8/19,30,GS0G,2,12:59:00,13:58:00,(blank),5C,Moderate
+22/7/19,16:00,43668239GGF,43,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:27:00,16:13:00,6,No Code,#N/A
+22/7/19,11:30,43668639HND,79,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:14:00,14:57:00,25,No Code,#N/A
+23/7/19,9:30,43669763DHB,53,H&N - ENT,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:26:00,12:00:00,21,No Code,#N/A
+23/7/19,10:00,43669896WQF,37,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:17:00,12:12:00,25,No Code,#N/A
+23/7/19,12:30,43669301CNF,21,Dental,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:59:00,10:23:00,20,No Code,#N/A
+23/7/19,15:00,43669950HIH,75,GI/BARIATRIC,SF819A,Attended,2/7/19,21,14/8/19,43,GS0G,2,11:27:00,13:39:00,21,3B,Low
+23/7/19,13:00,43669086HTC,44,Neurosurgery,SK810B,Attended,23/7/19,0,29/7/19,6,GNES,3,09:38:00,13:54:00,118,6B,High
+23/7/19,14:00,43669023GNE,78,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:05:00,15:52:00,91,No Code,#N/A
+23/7/19,15:30,43669458BGG,70,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:08:00,14:48:00,33,No Code,#N/A
+23/7/19,12:00,43669227CNG,48,Plastic Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:36:00,12:46:00,26,No Code,#N/A
+23/7/19,14:30,43669585IOI,73,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:14:00,13:47:00,(blank),No Code,#N/A
+23/7/19,16:00,43669830ANC,42,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,15:59:00,16:57:00,14,No Code,#N/A
+23/7/19,13:30,43669048JGB,45,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:55:00,11:50:00,19,No Code,#N/A
+23/7/19,16:00,43669163DEC,22,Obstetrics,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:11:00,16:50:00,22,No Code,#N/A
+23/7/19,17:00,43669141JNH,35,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,15:32:00,16:56:00,(blank),No Code,#N/A
+23/7/19,8:00,43669868EYB,30,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:29:00,13:47:00,(blank),No Code,#N/A
+24/7/19,12:30,43670680AIE,37,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:07:00,10:19:00,11,No Code,#N/A
+24/7/19,11:30,43670017JRC,66,VASCULAR SUR,SD707A,Attended,23/7/19,1,26/7/19,3,GS0V,2,08:01:00,10:10:00,38,3A,Low
+24/7/19,11:00,43670897FEF,#N/A,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,No Code,#N/A
+24/7/19,12:00,43670831FMF,54,UROLOGY,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:14:00,09:54:00,9,No Code,#N/A
+24/7/19,12:30,43670224AEI,75,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:27:00,16:27:00,0,No Code,#N/A
+24/7/19,13:00,43670495ASH,44,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:02:00,14:16:00,45,No Code,#N/A
+24/7/19,9:30,43670775ZWC,64,NEUROSURGERY,SJ803T,Attended,29/7/19,-5,5/8/19,7,GNES,2,11:08:00,12:51:00,32,5C,Moderate
+24/7/19,14:00,43670922BWH,65,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:58:00,14:13:00,13,No Code,#N/A
+24/7/19,14:00,43670626ALJ,27,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:08:00,15:33:00,52,No Code,#N/A
+24/7/19,13:30,43670638FAZ,34,Gynacology,SI725U,Attended,24/7/19,0,31/7/19,7,GGYN,2,09:22:00,15:09:00,39,2B,Low
+24/7/19,11:00,43670086Z C,#N/A,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,10:21:00,12:06:00,26,No Code,#N/A
+24/7/19,10:30,43670631ALH,29,Obstetrics,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:46:00,15:34:00,21,No Code,#N/A
+25/7/19,15:30,43671956BGI,57,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:35:00,10:57:00,24,No Code,#N/A
+25/7/19,15:00,43671027GNB,61,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:00:00,12:10:00,62,No Code,#N/A
+25/7/19,15:30,43671460HGJ,32,GI/BARIATRIC,SF801G,Attended,24/7/19,1,30/7/19,6,GS0G,1,11:38:00,13:24:00,32,4A,Moderate
+25/7/19,16:00,43671103AGZ,70,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:25:00,14:02:00,28,No Code,#N/A
+25/7/19,16:00,43671135BNB,67,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:11:00,14:01:00,26,No Code,#N/A
+25/7/19,12:00,43671853GNC,42,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:04:00,14:14:00,14,No Code,#N/A
+25/7/19,13:00,43671665JEE,51,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:11:00,14:46:00,30,No Code,#N/A
+25/7/19,14:00,43671088ZNG,31,Obstetrics,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:55:00,15:37:00,22,No Code,#N/A
+25/7/19,16:00,43671320AKB,71,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:14:00,16:42:00,25,No Code,#N/A
+25/7/19,14:30,43671496IEZ,57,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:50:00,15:31:00,38,No Code,#N/A
+25/7/19,11:30,43671465WRE,39,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:00:00,16:02:00,9,No Code,#N/A
+25/7/19,12:30,43671503JAZ,80,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:46:00,14:49:00,10,No Code,#N/A
+25/7/19,13:30,43671146INC,45,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,13:02:00,16:27:00,2,No Code,#N/A
+25/7/19,16:00,43671062JEJ,50,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,16:03:00,16:57:00,(blank),No Code,#N/A
+25/7/19,16:00,43671841HIZ,77,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,15:51:00,16:47:00,(blank),No Code,#N/A
+26/7/19,15:00,43672983HHG,45,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:14:00,12:22:00,17,No Code,#N/A
+26/7/19,10:00,43672425DEG,71,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:40:00,10:56:00,(blank),No Code,#N/A
+26/7/19,14:00,43672311BNB,45,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:06:00,13:38:00,87,No Code,#N/A
+26/7/19,15:00,43672712Z J,52,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:24:00,11:09:00,5,No Code,#N/A
+26/7/19,10:00,43672015HYH,68,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:59:00,12:14:00,32,No Code,#N/A
+26/7/19,14:00,43672210HTF,65,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:50:00,15:55:00,16,No Code,#N/A
+26/7/19,15:30,43672939ZXB,45,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:45:00,14:35:00,4,No Code,#N/A
+26/7/19,15:00,43672391COB,68,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:19:00,14:50:00,37,No Code,#N/A
+26/7/19,14:30,43672919CIB,26,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:00:00,15:35:00,10,No Code,#N/A
+27/7/19,13:30,43673293HAA,80,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,#N/A,#N/A,#N/A,No Code,#N/A
+28/7/19,15:30,43674500A H,62,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,#N/A,#N/A,#N/A,No Code,#N/A
+29/7/19,15:30,43675459DNE,34,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:44:00,10:54:00,12,No Code,#N/A
+29/7/19,11:30,43675504CGC,#N/A,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:52:00,12:52:00,19,No Code,#N/A
+29/7/19,9:30,43675411ESB,37,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:37:00,10:42:00,22,No Code,#N/A
+29/7/19,8:30,43675678D I,61,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:01:00,09:56:00,6,No Code,#N/A
+29/7/19,10:00,43675948DWA,71,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:19:00,12:00:00,16,No Code,#N/A
+29/7/19,12:00,43675543DMZ,73,GI/BARIATRIC,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:41:00,13:09:00,18,No Code,#N/A
+29/7/19,12:30,43675256ZNA,49,VASCULAR SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:31:00,13:50:00,18,No Code,#N/A
+29/7/19,13:00,43675926JHE,72,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:27:00,14:14:00,27,No Code,#N/A
+29/7/19,14:30,43675120CYD,67,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:18:00,12:00:00,0,No Code,#N/A
+29/7/19,14:30,43675473CNB,29,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:48:00,15:51:00,12,No Code,#N/A
+29/7/19,15:00,43675740CGI,45,Plastic Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:13:00,16:06:00,18,No Code,#N/A
+29/7/19,14:00,43675487F D,50,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:15:00,13:51:00,25,No Code,#N/A
+29/7/19,15:30,43675720IYG,59,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:59:00,16:26:00,0,No Code,#N/A
+29/7/19,15:30,43675778HFD,60,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:22:00,17:15:00,21,No Code,#N/A
+30/7/19,8:00,43676200HDA,34,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:33:00,09:35:00,12,No Code,#N/A
+30/7/19,12:30,43676026ZGD,50,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:43:00,10:00:00,4,No Code,#N/A
+30/7/19,10:30,43676382JED,28,Plastic Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:00:00,10:25:00,18,No Code,#N/A
+30/7/19,15:30,43676636GIG,63,VASCULAR SUR,SD712B,Attended,30/7/19,0,7/8/19,8,GS0V,3,11:41:00,13:19:00,37,2A,Low
+30/7/19,13:30,43676313DGC,64,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:20:00,12:40:00,23,No Code,#N/A
+30/7/19,14:30,43676155B J,49,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:49:00,15:12:00,30,No Code,#N/A
+30/7/19,14:00,43676221ZDA,25,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:06:00,14:08:00,7,No Code,#N/A
+30/7/19,13:30,43676907G A,32,Gynaecology ,SI725U,Attended,30/7/19,0,6/8/19,7,GGYN,1,10:32:00,14:21:00,11,2B,Low
+30/7/19,13:00,43676587ZHG,32,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:30:00,11:44:00,11,No Code,#N/A
+30/7/19,13:00,43676998INE,53,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:22:00,12:36:00,27,No Code,#N/A
+30/7/19,14:30,43676869ZIC,65,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:16:00,15:02:00,37,No Code,#N/A
+30/7/19,9:00,43676116GHB,76,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:25:00,10:03:00,26,No Code,#N/A
+30/7/19,13:30,43676745DED,63,Plastic Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:31:00,16:16:00,1,No Code,#N/A
+30/7/19,15:00,43676765FIE,53,Otolary,SF723T,Attended,30/7/19,0,5/8/19,6,GENT,2,15:18:00,16:54:00,32,4C,Moderate
+31/7/19,15:00,43677539BAH,56,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:33:00,11:58:00,6,No Code,#N/A
+31/7/19,15:30,43677329FGI,43,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:05:00,11:23:00,15,No Code,#N/A
+31/7/19,15:30,43677036ZGC,#N/A,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,10:41:00,13:16:00,7,No Code,#N/A
+31/7/19,15:30,43677477A G,41,GI/BARIATRIC,SA701S,Attended,31/7/19,0,7/8/19,7,GS0G,2,11:09:00,13:17:00,26,2A,Low
+31/7/19,15:00,43677299ETC,64,VASCULAR SUR,SD722A,Attended,30/7/19,1,5/8/19,6,GS0V,2,11:02:00,13:58:00,24,4A,Moderate
+31/7/19,14:30,43677693C B,70,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:28:00,13:52:00,25,No Code,#N/A
+31/7/19,15:00,43677892BNE,69,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:24:00,13:34:00,30,No Code,#N/A
+31/7/19,12:30,43677673DMB,83,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:11:00,14:07:00,30,No Code,#N/A
+31/7/19,14:00,43677387G J,24,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:11:00,14:11:00,12,No Code,#N/A
+31/7/19,16:00,43677942DEE,39,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:39:00,16:07:00,20,No Code,#N/A
+31/7/19,16:00,43677079ENC,44,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:09:00,16:07:00,37,No Code,#N/A
+31/7/19,14:30,43677706A H,66,VASCULAR SUR,SD716V,Attended,30/7/19,1,5/8/19,6,GS0V,2,13:46:00,15:50:00,25,3B,Low
+31/7/19,16:00,43677185COA,50,DDR/Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,14:31:00,16:18:00,23,No Code,#N/A
+31/7/19,14:30,43677006HNG,57,HPB,SA701S,Attended,31/7/19,0,6/8/19,6,GS0H,2,11:47:00,14:29:00,21,2A,Low
+31/7/19,16:00,43677803HGB,81,H&N-ENT,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,14:06:00,17:20:00,65,No Code,#N/A
+1/8/19,15:30,43678528AIE,69,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:29:00,14:33:00,14,No Code,#N/A
+1/8/19,15:30,43678269CNE,39,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:13:00,14:09:00,12,No Code,#N/A
+1/8/19,14:00,43678637BDC,71,HPB,SF805A,Attended,31/7/19,1,6/8/19,6,GS0H,2,09:31:00,11:44:00,23,6B,High
+1/8/19,15:00,43678673DMB,83,GI/BARIATRIC,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:15:00,14:22:00,(blank),No Code,#N/A
+1/8/19,15:00,43678079EBI,77,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:35:00,15:35:00,63,No Code,#N/A
+1/8/19,14:00,43678589DNH,31,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:11:00,10:43:00,15,No Code,#N/A
+1/8/19,14:30,43678827BHJ,44,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:04:00,12:58:00,28,No Code,#N/A
+1/8/19,15:30,43678273CNJ,31,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:28:00,14:59:00,16,No Code,#N/A
+1/8/19,16:00,43678420ZGG,49,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,07:22:00,17:08:00,99,No Code,#N/A
+1/8/19,14:30,43678631Z A,49,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:44:00,12:17:00,14,No Code,#N/A
+1/8/19,14:30,43678457AEB,46,Colorec Surg,SF710C,Attended,29/7/19,3,6/8/19,8,GCLR,2,13:36:00,15:54:00,28,1B,Low
+1/8/19,16:30,43678261ZOF,25,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,16:17:00,16:59:00,(blank),No Code,#N/A
+1/8/19,14:00,43678327GSD,48,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:35:00,15:48:00,13,No Code,#N/A
+2/8/19,16:00,43679113DNE,31,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:39:00,13:02:00,9,No Code,#N/A
+2/8/19,10:30,43679622CYZ,62,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:53:00,15:36:00,14,No Code,#N/A
+2/8/19,16:00,43679808ENJ,#N/A,H&N-SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:53:00,13:48:00,22,No Code,#N/A
+2/8/19,12:00,43679164AHF,37,GI/BARIATRIC,SF703S,Attended,10/6/19,53,15/8/19,66,GS0G,2,08:26:00,10:02:00,12,5B,Moderate
+2/8/19,13:30,43679250IAD,23,H&N-SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,13:39:00,15:39:00,19,No Code,#N/A
+2/8/19,16:00,43679806AGD,60,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:53:00,14:05:00,23,No Code,#N/A
+2/8/19,14:30,43679382I Z,47,H&N-SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:38:00,16:12:00,12,No Code,#N/A
+2/8/19,14:00,43679811ZUE,#N/A,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:43:00,16:30:00,0,No Code,#N/A
+2/8/19,,43679085IGT,#N/A,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,13:05:00,16:32:00,37,No Code,#N/A
+2/8/19,15:00,43679801CHJ,75,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:45:00,17:01:00,24,No Code,#N/A
+2/8/19,16:30,43679480IID,16,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,16:12:00,17:44:00,21,No Code,#N/A
+2/8/19,16:30,43679577BGG,87,VASCULAR SUR,SB707T,Attended,2/8/19,0,5/8/19,3,GS0V,2,15:36:00,18:09:00,41,2C,Low
+2/8/19,16:30,43679515FNA,35,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,15:27:00,17:20:00,12,No Code,#N/A
+2/8/19,15:30,43679624DUZ,61,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:44:00,17:03:00,18,No Code,#N/A
+5/8/19,15:00,43682706IHD,58,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:15:00,10:04:00,0,No Code,#N/A
+5/8/19,10:00,43682576IGA,36,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:35:00,12:24:00,22,No Code,#N/A
+5/8/19,12:30,43682537ZNA,79,Plastic Surg,SA818S,Attended,19/8/19,-14,22/8/19,3,GPLS,1,10:22:00,12:43:00,22,3B,Low
+5/8/19,13:30,43682399BNG,80,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:15:00,14:03:00,52,No Code,#N/A
+5/8/19,14:30,43682051AGE,69,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:04:00,13:54:00,15,No Code,#N/A
+5/8/19,10:00,43682737EYE,55,Otolary,SM700N,Attended,2/8/19,3,20/8/19,18,GENT,#N/A,10:13:00,11:47:00,31,1A,Low
+5/8/19,16:00,43682517GYC,53,GI/BARIATRIC,SF819A,Attended,5/8/19,0,20/8/19,15,GS0G,2,09:57:00,11:45:00,0,3B,Low
+5/8/19,13:30,43682808GTF,26,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:04:00,14:58:00,17,No Code,#N/A
+5/8/19,14:00,43682087ZAJ,#N/A,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:47:00,16:13:00,53,No Code,#N/A
+5/8/19,13:00,43682488FGE,76,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:03:00,16:38:00,15,No Code,#N/A
+5/8/19,15:30,43682723IEG,57,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:17:00,16:51:00,14,No Code,#N/A
+5/8/19,15:00,43682867IDE,71,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,13:28:00,17:01:00,25,No Code,#N/A
+6/8/19,15:30,43683679IDJ,61,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:06:00,11:16:00,6,No Code,#N/A
+6/8/19,11:30,43683615CNJ,62,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:18:00,14:51:00,8,No Code,#N/A
+6/8/19,11:00,43683248J J,33,Gastro,SF700I,Attended,5/8/19,1,8/8/19,3,GGAS,#N/A,10:30:00,15:41:00,204,2C,Low
+6/8/19,13:00,43683172E F,62,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:28:00,12:37:00,17,No Code,#N/A
+6/8/19,11:00,43683607ZGA,21,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:32:00,12:53:00,10,No Code,#N/A
+6/8/19,13:30,43683987F  ,#N/A,EYE,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,13:09:00,14:21:00,20,No Code,#N/A
+6/8/19,12:00,43683472EGC,81,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:19:00,16:57:00,26,No Code,#N/A
+6/8/19,14:00,43683429D E,16,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:52:00,14:16:00,7,No Code,#N/A
+6/8/19,13:30,43683102HHH,95,Gastro,SF711B,Attended,8/8/19,-2,22/8/19,14,GGAS,2,12:59:00,15:22:00,57,3B,Low
+6/8/19,15:00,43683604ZGI,68,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:13:00,17:20:00,40,No Code,#N/A
+6/8/19,15:30,43683055INC,56,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:54:00,16:37:00,(blank),No Code,#N/A
+6/8/19,13:30,43683318AEJ,25,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:39:00,14:33:00,15,No Code,#N/A
+7/8/19,12:00,43684675JGI,74,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:12:00,09:28:00,19,No Code,#N/A
+7/8/19,12:30,43684207BNJ,40,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:17:00,14:09:00,10,No Code,#N/A
+7/8/19,15:30,43684987ASC,81,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:45:00,10:21:00,20,No Code,#N/A
+7/8/19,12:30,43684960K I,40,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:05:00,12:24:00,12,No Code,#N/A
+7/8/19,11:00,43684027Z F,73,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:33:00,13:09:00,11,No Code,#N/A
+7/8/19,13:00,43684423B J,50,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:59:00,12:57:00,6,No Code,#N/A
+7/8/19,12:00,43684326E J,73,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:47:00,13:09:00,8,No Code,#N/A
+7/8/19,14:30,43684450JGI,74,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:36:00,17:11:00,32,No Code,#N/A
+7/8/19,17:00,43684034BGC,78,Plastic Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,16:40:00,17:13:00,(blank),No Code,#N/A
+7/8/19,16:00,43684642U J,27,Gynaecology,SI820U,Attended,7/8/19,0,13/8/19,6,GGYN,1,10:49:00,17:02:00,40,2A,Low
+8/8/19,11:00,43685529ZNB,74,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:10:00,09:40:00,0,No Code,#N/A
+8/8/19,8:00,43685482GNG,27,H&N- SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:35:00,10:30:00,26,No Code,#N/A
+8/8/19,9:00,43685871J C,27,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:28:00,10:10:00,10,No Code,#N/A
+8/8/19,11:30,43685281HEA,35,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:52:00,11:38:00,(blank),No Code,#N/A
+8/8/19,10:00,43685185FND,65,Gen Surgery,SA707B,Attended,7/8/19,1,16/8/19,9,GSUR,#N/A,09:15:00,11:04:00,19,3C,Low
+8/8/19,9:30,43685286IGZ,75,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:02:00,11:40:00,11,No Code,#N/A
+8/8/19,10:00,43685103FET,#N/A,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,10:34:00,11:38:00,0,No Code,#N/A
+8/8/19,10:30,43685954GNG,45,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:46:00,11:38:00,0,No Code,#N/A
+8/8/19,10:30,43685229ENZ,76,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:06:00,11:48:00,13,No Code,#N/A
+8/8/19,15:00,43685235IRC,49,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:14:00,16:45:00,17,No Code,#N/A
+8/8/19,14:00,43685220GUZ,58,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:06:00,14:59:00,16,No Code,#N/A
+8/8/19,14:00,43685115I C,61,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,13:51:00,15:42:00,36,No Code,#N/A
+8/8/19,14:30,43685442BPE,33,Otolary,SM712N,Attended,7/8/19,1,13/8/19,6,GENT,1,14:18:00,15:26:00,21,1B,Low
+8/8/19,11:00,43685041BNZ,57,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:50:00,13:18:00,17,No Code,#N/A
+8/8/19,16:00,43685953DUF,#N/A,Obstetrics,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,14:36:00,17:05:00,26,No Code,#N/A
+8/8/19,16:30,43685375BEH,22,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,16:06:00,16:51:00,(blank),No Code,#N/A
+13/8/19,16:30,43690584HDH,28,GI/BARIATRIC,SF703S,Attended,21/6/19,53,28/8/19,68,GS0G,2,07:59:00,09:40:00,5,5B,Moderate
+13/8/19,10:00,43690021AMI,58,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:53:00,13:51:00,41,No Code,#N/A
+13/8/19,9:30,43690039I C,59,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,#N/A,#N/A,#N/A,No Code,#N/A
+13/8/19,11:30,43690980E E,65,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:05:00,15:34:00,0,No Code,#N/A
+13/8/19,11:30,43690015CGG,72,VASCULAR SUR,SD736A,Attended,13/8/19,0,14/8/19,1,GS0V,2,12:37:00,15:21:00,57,3B,Moderate
+13/8/19,14:30,43690526HNG,64,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:17:00,15:33:00,15,No Code,#N/A
+13/8/19,16:00,43690126AGZ,22,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:45:00,16:06:00,17,No Code,#N/A
+14/8/19,8:30,43691166CGE,42,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,07:59:00,08:52:00,10,No Code,#N/A
+14/8/19,10:00,43691687FIA,77,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:40:00,13:31:00,18,No Code,#N/A
+14/8/19,11:30,43691434DGJ,60,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:52:00,13:31:00,26,No Code,#N/A
+14/8/19,8:00,43691429ANE,66,Orthop Surg,SB810K,Attended,13/8/19,1,16/8/19,3,GOTO,2,08:28:00,10:27:00,25,6A,Moderate
+14/8/19,9:00,43691710EYJ,70,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:54:00,13:58:00,12,No Code,#N/A
+14/8/19,10:30,43691169EIE,34,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:08:00,11:45:00,28,No Code,#N/A
+14/8/19,11:30,43691863ZAE,50,GASTRO,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:54:00,16:15:00,12,No Code,#N/A
+14/8/19,12:00,43691800FAF,36,GASTRO,SF807E,Attended,22/7/19,23,15/8/19,24,GGAS,1,11:01:00,14:38:00,41,3A,Low
+14/8/19,16:00,43691916FTJ,50,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:19:00,16:36:00,12,No Code,#N/A
+14/8/19,12:30,43691490CGJ,49,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:04:00,16:07:00,29,No Code,#N/A
+14/8/19,16:00,43691224BAA,36,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:19:00,17:06:00,30,No Code,#N/A
+15/8/19,11:00,43692010EEZ,53,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:53:00,12:38:00,17,No Code,#N/A
+15/8/19,11:30,43692439IIF,27,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:13:00,12:11:00,14,No Code,#N/A
+15/8/19,11:00,43692698N C,34,Obstetrics,SI834U,Attended,8/8/19,7,19/8/19,11,GOBS,1,08:21:00,10:24:00,7,4A,Moderate
+15/8/19,11:30,43692362DEG,68,Gen Surgery ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:23:00,14:18:00,16,No Code,#N/A
+15/8/19,8:30,43692213DTZ,72,Orthop Surg,SB808S,Attended,6/8/19,9,26/8/19,20,GOTO,2,13:03:00,16:08:00,25,7C,Moderate
+15/8/19,14:00,43692695ILC,#N/A,Obstetrics,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:47:00,15:51:00,12,No Code,#N/A
+15/8/19,14:30,43692154FND,47,Gynaecology,SI705C,Attended,7/8/19,8,29/8/19,22,GGYN,1,14:52:00,17:21:00,19,2C,Low
+15/8/19,13:30,43692785N I,43,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:59:00,14:30:00,17,No Code,#N/A
+15/8/19,14:30,43692900HHI,55,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:00:00,17:50:00,53,No Code,#N/A
+15/8/19,14:00,43692492ZGZ,79,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,13:19:00,16:48:00,51,No Code,#N/A
+16/8/19,11:30,43693490J D,61,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:29:00,10:50:00,19,No Code,#N/A
+16/8/19,11:30,43693043ZOA,82,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,08:09:00,10:40:00,75,No Code,#N/A
+16/8/19,,43693692ZEH,70,VASCULAR SUR,SD714V,Attended,2/8/19,14,10/9/19,39,GS0V,2,09:05:00,11:43:00,42,4A,Low
+16/8/19,11:30,43693972DGB,36,Gen Surgery,SA840S,Attended,16/8/19,0,19/8/19,3,GSUR,2,10:57:00,13:26:00,10,1A,Low
+16/8/19,11:00,43693072CIF,52,Gen Surgery,SD833H,Attended,16/8/19,0,20/8/19,4,GSUR,2,10:00:00,14:24:00,113,3B,Not mapped
+16/8/19,14:00,43693398DID,68,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:20:00,15:17:00,21,No Code,#N/A
+16/8/19,16:00,43693570BNA,86,Neurosurgery,SK810B,Attended,16/8/19,0,20/8/19,4,GNES,3,11:58:00,15:27:00,26,6B,High
+16/8/19,16:00,43693660CDI,33,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:09:00,15:37:00,22,No Code,#N/A
+16/8/19,12:00,43693826ANE,84,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:55:00,16:46:00,17,No Code,#N/A
+16/8/19,12:30,43693888BEZ,48,Otolary,SM716L,Attended,6/8/19,10,27/8/19,21,GENT,1,12:33:00,14:53:00,23,1B,Low
+16/8/19,15:30,43693275GGH,60,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:55:00,15:50:00,16,No Code,#N/A
+16/8/19,12:30,43693306WLZ,25,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:40:00,15:40:00,(blank),No Code,#N/A
+16/8/19,14:00,43693449IIE,41,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,13:34:00,16:11:00,35,No Code,#N/A
+16/8/19,17:30,43693458IID,34,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,16:59:00,17:40:00,(blank),No Code,#N/A
+16/8/19,14:30,43693900HHI,55,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,#N/A,#N/A,#N/A,No Code,#N/A
+16/8/19,14:00,43693492ZGZ,79,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,3,#N/A,#N/A,#N/A,No Code,#N/A
+16/8/19,16:00,43693181E Z,53,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:53:00,17:22:00,18,No Code,#N/A
+19/8/19,9:00,43696606G  ,#N/A,Neurosurgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:53:00,10:28:00,15,No Code,#N/A
+19/8/19,15:30,43696324A E,64,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:58:00,11:59:00,21,No Code,#N/A
+19/8/19,10:00,43696556AEJ,63,HPB ,SF809P,Attended,17/8/19,2,21/8/19,4,GS0H,2,09:13:00,11:39:00,17,7C,High
+19/8/19,13:00,43696661IME,38,Gynacology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:28:00,14:21:00,26,No Code,#N/A
+19/8/19,16:00,43696556BNZ,52,HPB ,SF801G,Attended,19/8/19,0,20/8/19,1,GS0H,1,10:51:00,14:20:00,31,4A,Moderate
+19/8/19,16:00,43696596GGH,77,Colorec Surg,SF701C*,Attended,19/8/19,0,23/8/19,4,GCLR,2,16:00:00,16:55:00,(blank),6C,Moderate
+19/8/19,14:00,43696283B E,73,Gen Surgery,SF819A,Attended,19/8/19,0,21/8/19,2,GSUR,3,13:07:00,15:08:00,16,3B,Low
+20/8/19,12:30,43697484IIG,19,Plastic Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:54:00,12:57:00,12,No Code,#N/A
+20/8/19,9:30,43697869DNZ,53,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:55:00,10:23:00,6,No Code,#N/A
+20/8/19,15:00,43697097H C,54,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:08:00,15:15:00,(blank),No Code,#N/A
+20/8/19,14:30,43697542H H,40,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:30:00,14:48:00,29,No Code,#N/A
+20/8/19,16:00,43697148GYA,75,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:49:00,16:56:00,0,No Code,#N/A
+20/8/19,13:30,43697467CAG,56,H&N - ENT ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:16:00,17:09:00,41,No Code,#N/A
+20/8/19,16:00,43697766GIG,38,GI/BARIATRIC ,SF703S,Attended,21/6/19,60,27/8/19,67,GS0G,2,16:15:00,16:46:00,(blank),5B,Moderate
+20/8/19,12:30,43697263JUC,65,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:35:00,16:20:00,(blank),No Code,#N/A
+21/8/19,9:00,43698143CEE,73,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:44:00,11:51:00,15,No Code,#N/A
+21/8/19,14:00,43698441EAD,72,H&N - ENT ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:27:00,12:39:00,19,No Code,#N/A
+21/8/19,15:00,43698843JN ,#N/A,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:56:00,11:39:00,19,No Code,#N/A
+21/8/19,13:30,43698210X G,46,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:58:00,12:22:00,7,No Code,#N/A
+21/8/19,11:30,43698096HND,36,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,11:31:00,12:49:00,14,No Code,#N/A
+21/8/19,13:00,43698974CHB,73,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:35:00,14:55:00,24,No Code,#N/A
+21/8/19,15:30,43698301A D,51,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:10:00,13:08:00,18,No Code,#N/A
+21/8/19,16:30,43698628EIC,68,DDR/Neurosurgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,16:03:00,17:32:00,15,No Code,#N/A
+21/8/19,14:30,43698166ZDB,63,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,15:07:00,16:46:00,39,No Code,#N/A
+21/8/19,16:00,43698290ERH,27,Obstetrics ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:57:00,15:24:00,16,No Code,#N/A
+21/8/19,14:00,43698897COD,61,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:35:00,16:36:00,10,No Code,#N/A
+21/8/19,16:00,43698587IAF,31,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,15:03:00,15:54:00,11,No Code,#N/A
+21/8/19,10:00,43698100CEZ,58,Orthop Surg ,SB810K,Attended,21/8/19,0,27/8/19,6,GOTO,2,16:08:00,17:16:00,(blank),6A,Moderate
+22/8/19,14:00,43699553NLB,25,Otolary,SM714N,Attended,10/7/19,43,2/9/19,54,GENT,2,10:22:00,11:30:00,9,2C,Low
+22/8/19,16:00,43699896GKG,61,Gen Surgery ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:07:00,13:24:00,8,No Code,#N/A
+22/8/19,14:30,43699924G H,53,HRM ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,08:05:00,09:17:00,15,No Code,#N/A
+22/8/19,11:30,43699116EGG,65,GI/BARIATRIC ,SF819A,Attended,21/8/19,1,27/8/19,6,GS0G,1,10:39:00,13:24:00,16,3B,Low
+22/8/19,15:00,43699255CSE,#N/A,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:18:00,13:12:00,21,No Code,#N/A
+22/8/19,13:00,43699054C Z,35,Gynaecology ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:04:00,14:36:00,35,No Code,#N/A
+22/8/19,13:00,43699190HH ,#N/A,GI/BARIATRIC ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:23:00,13:53:00,29,No Code,#N/A
+22/8/19,14:30,43699640AKC,78,Gen Surgery ,SF707I,Attended,21/8/19,1,27/8/19,6,GSUR,#N/A,14:58:00,16:43:00,21,4A,Moderate
+22/8/19,16:30,43699241G B,62,Colorec Surg,SF710C,Attended,22/8/19,0,23/8/19,1,GCLR,1,15:02:00,16:42:00,22,1B,Low
+22/8/19,16:30,43699655GSF,18,Orthop Surg ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,14:38:00,17:10:00,13,No Code,#N/A
+23/8/19,11:30,43700187JNE,52,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:42:00,14:44:00,0,No Code,#N/A
+23/8/19,12:30,43700279F B,#N/A,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:05:00,14:23:00,29,No Code,#N/A
+23/8/19,11:30,43700767H G,78,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:24:00,15:30:00,21,No Code,#N/A
+23/8/19,16:30,43700388HN ,#N/A,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,14:42:00,17:46:00,0,No Code,#N/A
+23/8/19,16:30,43700140Z Z,63,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,15:25:00,16:37:00,12,No Code,#N/A
+23/8/19,16:00,43700355FDC,45,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:04:00,16:37:00,17,No Code,#N/A
+23/8/19,16:00,4370033H YF,53,Gynaecology ,SI827U,Attended,23/8/19,0,3/9/19,11,GGYN,1,#N/A,#N/A,#N/A,5A,Moderate
+23/8/19,16:00,43700943ZMI,37,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,15:06:00,17:45:00,51,No Code,#N/A
+26/8/19,16:30,43703102ZLB,31,Otolary,SM714N,Attended,2/7/19,55,2/9/19,62,GENT,1,08:12:00,09:35:00,11,2C,Low
+26/8/19,14:00,4370348I NJ,51,HPB,SA841S,Attended,26/8/19,0,27/8/19,1,GS0H,1,#N/A,#N/A,#N/A,1B,Low
+26/8/19,11:30,43703020JIG,66,Gynaecology,SI800O,Attended,24/8/19,2,27/8/19,3,GGYN,2,10:25:00,12:30:00,24,5C,High
+26/8/19,16:00,43703989BKE,77,Gynaecology,SI710V,Attended,24/8/19,2,30/8/19,6,GGYN,2,09:23:00,13:32:00,41,4A,Low
+26/8/19,12:00,43703481GMF,71,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:41:00,14:40:00,20,No Code,#N/A
+26/8/19,14:30,4370306G  G,63,Otolary,SJ802T,Attended,26/8/19,0,2/9/19,7,GENT,2,#N/A,#N/A,#N/A,4A,Moderate
+26/8/19,11:00,43703142HWD,77,VASCULAR SUR,SD837A,Attended,23/8/19,3,28/8/19,5,GS0V,2,10:28:00,13:20:00,44,5C,High
+26/8/19,11:30,43703189FIG,22,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,09:54:00,12:46:00,25,No Code,#N/A
+26/8/19,15:30,43703537FIH,48,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,13:21:00,17:41:00,25,No Code,#N/A
+27/8/19,11:30,43704865GKA,61,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:27:00,13:25:00,38,No Code,#N/A
+27/8/19,10:00,43704243D A,54,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:15:00,14:31:00,24,No Code,#N/A
+27/8/19,12:00,43704927ANF,51,Otolary,SM709S,Attended,21/6/19,67,3/9/19,74,GENT,2,08:16:00,09:30:00,10,4A,Moderate
+27/8/19,9:30,43704400DGJ,62,Orthop Surg,SB800P,Attended,26/8/19,1,30/8/19,4,GOTO,2,08:59:00,10:31:00,12,3B,Moderate
+27/8/19,11:30,43704123Z D,81,Gen Surgery,SM716L,Attended,26/8/19,1,4/9/19,9,GSUR,3,11:04:00,16:16:00,76,1B,Low
+27/8/19,13:30,43704003C E,42,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:42:00,15:23:00,10,No Code,#N/A
+27/8/19,13:00,43704029G C,69,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:00:00,13:04:00,15,No Code,#N/A
+27/8/19,15:00,43704765KNB,30,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,#N/A,#N/A,#N/A,No Code,#N/A
+27/8/19,13:30,43704453GGD,85,HPB,SF812L,Attended,27/8/19,0,5/9/19,9,GS0H,2,11:52:00,17:09:00,0,6B,High
+27/8/19,16:00,43704305FHD,30,Plastic Surg,SA814F,Attended,21/8/19,6,10/9/19,20,GPLS,1,15:52:00,16:50:00,13,3B,Low
+28/8/19,15:00,43705139B J,77,VASCULAR SUR,SD721A,Attended,27/8/19,1,30/8/19,3,GS0V,2,08:56:00,11:42:00,62,3A,Low
+28/8/19,11:30,43705152JND,63,Orthop Surg,SB802B,Attended,28/8/19,0,3/9/19,6,GOTO,2,11:23:00,14:52:00,20,4A,Moderate
+28/8/19,12:00,4370517J  C,74,Orthop Surg,SB741S,Attended,28/8/19,0,30/8/19,2,GOTO,2,#N/A,#N/A,#N/A,7A,Moderate
+28/8/19,16:00,43705152QAC,47,Orthop Surg,SB700H,Attended,16/7/19,43,5/9/19,51,GOTO,1,10:05:00,11:36:00,7,4A,Low
+28/8/19,13:00,43705345IID,72,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,12:41:00,14:02:00,20,No Code,#N/A
+28/8/19,14:00,43705252EEF,82,HPB,SG713B,Attended,17/8/19,11,16/9/19,30,GS0H,2,10:09:00,14:24:00,74,1B,Low
+28/8/19,16:00,43705785AGG,44,Otolary,SM700L,Attended,28/8/19,0,2/9/19,5,GENT,2,11:43:00,12:40:00,(blank),3A,Low
+28/8/19,13:30,43705575INA,56,Orthop Surg,SB810K,Attended,28/8/19,0,3/9/19,6,GOTO,1,13:55:00,15:06:00,(blank),6A,Moderate
+29/8/19,08:00,43706340IGD,59,Colorec surg,SF701C*,Attended,22/8/19,7,4/9/19,13,GCLR,2,08:09:00,10:04:00,18,6C,Moderate
+29/8/19,14:30,43706239KSB,37,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:25:00,14:35:00,7,No Code,#N/A
+29/8/19,08:00,43706484FIA,77,Orthop Surg,SB810K,Attended,28/8/19,1,6/9/19,9,GOTO,2,07:59:00,10:56:00,20,6A,Moderate
+29/8/19,09:30,43706654AEC,64,HPB,SF801G,Attended,22/7/19,38,19/9/19,59,GS0H,2,09:49:00,11:14:00,9,4A,Moderate
+29/8/19,12:30,43706275DGE,66,Gen Surgery,SA841S,Attended,29/8/19,0,30/8/19,1,GSUR,#N/A,11:11:00,12:38:00,22,1B,Low
+29/8/19,09:30,43706846EGF,75,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,12:31:00,15:33:00,50,No Code,#N/A
+29/8/19,13:00,43706626RNG,43,Gynaecology,SI802U,Attended,28/8/19,1,3/9/19,6,GGYN,1,13:17:00,15:25:00,24,4A,Moderate
+29/8/19,15:30,43706631GAF,45,Orthop Surg,SB709S,Attended,29/8/19,0,4/9/19,6,GOTO,1,15:11:00,17:17:00,12,5A,Moderate
+29/8/19,13:30,43706446HGC,54,Orthop Surg,SA721S,Attended,23/8/19,6,6/9/19,14,GOTO,1,13:18:00,15:24:00,42,4A,Low
+30/8/19,11:00,43707540TUD,38,HRM,SB704H,Attended,29/8/19,1,2/9/19,4,GHND,1,08:01:00,10:19:00,49,3C,Low
+30/8/19,11:00,43707122FN ,#N/A,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,09:57:00,12:43:00,20,No Code,#N/A
+30/8/19,16:00,43707823JEF,53,Gynaecology,SI800O,Attended,30/8/19,0,3/9/19,4,GGYN,1,09:45:00,14:03:00,57,5C,High
+30/8/19,11:30,43707139G Z,71,H&N - SUR,SF716M,Attended,30/8/19,0,2/9/19,3,GS1H,2,11:17:00,15:20:00,39,3C,Low
+30/8/19,11:30,43707456J B,33,Gynaecology,SI802O,Attended,29/8/19,1,2/9/19,4,GGYN,1,12:07:00,14:59:00,12,4A,Moderate
+30/8/19,16:30,43707071INC,60,Colorec Surg,SF800I,Attended,30/8/19,0,4/9/19,5,GCLR,1,12:13:00,16:17:00,0,3B,Low
+30/8/19,11:30,43707515FAA,88,Urology,SF851A,Attended,30/8/19,0,4/9/19,5,GURO,2,11:18:00,17:03:00,109,3C,Not mapped
+30/8/19,14:00,43707425G D,57,H&N - SUR,SK759E,Attended,30/8/19,0,2/9/19,3,GS1H,2,14:37:00,17:16:00,46,1A,Low
+2/9/19,11:30,43710405G  ,#N/A,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:51:00,11:33:00,16,No Code,#N/A
+2/9/19,14:30,4371042I GZ,53,Colorec Sug,SF701C*,Attended,2/9/19,0,6/9/19,4,GCLR,2,#N/A,#N/A,#N/A,6C,Moderate
+2/9/19,11:30,4371053G  A,74,VASCULAR SUR,SD837A,Attended,2/9/19,0,6/9/19,4,GS0V,1,#N/A,#N/A,#N/A,5C,High
+2/9/19,12:00,43710748B Z,83,Colorec Sug,SF802C,Attended,2/9/19,0,4/9/19,2,GCLR,2,10:10:00,12:15:00,0,4A,Moderate
+2/9/19,15:30,43710767IND,18,HRM,SB826J,Attended,2/9/19,0,6/9/19,4,GHND,1,12:24:00,13:19:00,6,4B,Moderate
+2/9/19,12:30,43710338AGF,78,Orthop Surg ,SB810K,Attended,2/9/19,0,3/9/19,1,GOTO,2,12:48:00,15:33:00,13,6A,Moderate
+2/9/19,11:00,43710353HED,65,Orthop Surg ,SB715K,Attended,2/9/19,0,5/9/19,3,GOTO,2,11:29:00,13:37:00,33,5A,Low
+2/9/19,12:30,43710214A H,76,Orthop Surg ,SB810K,Attended,2/9/19,0,5/9/19,3,GOTO,2,12:33:00,15:46:00,30,6A,Moderate
+2/9/19,16;00,43710019MUF,32,Colorec Sug,SF832A,Attended,2/9/19,0,11/9/19,9,GCLR,1,12:11:00,13:51:00,18,3C,Low
+2/9/19,13:30,43710865B G,46,Colorec Sug,SE804L,Attended,2/9/19,0,23/9/19,21,GENT,2,13:28:00,15:34:00,47,5C,Moderate
+2/9/19,15:00,43710876QAG,48,Gen Surgery,SA812B,Attended,2/9/19,0,11/9/19,9,GSUR,2,10:49:00,13:28:00,74,2C,Low
+2/9/19,15:00,43710375C G,35,Gynaecology,SI819U,Attended,30/8/19,3,4/9/19,5,GGYN,1,08:03:00,08:43:00,15,2B,Low
+2/9/19,15:30,43710610BKB,60,Gynaecology,SI722U,Attended,30/8/19,3,6/9/19,7,GGYN,2,11:33:00,16:43:00,0,4B,Moderate
+2/9/19,16:30,43710307ZAC,72,Orthop Surg ,SB810K,Attended,2/9/19,0,5/9/19,3,GOTO,2,15:09:00,16:48:00,42,6A,Moderate
+2/9/19,17:00,43710651USH,44,HRM,SB706W,Attended,2/9/19,0,6/9/19,4,GHND,2,16:27:00,17:34:00,20,4C,Moderate
+3/9/19,15:00,43711354CHG,20,HRM,SB819B,Attended,2/9/19,1,13/9/19,11,GHND,1,08:00:00,09:25:00,19,5C,Moderate
+3/9/19,11:00,43711986AGA,51,Orthop Surg,SB715K,Attended,2/9/19,1,5/9/19,3,GOTO,2,#N/A,#N/A,#N/A,5A,Low
+3/9/19,12:00,43711851GNG,38,Plastic Surg,SB701F,Attended,29/8/19,5,5/9/19,7,GPLS,#N/A,10:35:00,12:44:00,16,7C,Moderate
+3/9/19,13:00,43711937ZGZ,49,Colorec Surg,SF836A,Attended,3/9/19,0,6/9/19,3,GCLR,2,12:20:00,14:07:00,24,2C,Low
+3/9/19,12:00,43711822HGF,74,Orthop Surg,SB846M,Attended,3/9/19,0,5/9/19,2,GOTO,2,11:25:00,14:52:00,0,3A,Low
+3/9/19,15:00,43711387JGA,42,Orthop Surg,SA723S,Attended,3/9/19,0,4/9/19,1,GOTO,1,08:23:00,16:01:00,23,5A,Moderate
+3/9/19,15:30,43711793TGF,35,BREAST SURG,SA853S,Attended,3/9/19,0,4/9/19,1,GS0B,1,15:12:00,16:32:00,12,1A,Low
+3/9/19,13:00,43711986FAH,67,Orthop Surg,SB816S,Attended,3/9/19,0,6/9/19,3,GOTO,2,13:01:00,16:44:00,19,6A,Moderate
+3/9/19,15:30,43711259I D,56,VASCULAR SUR,SD722A,Attended,3/9/19,0,6/9/19,3,GS0V,2,13:44:00,15:56:00,(blank),4A,Moderate
+4/9/19,12:30,43712410DGH,82,Plastic Surg,SA854S,Attended,3/9/19,1,6/9/19,3,GPLS,2,08:28:00,10:16:00,37,1A,Low
+4/9/19,14:30,43712674JKH,71,Orhtop Surg,SA838S,Attended,3/9/19,1,10/9/19,7,GOTO,2,10:55:00,14:20:00,19,3A,Moderate
+4/9/19,13:30,43712741JND,63,BREAST SURG,SA822B,Attended,4/9/19,0,6/9/19,2,GS0B,2,11:34:00,15:55:00,26,3B,Low
+4/9/19,15:00,43712807INJ,35,Gynaecology,SI820U,Attended,4/9/19,0,6/9/19,2,GGYN,1,09:22:00,14:29:00,39,2A,Low
+4/9/19,13:00,43712457ESZ,69,Colorec Surg,SF701C,Attended,4/9/19,0,9/9/19,5,GCLR,2,10:40:00,13:07:00,28,6C,Moderate
+4/9/19,14:00,43712835DIJ,60,Orthop Surg,SB708S,Attended,4/9/19,0,6/9/19,2,GOTO,2,13:48:00,17:03:00,0,5B,Moderate
+4/9/19,12:30,43712467DHZ,59,HRM,SB707W,Attended,4/9/19,0,5/9/19,1,GHND,2,11:37:00,16:11:00,47,4C,Moderate
+4/9/19,15:30,43712775FDH,48,H&N - ENT,SF814P,Attended,8/8/19,27,19/9/19,42,GE1H,1,15:02:00,16:47:00,19,5C,Moderate
+4/9/19,16:00,43712640JAJ,52,Gynaecology,SI800O,Attended,3/9/19,1,5/9/19,2,GGYN,2,16:19:00,17:36:00,0,5C,High
+5/9/19,12:00,43713427HIZ,34,Gynaecology,SI705C,Attended,5/9/19,0,6/9/19,1,GGYN,1,10:27:00,13:14:00,17,2C,Low
+5/9/19,14:00,43713186Z G,80,Urology,SH835P,Attended,5/9/19,0,19/9/19,14,GURO,2,#N/A,#N/A,#N/A,2A,Low
+5/9/19,14:00,43713979ANB,57,Orthop Surg,SB708S,Attended,5/9/19,0,10/9/19,5,GOTO,2,10:32:00,13:09:00,#N/A,5B,Moderate
+5/9/19,11:30,43713208DEZ,69,Orthop Surg,SB700H,Attended,5/9/19,0,13/9/19,8,GOTO,1,09:14:00,13:29:00,24,4A,Low
+5/9/19,16:00,43713526CAJ,31,Obstetrics,SI834U,Attended,5/9/19,0,9/9/19,4,GOBS,1,11:57:00,13:39:00,8,4A,Moderate
+5/9/19,15:00,43713259AKD,80,H&N - ENT,SA815S,Attended,6/9/19,-1,10/9/19,4,GE1H,2,11:32:00,14:25:00,25,7C,Moderate
+5/9/19,15:30,43713812G I,48,Gynaecology,SI803U,Attended,5/9/19,0,6/9/19,1,GGYN,1,10:46:00,13:10:00,12,4A,Moderate
+5/9/19,13:30,43713483HNC,37,Obstetrics,SI804F,Attended,5/9/19,0,6/9/19,1,GOBS,1,11:44:00,15:08:00,21,2B,Low
+5/9/19,14:00,43713891COA,54,BREAST SURG,SA824B,Attended,5/9/19,0,11/9/19,6,GS0B,2,13:30:00,16:11:00,26,5A,Low
+5/9/19,12:30,43713317JGF,49,BREAST SURG,SA822B,Attended,5/9/19,0,10/9/19,5,GS0B,1,12:22:00,13:45:00,20,3B,Low
+5/9/19,16:00,43713838AAB,48,Orthop Surg,SB706K,Attended,4/9/19,1,7/9/19,3,GOTO,2,14:08:00,16:17:00,25,6A,Low
+6/9/19,11:30,43714445EGJ,87,GI/BARIATRIC,SA824B,Attended,5/9/19,1,11/9/19,6,GS0G,2,11:55:00,13:25:00,13,5A,Low
+6/9/19,08:00,43714321UI ,#N/A,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:04:00,10:21:00,35,No Code,#N/A
+6/9/19,11:30,43714166ATZ,42,Otolary,SF821M,Attended,5/9/19,1,9/9/19,4,GENT,2,10:45:00,12:03:00,24,1B,Low
+6/9/19,15:00,43714105DIJ,68,Orthop Surg,SB810K,Attended,29/8/19,8,20/9/19,22,GOTO,2,#N/A,#N/A,#N/A,6A,Moderate
+6/9/19,11:30,43714281AGZ,51,BREAST SURG,SA823B,Attended,5/9/19,1,9/9/19,4,GS0B,2,11:03:00,13:06:00,43,4B,Low
+6/9/19,15:30,43714856HKC,69,Colorec Surg,SF701C*,Attended,6/9/19,0,11/9/19,5,GCLR,2,10:58:00,13:55:00,19,6C,Moderate
+6/9/19,14:00,43714533CAG,24,HRM,SB826B,Attended,6/9/19,0,10/9/19,4,GHND,1,09:44:00,14:11:00,66,1C,Low
+6/9/19,14:00,43714272IIC,42,VASCULAR SUR,SD712B,Attended,5/9/19,1,13/9/19,8,GS0V,3,13:48:00,15:45:00,25,2A,Low
+6/9/19,15:30,43714130BKB,51,Urology,SH835P,Attended,27/5/19,102,9/7/19,43,GURO,2,14:53:00,16:44:00,22,2A,Low
+6/9/19,NO BOOK,43714972HHI,#N/A,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,13:46:00,16:15:00,(blank),No Code,#N/A
+9/9/19,10:00,43717492ZGI,79,VASCULAR SUR,SD821A,Attended,6/9/19,3,12/9/19,6,GS0V,3,09:18:00,11:48:00,20,3C,Low
+9/9/19,12:00,43717859INI,72,Gastro,SF701D,Attended,22/8/19,18,12/9/19,21,GGAS,2,08:46:00,10:29:00,42,3C,Low
+9/9/19,10:00,43717866AGC,36,Otolary,SM700N,Attended,9/9/19,0,10/9/19,1,GENT,1,12:55:00,15:02:00,15,1A,Low
+9/9/19,14:30,43717408JEJ,59,Gen Surgery,SA712B,Attended,9/9/19,0,16/9/19,7,GSUR,#N/A,12:54:00,15:01:00,11,3A,Low
+9/9/19,14:30,43717906C J,83,Urology,SG702P,Attended,9/9/19,0,13/9/19,4,GURO,2,14:51:00,16:52:00,22,5C,Moderate
+10/9/19,14:00,43718114FHG,64,Orthop Surg,SB816S,Attended,21/8/19,20,13/9/19,23,GOTO,2,10:11:00,13:39:00,(blank),6A,Moderate
+10/9/19,15:00,43718735JGE,78,Colorec Surg,SF800I,Attended,2/9/19,8,13/9/19,11,GCLR,3,09:10:00,12:23:00,35,3B,Low
+10/9/19,13:30,43718891ZYH,47,Orthop Surg,SB701C,Attended,10/9/19,0,11/9/19,1,GOTO,1,11:37:00,16:40:00,17,4A,Moderate
+10/9/19,9:00,43718035EDE,66,HPB,SF813L,Attended,7/9/19,3,23/9/19,16,GS0H,2,11:45:00,15:33:00,31,5C,High
+10/9/19,14:30,4371811I JJ,30,Dental,SF802T,Attended,10/9/19,0,18/9/19,8,GDEN,#N/A,#N/A,#N/A,#N/A,4B,Low
+10/9/19,13:00,43718418C A,69,Colorec Surg,SF819A,Attended,3/9/19,7,27/9/19,24,GCLR,3,13:01:00,14:47:00,17,3B,Low
+10/9/19,15:00,43718723I G,57,Gynaecology,SI803U,Attended,10/9/19,0,10/9/19,0,GGYN,1,#N/A,#N/A,#N/A,4A,Moderate
+10/9/19,14:00,43718150RNF,41,Orthop Surg,SB808K,Attended,10/9/19,0,17/9/19,7,GOTO,1,09:33:00,10:48:00,18,4A,Low
+10/9/19,16:00,43718250H J,82,Orthop Surg,SB810K,Attended,3/9/19,7,25/9/19,22,GOTO,2,15:21:00,17:32:00,30,6A,Moderate
+11/9/19,11:00,43719700HNE,#N/A,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:07:00,15:03:00,39,No Code,#N/A
+11/9/19,15:30,43719692ZSC,45,Urology,SH835P,Attended,11/9/19,0,24/9/19,13,GURO,1,10:39:00,12:43:00,(blank),2A,Low
+11/9/19,10:00,43719164M A,33,Plastic Surg,SA806B,Attended,10/9/19,1,19/9/19,9,GPLS,1,10:13:00,12:09:00,25,4A,Low
+11/9/19,13:00,43719501DGC,56,BREAST SURG,SA712B,Attended,11/9/19,0,27/9/19,16,GS0B,#N/A,13:18:00,14:46:00,13,3A,Low
+11/9/19,13:30,43719900JED,69,Gynaecology,SI725U,Attended,11/9/19,0,12/9/19,1,GGYN,1,08:08:00,16:06:00,0,2B,Low
+11/9/19,15:00,43719386JKB,86,Urology,SG709U,Attended,11/9/19,0,24/9/19,13,GURO,2,15:11:00,18:08:00,31,2C,Low
+11/9/19,14:00,43719623BGE,52,Gen Surgery,SA827B,Attended,11/9/19,0,20/9/19,9,GSUR,1,15:17:00,17:17:00,25,4C,Low
+11/9/19,NO BOOK,43719866AGE,36,Otolary ,SM700I,Attended,11/9/19,0,19/9/19,8,GENT,2,15:33:00,17:35:00,27,1C,Low
+12/9/19,16:00,43720029GNA,29,Otolary ,SM712N,Attended,11/9/19,1,13/9/19,2,GENT,1,08:09:00,09:57:00,9,1B,Low
+12/9/19,12:00,43720750ENC,75,Gynaecology,SI800O,Attended,12/9/19,0,17/9/19,5,GGYN,2,09:44:00,11:24:00,0,5C,High
+12/9/19,10:30,43720646JGE,55,BREAST SURG,SA853S,Attended,12/9/19,0,17/9/19,5,GS0B,2,10:54:00,12:42:00,26,1A,Low
+12/9/19,11:30,43720158GIZ,48,Orthop Surg,SB801S,Attended,10/9/19,2,13/9/19,3,GOTO,2,10:00:00,11:23:00,8,5B,Moderate
+12/9/19,12:30,43720639HAA,34,Orthop Surg,SA811S,Attended,12/9/19,0,16/9/19,4,GOTO,1,10:38:00,12:38:00,5,2C,Low
+12/9/19,13:30,43720647CIF,63,HRM,SB706W,Attended,12/9/19,0,16/9/19,4,GHND,1,11:56:00,15:26:00,26,4C,Moderate
+12/9/19,9:00,43720527ARC,53,Orthop Surg,SB700H,Attended,30/8/19,13,17/9/19,18,GOTO,2,11:36:00,16:46:00,0,4A,Low
+12/9/19,14:30,43720595GGD,42,Plastic Surg,SA853S,Attended,14/10/19,-32,16/10/19,2,GPLS,2,10:42:00,12:23:00,8,1A,Low
+12/9/19,13:00,43720225CN ,#N/A,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:51:00,16:07:00,39,No Code,#N/A
+12/9/19,15:00,43720795JGA,61,Orthop Surg,SB708S,Attended,6/9/19,6,27/9/19,21,GOTO,2,14:45:00,17:16:00,22,5B,Moderate
+12/9/19,14:00,43720212ALJ,16,Dental,SF705T,Attended,22/7/19,52,25/9/19,65,GDEN,2,14:04:00,16:44:00,32,4A,Low
+12/9/19,14:30,43720444BYJ,66,Orthop Surg,SA715S,No Show,12/9/19,0,16/9/19,4,GOTO,2,12:15:00,14:50:00,(blank),2C,Low
+13/9/19,8:00,43721444BYJ,66,Orthop Surg,SA715S,Attended,12/9/19,1,16/9/19,4,GOTO,2,08:03:00,08:35:00,15,2C,Low
+13/9/19,12:30,43721922JIJ,67,Orthop Surg,SA723S,Attended,13/9/19,0,16/9/19,3,GOTO,2,09:50:00,11:46:00,11,5A,Moderate
+13/9/19,11:00,43721038AGF,66,Neyrosurgery,SJ700P,Attended,12/9/19,1,16/9/19,4,GNES,2,11:39:00,13:03:00,12,7B,High
+13/9/19,15:30,43721485HN ,#N/A,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,09:59:00,14:18:00,41,No Code,#N/A
+13/9/19,12:30,43721044BED,22,H&N - ENT ,SJ804T,Attended,12/9/19,1,18/9/19,6,GE1H,1,09:46:00,13:03:00,37,6A,High
+13/9/19,13:00,43721116NSE,33,Gen Surgery,SE702L,Attended,13/9/19,0,16/9/19,3,GSUR,1,11:46:00,14:09:00,15,2C,Low
+13/9/19,9:00,43721371EYF,77,HPB,SF801G,Attended,23/8/19,21,16/9/19,24,GS0H,3,#N/A,#N/A,#N/A,4A,Moderate
+13/9/19,14:00,43721098H C,66,BREAST SURG,SA812B,Attended,13/9/19,0,18/9/19,5,GS0B,2,13:13:00,16:13:00,24,2C,Low
+13/9/19,12:00,43721528ZGH,68,Urology ,SH835P,Attended,12/9/19,1,20/9/19,8,GURO,2,12:13:00,14:24:00,15,2A,Low
+13/9/19,14:30,43721737ZLH,37,Gynaecology,SI820U,Attended,13/9/19,0,19/9/19,6,GGYN,1,11:11:00,14:23:00,9,2A,Low
+13/9/19,13:00,43721026AMD,24,Orthop Surg,SB727F,Attended,12/9/19,1,18/9/19,6,GOTO,1,13:52:00,16:13:00,13,5C,Low
+13/9/19,16:00,43721459CMA,44,Endocrinolog,SF703S,Attended,13/9/19,0,25/9/19,12,GS0G,2,15:34:00,16:34:00,9,5B,Moderate
+16/9/19,9:00,43724193ZYD,63,Gynaecology,SK759E,Attended,14/9/19,2,18/9/19,4,GGYN,2,10:00:00,13:29:00,25,1A,Low
+16/9/19,11:30,43724836FYB,54,Neurosurgery,SK727S,Attended,9/9/19,7,7/10/19,28,GNES,#N/A,09:12:00,12:18:00,44,6C,Moderate
+16/9/19,12:30,43724309AHA,58,Orthop Surg,SB809K,Attended,14/9/19,2,19/9/19,5,GOTO,2,10:02:00,17:47:00,36,7B,Moderate
+16/9/19,14:30,43724213C H,49,Gen Surgery,SA701S,Attended,12/9/19,4,20/9/19,8,GSUR,2,10:39:00,14:45:00,18,2A,Low
+16/9/19,12:00,43724019BRD,48,GI/BARIATRIC,SA841S,Attended,16/9/19,0,17/9/19,1,GS0G,2,12:06:00,15:43:00,48,1B,Low
+16/9/19,10:00,43724674ANC,40,HRM,SB707W,Attended,14/9/19,2,19/9/19,5,GHND,1,10:02:00,12:29:00,17,4C,Moderate
+16/9/19,12:00,43724924JOH,62,DDR/HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:05:00,15:21:00,55,No Code,#N/A
+16/9/19,11:30,43724473BHJ,63,Orthop Surg,SB810K,Attended,16/9/19,0,19/9/19,3,GOTO,2,09:29:00,12:29:00,22,6A,Moderate
+16/9/19,12:30,43724133JEB,62,Orthop Surg,SB700H,Attended,16/9/19,0,24/9/19,8,GOTO,2,12:47:00,15:29:00,27,4A,Low
+16/9/19,12:30,43724086GTJ,72,Orthop Surg,SB717K,Attended,28/9/19,-12,1/10/19,3,GOTO,2,11:37:00,15:43:00,30,6C,Moderate
+16/9/19,13:30,43724687FDC,28,Urolgoy,SA851S,Attended,2/9/19,14,25/9/19,23,GURO,1,13:38:00,15:33:00,14,1B,Low
+16/9/19,16:30,43724582JNE,70,Orthop Surg,SB706W,Attended,16/9/19,0,18/9/19,2,GOTO,2,15:53:00,16:56:00,(blank),4C,Moderate
+16/9/19,16:30,43724616FEC,56,Colorec Surg,SF802C,Attended,16/9/19,0,18/9/19,2,GCLR,2,15:43:00,16:43:00,(blank),4A,Moderate
+17/9/19,9:30,43725451ZGA,63,Gynaecology,SI705C,Attended,17/9/19,0,20/9/19,3,GGYN,2,08:19:00,11:40:00,92,2C,Low
+17/9/19,11:00,43725300FNG,48,Gynaecology,SI705C,Attended,17/9/19,0,20/9/19,3,GGYN,1,09:05:00,12:28:00,22,2C,Low
+17/9/19,14:00,43725132HGJ,62,Orthop Surg,SB716K,Attended,17/9/19,0,19/9/19,2,GOTO,2,11:57:00,13:40:00,21,6B,Moderate
+17/9/19,13:00,43725878F G,61,Urology,SG800U,Attended,13/9/19,4,19/9/19,6,GURO,2,13:06:00,14:54:00,47,4A,Low
+17/9/19,14:00,43725978ZAD,71,Urology,SG702U,Attended,17/9/19,0,24/9/19,7,GURO,2,13:27:00,14:59:00,18,4A,Low
+17/9/19,13:00,43725903AGC,85,Orthop Surg,SB730H,Attended,18/9/19,-1,20/9/19,2,GOTO,2,12:48:00,15:43:00,73,4C,Moderate
+17/9/19,13:30,43725543ZYC,64,Orthop Surg,SB802C,Attended,17/9/19,0,23/9/19,6,GOTO,3,13:40:00,16:02:00,26,6B,Moderate
+17/9/19,14:00,43725909J E,65,Colore Surg,SF802C,Attended,16/9/19,1,19/9/19,3,GCLR,2,13:55:00,16:18:00,39,4A,Moderate
+17/9/19,15:00,43725601J C,57,Gynaecology,SI803U,Attended,17/9/19,0,20/9/19,3,GGYN,1,13:01:00,16:11:00,11,4A,Moderate
+17/9/19,12:30,43725790FOF,57,Orthop Surg,SB839H,Attended,17/9/19,0,18/9/19,1,GOTO,1,10:46:00,17:50:00,18,6A,Moderate
+17/9/19,15:30,43725955DIG,74,Orthop Surg,SB729S,Attended,17/9/19,0,30/9/19,13,GOTO,2,14:53:00,16:50:00,17,7B,Moderate
+18/9/19,8:30,43726303ENG,72,Urology ,SH835P,Attended,17/9/19,1,23/9/19,6,GURO,1,08:07:00,09:23:00,18,2A,Low
+18/9/19,13:00,43726142DRD,46,HRM,SB706W,Attended,17/9/19,1,23/9/19,6,GHND,2,08:45:00,09:40:00,10,4C,Moderate
+18/9/19,9:00,43726418HEH,57,Otolary,SM714S,Attended,5/9/19,13,14/10/19,39,GENT,2,08:20:00,11:43:00,25,5C,Moderate
+18/9/19,11:30,43726987COH,69,Gynaecology,SI713V,Attended,9/9/19,9,11/10/19,32,GGYN,2,10:48:00,12:52:00,42,4A,Moderate
+18/9/19,9:00,43726283FNB,61,Orthop Surg,SA721S,Attended,17/9/19,1,20/9/19,3,GOTO,1,09:05:00,10:12:00,14,4A,Low
+18/9/19,12:30,43726993ENH,51,Orthop Surg,SB702A,Attended,18/9/19,0,27/9/19,9,GOTO,2,12:59:00,15:33:00,50,5A,Low
+18/9/19,13:00,43726133IIB,53,Gen Surgery,SA841S,Attended,18/9/19,0,20/9/19,2,GSUR,#N/A,13:32:00,16:07:00,51,1B,Low
+18/9/19,14:30,43726021D I,58,Colorec Surg,SF802C,Attended,18/9/19,0,23/9/19,5,GCLR,2,13:06:00,16:07:00,61,4A,Moderate
+18/9/19,15:30,43726930GND,34,Orthop Surg,SB715K,Attended,18/9/19,0,19/9/19,1,GOTO,1,15:07:00,16:29:00,19,5A,Low
+18/9/19,12:30,43726656ZOG,49,BREAST SURG,SA707B,Attended,17/9/19,1,19/9/19,2,GS0B,2,12:32:00,14:53:00,22,3C,Low
+18/9/19,11:00,43726125IYF,44,Plastic Surg,SA828B,Attended,30/7/19,50,30/8/19,31,GPLS,2,10:24:00,15:10:00,0,4A,Low
+18/9/19,15:00,43726046BMB,47,Gynaecology,SI800O,Attended,18/9/19,0,24/9/19,6,GGYN,1,10:17:00,16:22:00,52,5C,High
+18/9/19,14:30,43726901LNJ,63,Colorec Surg,SF723A,Attended,18/9/19,0,23/9/19,5,GCLR,2,12:35:00,15:45:00,54,4A,Low
+18/9/19,15:00,43726901ZAA,52,Orthop Surg,SB727F,Attended,14/8/19,35,1/10/19,48,GOTO,2,15:05:00,16:50:00,41,5C,Low
+18/9/19,16:00,43726359INH,#N/A,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,15:50:00,17:45:00,0,No Code,#N/A
+18/9/19,16:00,43726369ZIA,51,Plastic Surg,SA823S,Attended,18/9/19,0,24/9/19,6,GPLS,2,15:27:00,16:55:00,0,2B,Low
+18/9/19,14:00,43726187IGB,54,Orthop Surg,SB810K,Attended,18/9/19,0,23/9/19,5,GOTO,2,14:48:00,16:41:00,46,6A,Moderate
+18/9/19,NO BOOK,43726424CFD,25,Orthop Surg,SA716S,Attended,18/9/19,0,20/9/19,2,GOTO,1,16:56:00,18:19:00,0,4A,Low
+19/9/19,14:00,43727128DIH,45,Orthop Surg,SB829H,Attended,2/9/19,17,27/9/19,25,GOTO,1,09:24:00,11:13:00,22,6B,Moderate
+19/9/19,15:00,43727457HGE,46,Gynaecology,SI700O,Attended,19/9/19,0,23/9/19,4,GGYN,1,09:52:00,11:48:00,38,4B,Moderate
+19/9/19,11:00,43727489JNG,66,Otolary,SA815S,Attended,10/9/19,9,27/9/19,17,GENT,2,10:36:00,12:18:00,15,7C,Moderate
+19/9/19,15:00,43727696FEZ,63,BREAST SURG,SA707B,Attended,17/9/19,2,25/9/19,8,GS0B,2,09:07:00,10:21:00,15,3C,Low
+19/9/19,15:00,43727506GEI,73,Orthop Surg,SB728S,Attended,30/9/19,-11,3/10/19,3,GOTO,2,09:24:00,14:20:00,64,6B,Moderate
+19/9/19,15:30,43727711HHD,52,GI/BARIATRIC,SF804S,Attended,8/7/19,73,1/10/19,85,GS0G,2,11:20:00,15:11:00,0,5C,Moderate
+19/9/19,11:30,43727258FNC,39,Colorec Surg,SF836A,Attended,19/9/19,0,24/9/19,5,GCLR,1,12:40:00,14:19:00,23,2C,Low
+19/9/19,15:30,43727872HGF,63,Orthop Surg,SB808S,Attended,19/9/19,0,26/9/19,7,GOTO,2,12:44:00,16:14:00,39,7C,Moderate
+19/9/19,13:45,43727589JID,62,Gen Surgery,SF808A,Attended,18/9/19,1,24/9/19,6,GSUR,2,13:58:00,15:54:00,24,3A,Moderate
+19/9/19,09:30,43727126ZYE,38,Orthop Surg,SB715K,Attended,4/9/19,15,24/9/19,20,GOTO,1,14:41:00,15:52:00,9,5A,Low
+19/9/19,16:00,43727728JSF,26,Orthop Surg,SB702A,Attended,18/9/19,1,24/9/19,6,GOTO,1,16:00:00,17:01:00,(blank),5A,Low
+20/9/19,12:00,43728593AMD,49,VASCULAR SUR,SD709A,Attended,19/9/19,1,23/9/19,4,GS0V,#N/A,08:01:00,10:33:00,39,5A,Low
+20/9/19,12:00,43728023FIF,64,Urology,SH835P,Attended,15/8/19,36,4/10/19,50,GURO,2,11:00:00,13:03:00,18,2A,Low
+20/9/19,9:00,43728103FEF,#N/A,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,09:10:00,15:42:00,0,No Code,#N/A
+20/9/19,11:00,43728251GGJ,53,Orthop Surg,SB712K,Attended,19/9/19,1,23/9/19,4,GOTO,2,13:41:00,16:29:00,28,5C,Low
+20/9/19,13:00,43728630HUZ,41,Colorec Surg,SF837A,Attended,20/9/19,0,26/9/19,6,GCLR,1,12:59:00,14:58:00,12,3A,Low
+20/9/19,13:30,43728704BNH,78,Urology,SG713B,Attended,29/8/19,22,13/9/19,15,GURO,2,11:09:00,14:44:00,52,1B,Low
+20/9/19,16:00,43728403FZH,21,HRM,SB803J,Attended,13/9/19,7,26/9/19,13,GHND,2,10:39:00,12:29:00,28,4C,Low
+20/9/19,12:30,43728760ZGJ,86,VASCULAR SUR,SD710V,Attended,20/9/19,0,26/9/19,6,GS0V,3,10:18:00,16:30:00,96,4A,Moderate
+20/9/19,17:00,43728267CNE,61,GI/BARIATRIC,SF808A,Attended,20/9/19,0,24/9/19,4,GS0G,2,16:22:00,17:59:00,24,3A,Moderate
+20/9/19,14:30,43728700ELJ,13,Orthop Surg,SB703K,Attended,19/9/19,1,24/9/19,5,GOTO,1,15:04:00,17:53:00,34,5C,Low
+20/9/19,15:00,43728239DEB,27,Gynaecology,SI820U,Attended,20/9/19,0,24/9/19,4,GGYN,1,14:00:00,17:32:00,25,2A,Low
+23/9/19,11:30,43731728J F,26,Orthop Surg,SB702A,Attended,18/9/19,5,24/9/19,6,GOTO,1,15:30:00,16:14:00,15,5A,Low
+23/9/19,14:30,43731590DNC,66,Urology,SG720K,Attended,30/8/19,24,3/10/19,34,GURO,2,08:51:00,09:45:00,15,6A,Moderate
+23/9/19,12:00,43731884HNB,62,Colorec Surg,SA841S,Attended,23/9/19,0,27/9/19,4,GCLR,1,10:07:00,11:32:00,15,1B,Low
+23/9/19,14:30,43731763HNJ,66,Otolary,SM701E,Attended,5/8/19,49,8/10/19,64,GENT,2,13:27:00,17:19:00,0,6A,Moderate
+23/9/19,12:00,43731671C H,55,Orthop Surg,SB710S,Attended,23/9/19,0,26/9/19,3,GOTO,2,12:03:00,13:27:00,17,5B,Moderate
+23/9/19,11:30,43731213C D,80,Colorec Surg,SF701C,Attended,23/9/19,0,26/9/19,3,GCLR,2,10:04:00,13:09:00,0,6C,Moderate
+23/9/19,13:00,43731325IDD,69,GI/BARIATRIC,SF820A,Attended,23/9/19,0,1/10/19,8,GS0G,2,11:07:00,14:37:00,13,4C,Low
+23/9/19,13:00,43731596KMZ,39,Orthop Surg,SB706W,Attended,23/9/19,0,24/9/19,1,GOTO,1,12:35:00,14:38:00,10,4C,Moderate
+23/9/19,12:30,43731371ADH,45,Gynaecology,SI803U,Attended,23/9/19,0,27/9/19,4,GGYN,2,08:53:00,11:35:00,6,4A,Moderate
+23/9/19,15:30,43731332GPZ,70,HPB,SF803C,Attended,20/9/19,3,25/9/19,5,GS0H,2,09:49:00,11:08:00,9,5C,Moderate
+23/9/19,13:00,43731933FKF,75,H&N - SUR ,SJ800P,Attended,23/9/19,0,2/10/19,9,GS1H,2,13:04:00,15:08:00,16,5C,Moderate
+23/9/19,15:00,43731668AOI,50,Gynaecology,SI705C,Attended,23/9/19,0,24/9/19,1,GGYN,1,15:23:00,17:19:00,26,2C,Low
+24/9/19,11:30,43732873ADI,54,Gynaecology,SI713U,Attended,26/8/19,29,18/9/19,23,GGYN,2,10:55:00,13:32:00,44,4B,Moderate
+24/9/19,16:00,43732108CN ,#N/A,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:12:00,13:34:00,37,No Code,#N/A
+24/9/19,12:30,43732615JAB,63,Orthop Surg,SB712K,Attended,23/9/19,1,1/10/19,8,GOTO,2,11:59:00,14:12:00,16,5C,Low
+24/9/19,11:30,43732337CGE,48,Gynaecology,SI803U,Attended,23/9/19,1,27/9/19,4,GGYN,2,12:05:00,13:58:00,29,4A,Moderate
+24/9/19,15:00,43732244IAB,28,Obstetrics,SI834U,Attended,24/9/19,0,30/9/19,6,GOBS,1,11:53:00,15:11:00,14,4A,Moderate
+24/9/19,11:00,43732443FYJ,53,Orthop Surg,SB729S,Attended,24/9/19,0,30/9/19,6,GOTO,2,13:35:00,15:01:00,18,7B,Moderate
+24/9/19,14:30,43732627IIA,19,HRM,SB826J,Attended,24/9/19,0,25/9/19,1,GHND,1,12:39:00,14:17:00,18,4B,Moderate
+24/9/19,11:30,43732970JGB,61,HRM,SB710W,Attended,24/9/19,0,4/10/19,10,GHND,1,10:54:00,13:06:00,20,4B,Low
+24/9/19,9:00,43732131CNJ,18,Dental,SF702T,Attended,23/9/19,1,27/9/19,4,GDEN,2,08:56:00,10:32:00,27,2C,Low
+24/9/19,14:00,43732129ZNB,28,HRM,SB704H,Attended,23/9/19,1,27/9/19,4,GHND,1,08:01:00,08:57:00,17,3C,Low
+24/9/19,16:00,43732636BLJ,42,Gen Surgery,SA811S,Attended,24/9/19,0,25/9/19,1,GSUR,1,15:21:00,16:51:00,10,2C,Low
+24/9/19,16:30,43732465HDI,58,Orthop Surg,SB706W,Attended,24/9/19,0,26/9/19,2,GOTO,2,16:12:00,17:43:00,28,4C,Moderate
+24/9/19,16:00,43732533GNG,48,Colorec Surg,SF836A,Attended,24/9/19,0,16/10/19,22,GCLR,1,15:32:00,16:56:00,25,2C,Low
+24/9/19,13:30,43732957GDA,69,Urology,SG702P,Attended,23/9/19,1,26/9/19,3,GURO,2,15:34:00,16:29:00,(blank),5C,Moderate
+25/9/19,10:00,43733904QIE,60,Orthop Surg,SB703K,Attended,25/9/19,0,26/9/19,1,GOTO,2,09:01:00,12:57:00,9,5C,Low
+25/9/19,11:00,43733421E B,71,Urology,SG702P,Attended,17/9/19,8,3/10/19,16,GURO,2,10:15:00,12:05:00,12,5C,Moderate
+25/9/19,15:00,43733877KEC,51,Gastro,SF702C,Attended,25/9/19,0,5/11/19,41,GGAS,1,14:24:00,15:02:00,12,2C,Low
+25/9/19,14:30,43733723HGF,79,Orthop Surg,SB810K,Attended,25/9/19,0,30/9/19,5,GOTO,2,11:54:00,15:51:00,20,6A,Moderate
+25/9/19,11:30,43733046DEZ,51,Colorec Surg,SF833A,Attended,25/9/19,0,30/9/19,5,GCLR,2,10:18:00,12:05:00,10,2B,Low
+25/9/19,11:30,43733750ANC,55,Otolary ,SM700L,Attended,5/9/19,20,2/10/19,27,GENT,2,12:03:00,13:46:00,30,3A,Low
+25/9/19,14:00,43733471HGC,66,HRM,SB801J,Attended,25/9/19,0,4/10/19,9,GHND,2,11:47:00,14:22:00,39,3C,Low
+25/9/19,13:30,43733353IDD,25,Orthop Surg,SB708S,Attended,25/9/19,0,3/10/19,8,GOTO,1,10:06:00,14:26:00,12,5B,Moderate
+25/9/19,15:30,43733461B Z,50,Urology,SG700U,Attended,16/9/19,9,9/10/19,23,GURO,2,14:12:00,15:57:00,24,2C,Low
+25/9/19,12:30,43733844JNH,80,Orthop Surg,SB801R,Attended,25/9/19,0,27/9/19,2,GOTO,2,08:40:00,14:57:00,23,4B,Moderate
+25/9/19,13:30,43733621CGF,43,Urology,SG709U,Attended,13/9/19,12,30/9/19,17,GURO,2,15:01:00,15:51:00,8,2C,Low
+25/9/19,14:30,43733833CYH,76,Gen Surgery ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,15:02:00,16:37:00,16,No Code,#N/A
+25/9/19,15:30,43733507EMJ,80,VASCULAR SUR,SB829T,Attended,25/9/19,0,30/9/19,5,GS0V,2,16:00:00,18:13:00,63,2C,Low
+25/9/19,16:30,43733235FNF,28,HRM,SB705H,Attended,25/9/19,0,27/9/19,2,GHND,1,16:04:00,17:19:00,11,2C,Low
+25/9/19,16:30,43733727C G,65,Orthop Surg,SB810K,Attended,25/9/19,0,1/10/19,6,GOTO,1,15:53:00,17:33:00,17,6A,Moderate
+26/9/19,14:00,43734162HYF,48,Orthop Surg,SB715K,Attended,25/9/19,1,30/9/19,5,GOTO,2,09:12:00,11:08:00,13,5A,Low
+26/9/19,15:00,43734204ING,67,HRM,SB835J,Attended,26/9/19,0,27/9/19,1,GHND,2,09:48:00,10:56:00,9,4B,Moderate
+26/9/19,10:00,43734708COG,42,H&N - ENT,SJ802T,Attended,25/9/19,1,2/10/19,7,GE1H,2,10:53:00,11:44:00,7,4A,Moderate
+26/9/19,14:30,43734135JRJ,53,Colorec Surg,SF837A,Attended,25/9/19,1,1/10/19,6,GCLR,1,09:48:00,11:21:00,13,3A,Low
+26/9/19,11:00,43734778JNJ,39,Gen Surgery,SF813L,Attended,25/9/19,1,1/10/19,6,GSUR,2,11:35:00,13:55:00,49,5C,High
+26/9/19,12:00,43734088BNC,67,Gen Surgery,SA822B,Attended,26/9/19,0,2/10/19,6,GSUR,1,12:12:00,14:02:00,27,3B,Low
+26/9/19,12:00,43734621GGG,50,Urology,SG800U,Attended,26/9/19,0,27/9/19,1,GURO,1,12:23:00,14:33:00,46,4A,Low
+26/9/19,12:30,43734640ZMZ,75,Gastro,SF701I,Attended,25/9/19,1,8/10/19,13,GGAS,2,12:15:00,14:09:00,20,1B,Low
+26/9/19,13:00,43734429ANE,66,Orthop Surg,SB810K,Attended,13/8/19,44,16/8/19,3,GOTO,2,13:53:00,15:05:00,7,6A,Moderate
+26/9/19,10:30,43734495DEA,57,Orthop Surg,SB708S,Attended,5/8/19,52,2/10/19,58,GOTO,2,13:47:00,16:05:00,20,5B,Moderate
+26/9/19,14:30,43734651FND,74,Orthop Surg,SB810K,Attended,21/6/19,97,1/10/19,102,GOTO,2,13:53:00,16:29:00,(blank),6A,Moderate
+26/9/19,15:30,43734496WTI,32,BREAST SURG,SA812B,Attended,26/9/19,0,1/10/19,5,GS0B,1,15:06:00,16:52:00,25,2C,Low
+26/9/19,15:30,43734343PNE,32,BREAST SURG,SA813B,Attended,26/9/19,0,2/10/19,6,GS0B,1,14:26:00,16:02:00,5,3A,Low
+27/9/19,16:00,43735810GGI,35,Plastic Surg,SA814F,Attended,23/8/19,35,1/10/19,39,GPLS,1,08:54:00,11:37:00,10,3B,Low
+27/9/19,15:00,43735155BGE,78,Orthop Surg,SB732F,Attended,26/9/19,1,30/9/19,4,GOTO,2,09:43:00,11:43:00,25,3C,Low
+27/9/19,10:00,43735204PNF,47,Orthop Surg,SB710S,Attended,27/9/19,0,3/10/19,6,GOTO,1,10:07:00,11:25:00,17,5B,Moderate
+27/9/19,12:30,43735387CMB,63,HPB,SF801G,Attended,27/9/19,0,2/10/19,5,GS0H,2,10:42:00,12:27:00,18,4A,Moderate
+27/9/19,14:30,43735593IGI,41,BREAST SURG,SA702S,Attended,27/9/19,0,8/10/19,11,GS0B,2,11:10:00,12:33:00,5,1B,Low
+27/9/19,08:30,43735177FTJ,58,Colorec Surg,SF803C,Attended,24/9/19,3,8/10/19,14,GCLR,2,11:55:00,14:27:00,8,5C,Moderate
+27/9/19,11:30,43735404FNH,62,HPB,SF801G,Attended,27/9/19,0,2/10/19,5,GS0H,2,11:04:00,14:10:00,43,4A,Moderate
+27/9/19,11:30,43735879AFI,56,Gen Surgery,SF808A,Attended,26/9/19,1,1/10/19,5,GSUR,2,12:48:00,14:17:00,13,3A,Moderate
+27/9/19,15:00,43735629ZGH,33,HRM,SB819H,Attended,27/9/19,0,7/10/19,10,GHND,2,13:03:00,16:10:00,42,4B,Low
+27/9/19,14:30,43735655BND,64,BREAST SURG,SA824B,Attended,27/9/19,0,1/10/19,4,GS0B,1,13:53:00,15:58:00,17,5A,Low
+27/9/19,16:00,43735192EUE,75,GI/BARIATRIC,SF823A,Attended,26/9/19,1,1/10/19,5,GS0G,2,12:35:00,14:03:00,18,4A,Moderate
+30/9/19,08:30,43738094COH,78,Urology,SG800U,Attended,27/9/19,3,1/10/19,4,GURO,#N/A,08:22:00,10:16:00,45,4A,Low
+30/9/19,14:30,43738220HGA,56,Colorec Surg,SF800I,Attended,30/9/19,0,2/10/19,2,GCLR,1,09:46:00,12:59:00,81,3B,Low
+30/9/19,12:00,43738558ZMZ,59,BREAST SURG,SA827B,Attended,27/9/19,3,7/10/19,10,GS0B,1,09:41:00,10:46:00,9,4C,Low
+30/9/19,09:30,43738675FYC,#N/A,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,09:59:00,11:25:00,29,No Code,#N/A
+30/9/19,11:30,43738513ZGI,48,Orthop Surg,SB808K,Attended,30/9/19,0,1/10/19,1,GOTO,2,10:17:00,13:12:00,27,4A,Low
+30/9/19,11:00,43738368BGE,59,Orthop Surg,SB808K,Attended,30/9/19,0,8/10/19,8,GOTO,2,09:40:00,11:59:00,26,4A,Low
+30/9/19,09:00,43738438ZRE,25,Gynaecology,SI820U,Attended,27/9/19,3,2/10/19,5,GGYN,1,12:13:00,13:22:00,30,2A,Low
+30/9/19,13:00,43738312DN ,#N/A,Otolary ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,10:08:00,12:42:00,50,No Code,#N/A
+30/9/19,10:30,43738545DKI,72,Urology,SG707U,Attended,18/7/19,74,7/10/19,81,GURO,2,11:34:00,14:08:00,17,2C,Low
+30/9/19,11:30,43738663H A,71,Urology,SH835P,Attended,30/9/19,0,8/10/19,8,GURO,2,10:10:00,11:59:00,11,2A,Low
+30/9/19,14:00,43738921ZGD,47,Otolary ,SJ802T,Attended,3/9/19,27,23/10/19,50,GENT,2,12:58:00,15:16:00,32,4A,Moderate
+30/9/19,15:00,43738967ZAC,59,Orthop Surg,SB710S,Attended,30/9/19,0,2/10/19,2,GOTO,2,12:16:00,15:23:00,15,5B,Moderate
+30/9/19,13:00,43738465ZYF,83,Urology,SG713B,Attended,30/9/19,0,8/10/19,8,GURO,2,12:58:00,16:02:00,44,1B,Low
+30/9/19,13:30,43738854EGD,77,Orthop Surg,SB714S,Attended,30/9/19,0,4/10/19,4,GOTO,3,12:46:00,16:29:00,53,6B,Moderate
+30/9/19,14:00,43738957JGG,77,HRM,SB706W,Attended,30/9/19,0,4/10/19,4,GHND,2,13:32:00,16:28:00,26,4C,Moderate
+30/9/19,15:30,43738142HNZ,80,Orthop Surg,SB740S,Attended,28/9/19,2,2/10/19,4,GOTO,2,13:13:00,17:29:00,131,4A,Low
+30/9/19,15:00,43738340GLF,26,HRM,SB733H,Attended,30/9/19,0,4/10/19,4,GHND,1,15:38:00,17:30:00,12,4B,Low
+30/9/19,09:00,43738863BNC,36,Urology,SG800U,Attended,27/9/19,3,3/10/19,6,GURO,2,15:54:00,17:36:00,41,4A,Low
+1/10/19,11:00,43739128AND,60,Orthop Surg,SB809K,Attended,23/9/19,8,3/10/19,10,GOTO,2,07:59:00,12:39:00,27,7B,Moderate
+1/10/19,09:30,43739577IYZ,54,GI/BARIATRIC,SF703S,Attended,23/8/19,39,12/11/19,81,GS0G,2,09:00:00,10:49:00,0,5B,Moderate
+1/10/19,11:00,43739951IZF,25,Orthop Surg,SA811S,Attended,1/10/19,0,3/10/19,2,GOTO,1,10:23:00,11:56:00,0,2C,Low
+1/10/19,12:00,43739372AGH,52,Orthop Surg,SB701C,Attended,1/10/19,0,2/10/19,1,GOTO,2,10:42:00,12:39:00,0,4A,Moderate
+1/10/19,10:30,43739222JNF,22,Orthop Surg,SB712K,Attended,19/8/19,43,30/10/19,72,GOTO,1,11:07:00,13:16:00,0,5C,Low
+1/10/19,13:30,43739119JIF,62,Plastic Surg,SA815S,Attended,27/9/19,4,10/10/19,13,GPLS,1,13:10:00,15:32:00,36,7C,Moderate
+1/10/19,11:30,43739078DIG,43,Gynaecology,SI803U,Attended,1/10/19,0,4/10/19,3,GGYN,1,09:57:00,13:14:00,25,4A,Moderate
+1/10/19,15:30,43739563JND,61,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,09:45:00,11:02:00,9,No Code,#N/A
+1/10/19,14:30,43739351CGZ,63,Orthop Surg,SB839H,Attended,23/9/19,8,3/10/19,10,GOTO,2,13:38:00,16:05:00,15,6A,Moderate
+1/10/19,14:00,43739745HOH,48,Plastic Surg,SA852S,Attended,14/10/19,-13,14/10/19,0,GPLS,1,07:59:00,11:11:00,37,1A,Low
+1/10/19,14:30,43739978JNJ,74,Gastro,SF708B,Attended,30/9/19,1,10/10/19,10,GGAS,1,14:21:00,16:41:00,42,3C,Low
+1/10/19,16:00,43739749GYZ,20,Dental,SF800T,Attended,1/10/19,0,17/10/19,16,GDEN,#N/A,16:20:00,17:57:00,14,3C,Low
+1/10/19,14:30,43739310FOG,31,Orthop Surg,SB706K,Attended,27/9/19,4,7/10/19,10,GOTO,1,14:18:00,16:13:00,20,6A,Low
+1/10/19,14:30,43739363ZGA,71,Orthop Surg,SB803C,Attended,1/10/19,0,11/10/19,10,GOTO,2,14:43:00,17:11:00,50,6A,Moderate
+1/10/19,16:00,43739788AGI,71,Urology,SH835P,Attended,1/10/19,0,14/10/19,13,GURO,1,15:56:00,18:08:00,67,2A,Low
+1/10/19,12:00,43739584ENJ,59,Orthop Surg,SB839H,Attended,1/10/19,0,16/10/19,15,GOTO,2,12:14:00,17:02:00,45,6A,Moderate
+1/10/19,15:30,43739036ARD,68,Orthop Surg,SB727F,Attended,9/7/19,84,8/10/19,91,GOTO,2,15:01:00,17:09:00,15,5C,Low
+2/10/19,09:30,43740704ZA ,#N/A,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,09:28:00,11:01:00,45,No Code,#N/A
+2/10/19,14:00,43740680GGH,77,Urology,SG702P,Attended,13/9/19,19,8/10/19,25,GURO,2,11:01:00,13:02:00,24,5C,Moderate
+2/10/19,12:30,43740545HGH,51,Urology,SG702U,Attended,2/10/19,0,3/10/19,1,GURO,1,11:08:00,13:03:00,32,4A,Low
+2/10/19,09:30,43740003BAH,29,Urology,SG718B,Attended,23/9/19,9,15/10/19,22,GURO,2,09:53:00,11:38:00,23,1C,Low
+2/10/19,09:00,43740627JKH,71,Urology,SG720K,Attended,30/9/19,2,4/10/19,4,GURO,2,10:12:00,12:04:00,21,6A,Moderate
+2/10/19,11:30,43740313IAH,64,Orthop Surg,SB729S,Attended,2/10/19,0,7/10/19,5,GOTO,2,10:07:00,12:14:00,25,7B,Moderate
+2/10/19,11:00,43740740IEE,63,Urology,SG800U,Attended,2/10/19,0,10/10/19,8,GURO,2,10:55:00,14:20:00,77,4A,Low
+2/10/19,14:30,43740618ENZ,86,Colorec Surg,SF803C,Attended,2/10/19,0,23/10/19,21,GCLR,3,10:53:00,14:52:00,38,5C,Moderate
+2/10/19,13:00,43740042DOE,43,Orthop Surg,SB716K,Attended,2/10/19,0,4/10/19,2,GOTO,2,11:25:00,14:04:00,57,6B,Moderate
+2/10/19,13:30,43740412BNF,71,Orthop Surg,SB810K,Attended,10/1/19,265,14/5/19,124,GOTO,2,11:30:00,14:46:00,9,6A,Moderate
+2/10/19,15:30,43740257GG ,#N/A,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:43:00,15:07:00,35,No Code,#N/A
+2/10/19,14:30,43740399ARH,52,HPB,SA702S,Attended,27/9/19,5,7/10/19,10,GS0H,2,14:08:00,15:06:00,15,1B,Low
+2/10/19,14:00,43740022BEZ,50,Orthop Surg,SB810K,Attended,2/10/19,0,15/10/19,13,GOTO,3,09:40:00,15:27:00,60,6A,Moderate
+2/10/19,15:00,43740236GAF,27,Gynaecology,SI820U,Attended,2/10/19,0,8/10/19,6,GGYN,1,14:45:00,16:16:00,0,2A,Low
+2/10/19,14:00,43740663GIJ,#N/A,HRM,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:59:00,16:24:00,25,No Code,#N/A
+2/10/19,15:00,43740993CRI,26,HRM,SB710W,Attended,2/10/19,0,3/10/19,1,GHND,1,12:22:00,15:34:00,16,4B,Low
+2/10/19,13:30,43740125EIC,66,Urology,SH835P,Attended,2/10/19,0,10/10/19,8,GURO,1,13:58:00,16:33:00,0,2A,Low
+2/10/19,16:00,43740179BFI,40,Gen Surgery,SJ800T,Attended,2/10/19,0,7/10/19,5,GSUR,1,15:22:00,16:46:00,11,3B,Moderate
+3/10/19,12:00,43741311D H,31,HRM,SB704H,Attended,3/10/19,0,4/10/19,1,GHND,1,11:10:00,12:45:00,7,3C,Low
+3/10/19,12:30,43741094DOI,35,Gynaecology,SI820U,Attended,3/10/19,0,4/10/19,1,GGYN,1,10:00:00,13:33:00,24,2A,Low
+3/10/19,09:00,43741227CNB,48,Gynaecology,SI805C,Attended,1/10/19,2,15/10/19,14,GGYN,1,11:07:00,12:41:00,9,2B,Low
+3/10/19,13:30,43741759HNA,71,Orthop Surg,SB810K,Attended,3/10/19,0,11/10/19,8,GOTO,1,11:08:00,15:01:00,34,6A,Moderate
+3/10/19,13:00,43741082DKJ,64,VASCULAR SUR,SD710V,Attended,3/10/19,0,7/10/19,4,GS0V,2,12:59:00,15:15:00,32,4A,Moderate
+3/10/19,14:30,43741206AGD,70,HPB,SF801G,Attended,23/9/19,10,24/10/19,31,GS0H,2,12:23:00,16:57:00,29,4A,Moderate
+3/10/19,12:00,43741891FXD,30,Orthop Surg,SB715K,Attended,3/10/19,0,7/10/19,4,GOTO,2,12:17:00,13:49:00,0,5A,Low
+3/10/19,14:30,43741373BMI,53,Gynaecology,SI725U,Attended,26/9/19,7,7/10/19,11,GGYN,#N/A,14:49:00,16:58:00,45,2B,Low
+3/10/19,11:30,43741068J Z,65,Gynaecology,SI825U,Attended,2/10/19,1,8/10/19,6,GGYN,1,09:34:00,11:28:00,52,5C,Moderate
+3/10/19,14:30,43741916FNE,66,Urology,SG715B,Attended,3/10/19,0,8/10/19,5,GURO,1,14:44:00,16:05:00,21,4B,Moderate
+3/10/19,14:00,43741313ZGE,89,Colorec Surg,SF800C,Attended,19/9/19,14,4/10/19,15,GCLR,2,15:44:00,17:43:00,66,4A,Low
+3/10/19,15:30,43741494BEI,61,Orthop Surg,SB810K,Attended,3/10/19,0,7/10/19,4,GOTO,2,16:00:00,17:44:00,22,6A,Moderate
+4/10/19,13:30,43742646BGI,44,Gynaecology,SI700U,Attended,3/10/19,1,9/10/19,6,GGYN,1,09:57:00,13:57:00,43,1C,Low
+4/10/19,08:30,43742432FNC,#N/A,EYE,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:54:00,09:49:00,11,No Code,#N/A
+4/10/19,14:00,43742842JNA,35,Obstetrics,SI834U,Attended,3/10/19,1,7/10/19,4,GOBS,1,#N/A,#N/A,#N/A,4A,Moderate
+4/10/19,11:00,43742045JYH,51,Orthop Surg,SA716S,Attended,3/10/19,1,7/10/19,4,GOTO,2,10:56:00,13:55:00,21,4A,Low
+4/10/19,14:30,43742888ZGZ,69,Orthop Surg,SB802C,Attended,4/10/19,0,7/10/19,3,GOTO,2,10:54:00,14:35:00,37,6B,Moderate
+4/10/19,12:00,43742416IID,50,Gynaecology,SI725U,Attended,4/10/19,0,11/10/19,7,GGYN,1,09:46:00,13:19:00,23,2B,Low
+4/10/19,15:00,43742051MKD,42,Gynaecology,SI815U,Attended,28/8/19,37,25/10/19,58,GGYN,1,10:20:00,11:56:00,9,5A,Moderate
+4/10/19,13:00,43742010DYG,46,Gynaecology,SI803U,Attended,3/10/19,1,11/10/19,8,GGYN,2,12:43:00,14:39:00,14,4A,Moderate
+4/10/19,15:00,43742609JKJ,54,Orthop Surg,SB715K,Attended,5/10/19,-1,8/10/19,3,GOTO,2,14:41:00,16:23:00,19,5A,Low
+4/10/19,15:30,43742061EDE,#N/A,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,14:30:00,16:57:00,27,No Code,#N/A
+4/10/19,16:00,43742996CGI,70,Urology,SG727K,Attended,3/10/19,1,10/10/19,7,GURO,2,14:33:00,16:14:00,40,4A,Low
+4/10/19,14:00,43742168JEC,26,Plastic Surg,SL710E,Attended,3/10/19,1,8/10/19,5,GPLS,1,15:10:00,16:57:00,18,3C,Low
+4/10/19,13:00,43742692ENE,76,Orthop Surg,SB839H,Attended,4/10/19,0,9/10/19,5,GOTO,2,13:27:00,17:04:00,21,6A,Moderate
+4/10/19,11:00,43742918FGJ,78,Orthop Surg,SB712K,Attended,4/10/19,0,8/10/19,4,GOTO,2,13:23:00,17:06:00,20,5C,Low
+4/10/19,14:00,43742636CHH,74,VASCULAR SURG,SB830T,Attended,4/10/19,0,8/10/19,4,GS0V,2,13:03:00,16:57:00,52,1C,Low
+4/10/19,14:30,43742507TIZ,42,Orthop Surg,SB700L,Attended,4/10/19,0,5/10/19,1,GOTO,2,09:36:00,17:53:00,29,4B,Low
+7/10/19,13:30,43745709FKI,68,HRM,SB826B,Attended,4/10/19,3,8/10/19,4,GHND,2,08:22:00,10:20:00,23,1C,Low
+7/10/19,10:00,43745909GNA,33,Obstetrics,SI834U,Attended,7/10/19,0,8/10/19,1,GOBS,1,09:52:00,12:50:00,41,4A,Moderate
+7/10/19,14:00,43745051BNF,68,Orthop Surg,SB810K,Attended,5/10/19,2,8/10/19,3,GOTO,2,09:15:00,11:39:00,9,6A,Moderate
+7/10/19,11:00,43745309DRB,45,H&N - ENT,SA702S,Attended,7/10/19,0,9/10/19,2,GS1H,2,10:12:00,12:32:00,9,1B,Low
+7/10/19,11:30,43745374ANF,58,Gynaecology,SI803U,Attended,7/10/19,0,11/10/19,4,GGYN,1,08:38:00,11:39:00,13,4A,Moderate
+7/10/19,11:30,43745449ERF,58,Colorec Surg,SF702C,Attended,7/10/19,0,9/10/19,2,GCLR,2,11:18:00,14:10:00,30,2C,Low
+7/10/19,12:00,43745957FMF,53,H&N - ENT,SF723T,Attended,7/10/19,0,16/10/19,9,GE1H,1,11:37:00,14:31:00,14,4C,Moderate
+7/10/19,12:00,43745890ZNJ,31,Gynaecology,SI820U,Attended,7/10/19,0,15/10/19,8,GGYN,1,10:49:00,12:18:00,13,2A,Low
+7/10/19,12:30,43745690FKJ,81,Colorec Surg,SF701C,Attended,24/9/19,13,10/10/19,16,GCLR,2,12:03:00,15:10:00,19,6C,Moderate
+7/10/19,15:30,43745050KNB,38,Orthop Surg,SB715F,Attended,7/10/19,0,8/10/19,1,GOTO,1,08:29:00,15:21:00,20,4A,Low
+7/10/19,12:00,43745536DHB,56,VASCULAR SUR,SD713V,Attended,7/10/19,0,7/10/19,0,GS0V,1,09:52:00,16:03:00,14,3B,Low
+7/10/19,13:30,43745987HMB,49,Orthop Surg,SB810K,Attended,7/10/19,0,11/10/19,4,GOTO,2,12:03:00,16:09:00,26,6A,Moderate
+7/10/19,11:00,43745483JGF,46,Gynaecology,SI725U,Attended,4/10/19,3,8/10/19,4,GGYN,1,08:45:00,10:16:00,24,2B,Low
+7/10/19,14:30,43745033QNF,31,HRM,SB704H,Attended,5/10/19,2,8/10/19,3,GHND,1,09:20:00,11:02:00,10,3C,Low
+7/10/19,12:30,43745594POG,45,HRM,SB820B,Attended,7/10/19,0,8/10/19,1,GHND,1,11:47:00,14:54:00,22,2C,Low
+7/10/19,14:30,43745292DYC,69,Orthop Surg,SB810K,Attended,7/10/19,0,18/10/19,11,GOTO,2,13:27:00,17:29:00,18,6A,Moderate
+7/10/19,14:00,43745079CGE,58,Plastic Surg,SA823S,Attended,7/10/19,0,10/10/19,3,GPLS,2,13:01:00,16:08:00,9,2B,Low
+7/10/19,08:30,43745635GEB,32,Obstetrics,SI834U,Attended,5/10/19,2,10/10/19,5,GOBS,2,15:17:00,17:45:00,35,4A,Moderate
+7/10/19,13:30,43745312EGD,70,Colorec Surg,SF804C,Attended,7/10/19,0,15/10/19,8,GCLR,2,13:38:00,17:11:00,62,6A,High
+8/10/19,11:30,43746145CII,51,Orthop Surg,SB716K,Attended,8/10/19,0,9/10/19,1,GOTO,2,10:16:00,14:49:00,12,6B,Moderate
+8/10/19,13:00,43746446DED,78,Urology,SG812U,Attended,12/4/19,179,22/7/19,101,GURO,3,09:20:00,10:56:00,19,3B,Low
+8/10/19,13:30,43746164DIZ,27,Gynaecology,SI701L,Attended,3/10/19,5,9/10/19,6,GGYN,1,11:33:00,13:53:00,15,6A,High
+8/10/19,14:30,43746294GNC,56,Otolary,SJ703T,Attended,7/10/19,1,11/10/19,4,GENT,2,12:24:00,15:43:00,30,6C,High
+8/10/19,12:00,43746188IGI,68,VASCULAR,SD716V,Attended,8/10/19,0,16/10/19,8,GS0V,1,12:48:00,15:50:00,31,3B,Low
+8/10/19,15:00,43746919CEZ,38,Obstetrics,SI834U,Attended,8/10/19,0,17/10/19,9,GOBS,1,13:53:00,16:01:00,20,4A,Moderate
+8/10/19,09:00,43746856HNA,#N/A,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,08:36:00,10:45:00,1,No Code,#N/A
+8/10/19,15:30,43746793TGB,35,BREAST SURG,SA853S,Attended,8/10/19,0,9/10/19,1,GS0B,1,15:32:00,17:10:00,4,1A,Low
+8/10/19,16:00,43746586GNC,70,Orthop Surg,SB716K,Attended,8/10/19,0,9/10/19,1,GOTO,1,15:42:00,17:29:00,17,6B,Moderate
+8/10/19,14:00,43746140BIG,65,Plastic Surg,SA823S,Attended,7/10/19,1,10/10/19,3,GPLS,3,13:57:00,16:58:00,39,2B,Low
+8/10/19,14:30,43746013ZWD,79,Orthop Surg,SB810K,Attended,8/10/19,0,14/10/19,6,GOTO,2,13:07:00,17:49:00,29,6A,Moderate
+9/10/19,12:00,43747471FGI,61,HRM,SB706W,Attended,9/10/19,0,14/10/19,5,GHND,1,08:46:00,10:42:00,27,4C,Moderate
+9/10/19,12:00,43747032ZAZ,73,Colorec Surg,SF809R,Attended,7/10/19,2,11/10/19,4,GCLR,2,09:49:00,13:04:00,23,4A,Moderate
+9/10/19,11:00,43747868HMJ,62,Gen Surgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:15:00,13:33:00,19,No Code,#N/A
+9/10/19,14:30,43747343F B,66,HPB ,SF801G,Attended,9/10/19,0,10/10/19,1,GS0H,2,11:04:00,12:30:00,16,4A,Moderate
+9/10/19,13:30,43747322AAB,49,HPB ,SF703G,Attended,9/10/19,0,10/10/19,1,GS0H,1,11:08:00,13:17:00,18,6A,Moderate
+9/10/19,12:30,43747016HHG,56,Otolary ,SM709S,Attended,9/10/19,0,17/10/19,8,GENT,2,10:36:00,12:20:00,20,4A,Moderate
+9/10/19,14:00,43747289FRB,38,HPB ,SF801G,Attended,9/10/19,0,10/10/19,1,GS0H,1,12:45:00,14:52:00,17,4A,Moderate
+9/10/19,13:00,43747054A F,71,VASCULAR SUR,SD720A,Attended,9/10/19,0,15/10/19,6,GS0V,3,12:28:00,15:27:00,26,4A,Moderate
+9/10/19,14:30,43747312DRB,68,HPB ,SF813L,Attended,9/10/19,0,22/10/19,13,GS0H,2,13:21:00,16:31:00,49,5C,High
+9/10/19,11:00,43747608HOE,65,VASCULAR SUR,SD821A,Attended,8/10/19,1,11/10/19,3,GS0V,2,14:59:00,17:25:00,33,3C,Low
+10/10/19,16:00,43748385DGG,84,Orthop Surg,SB808S,Attended,8/10/19,2,18/10/19,10,GOTO,2,#N/A,#N/A,#N/A,7C,Moderate
+10/10/19,15:30,43748490FGF,45,Otolary,SM700L,Attended,10/10/19,0,16/10/19,6,GENT,2,11:07:00,14:10:00,16,3A,Low
+10/10/19,11:00,43748166III,80,Colorec Surg,SF833A,Attended,10/10/19,0,16/10/19,6,GCLR,2,10:06:00,13:40:00,60,2B,Low
+10/10/19,14:30,43748721HGF,42,Colorec Surg,SF720A,Attended,8/10/19,2,11/10/19,3,GCLR,2,13:28:00,16:13:00,30,1C,Low
+10/10/19,13:00,43748347FGE,85,VASCULAR SUR,SD739A,Attended,10/10/19,0,16/10/19,6,GS0V,3,11:11:00,14:39:00,22,7A,High
+10/10/19,15:30,43748710BEF,35,Gynaecology,SI820U,Attended,10/10/19,0,15/10/19,5,GGYN,1,14:07:00,16:48:00,27,2A,Low
+10/10/19,09:00,43748043GEC,29,Plastic Surg,SL810O,Attended,1/10/19,9,18/10/19,17,GPLS,#N/A,15:35:00,18:09:00,50,4A,Moderate
+10/10/19,16:00,43748238JTZ,62,Colorec Surg,SF701C,Attended,10/10/19,0,17/10/19,7,GCLR,2,15:54:00,18:22:00,31,6C,Moderate
+10/10/19,15:00,43748407JHF,77,Gen Surgery,SB800M,Attended,9/10/19,1,29/10/19,20,GSUR,2,14:24:00,16:40:00,19,6B,Moderate
+11/10/19,15:00,43749948DOZ,24,Gynaecology,SI820U,Attended,9/10/19,2,15/10/19,6,GGYN,1,09:24:00,14:26:00,18,2A,Low
+11/10/19,15:00,43749003JGJ,56,HRM,SB706W,Attended,11/10/19,0,15/10/19,4,GHND,1,10:48:00,12:20:00,14,4C,Moderate
+11/10/19,15:30,43749523GGA,53,BREAST SURG,SA822B,Attended,11/10/19,0,15/10/19,4,GS0B,2,12:34:00,16:20:00,30,3B,Low
+11/10/19,09:00,43749868WKI,72,Urology,SG700K,Attended,7/10/19,4,29/10/19,22,GURO,2,12:54:00,16:14:00,34,6A,Moderate
+11/10/19,16:00,43749740HGH,60,HPB,SF809P,Attended,8/10/19,3,21/10/19,13,GS0H,2,14:26:00,17:01:00,41,7C,High
+11/10/19,12:00,43749169JGI,70,Urology,SG710K,Attended,11/10/19,0,18/10/19,7,GURO,2,12:11:00,16:15:00,64,6A,High
+11/10/19,13:30,43749310CGG,65,Plastic Surg,SA823S,Attended,22/10/19,-11,29/10/19,7,GPLS,3,13:12:00,16:52:00,53,2B,Low
+11/10/19,08:00,43749085BND,29,HRM,SB700W,Attended,10/10/19,1,15/10/19,5,GHND,1,15:08:00,16:57:00,10,4A,Low
+11/10/19,14:30,43749547FIJ,79,BREAST SURG,SA705B,Attended,9/10/19,2,11/10/19,2,GS0B,#N/A,09:25:00,12:18:00,24,4A,Low
+14/10/19,16:00,43752351CEI,70,BREAST SURG,SA827B,Attended,11/10/19,3,16/10/19,5,GS0B,2,09:45:00,11:24:00,28,4C,Low
+14/10/19,14:30,43752760BGB,58,Gynaecology,SI802O,Attended,14/10/19,0,18/10/19,4,GGYN,1,08:55:00,13:43:00,52,4A,Moderate
+14/10/19,11:30,43752778Z I,73,Urology,SH835P,Attended,19/9/19,25,21/10/19,32,GURO,2,10:17:00,14:14:00,98,2A,Low
+14/10/19,14:00,43752544JEE,46,GI/BARIATRIC,SF801G,Attended,14/10/19,0,15/10/19,1,GS0G,2,08:52:00,09:50:00,9,4A,Moderate
+14/10/19,13:00,43752444ZGB,22,HRM,SB813F,Attended,14/10/19,0,18/10/19,4,GHND,1,09:59:00,13:37:00,17,4A,Low
+14/10/19,15:30,43752054INE,60,Colorec Surg,SF803C,Attended,9/10/19,5,16/10/19,7,GCLR,2,15:46:00,17:25:00,29,5C,Moderate
+14/10/19,15:00,43752022JLC,68,Colorec Surg,SE805L,Attended,17/10/19,-3,18/10/19,1,GCLR,2,11:38:00,15:44:00,41,3B,Low
+14/10/19,17:00,43752195FMZ,62,Orthop Surg,SB841H,Attended,14/10/19,0,18/10/19,4,GOTO,2,16:34:00,18:43:00,84,4A,Moderate
+15/10/19,09:00,43753936EHB,45,HRM,SB829J,Attended,8/10/19,7,18/10/19,10,GHND,1,08:08:00,08:39:00,7,2B,Low
+15/10/19,11:00,43753705INB,73,Gen Surgery,SA827B,Attended,12/9/19,33,18/10/19,36,GSUR,2,08:16:00,09:34:00,14,4C,Low
+15/10/19,11:00,43753783DHD,70,Urology,SH835P,Attended,15/10/19,0,23/10/19,8,GURO,2,09:44:00,12:19:00,22,2A,Low
+15/10/19,11:30,43753449BKJ,82,Colorec Surg,SF805R,Attended,15/10/19,0,18/10/19,3,GCLR,3,10:44:00,14:43:00,82,6C,High
+15/10/19,11:00,43753908CHI,71,HPB,SF812L,Attended,15/10/19,0,24/10/19,9,GS0H,2,10:30:00,14:55:00,36,6B,High
+15/10/19,14:00,43753987DGG,#N/A,Otolary ,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:44:00,14:26:00,20,No Code,#N/A
+15/10/19,15:00,43753387CDA,73,Orthop Surg,SB716K,Attended,14/10/19,1,21/10/19,7,GOTO,2,09:59:00,12:51:00,0,6B,Moderate
+15/10/19,09:30,43753994ZYF,33,BREAST SURG,SA712B,Attended,15/10/19,0,17/10/19,2,GS0B,1,09:35:00,11:19:00,24,3A,Low
+15/10/19,12:30,43753628EEI,73,VASCULAR SUR,SD720A,Attended,15/10/19,0,21/10/19,6,GS0V,2,09:08:00,14:54:00,15,4A,Moderate
+15/10/19,13:00,43753490A A,41,Orthop Surg,SA811S,Attended,15/10/19,0,17/10/19,2,GOTO,1,11:53:00,15:47:00,78,2C,Low
+15/10/19,13:30,43753536PRB,35,Orthop Surg,SB727S,Attended,14/10/19,1,21/10/19,7,GOTO,2,13:31:00,15:48:00,8,6B,Moderate
+15/10/19,13:00,43753604GGI,63,Orthop Surg,SB700H,Attended,14/10/19,1,19/10/19,5,GOTO,2,12:26:00,14:57:00,26,4A,Low
+15/10/19,10:00,43753706GLG,22,Dental,SF800T,Attended,14/10/19,1,25/10/19,11,GDEN,2,10:49:00,14:03:00,50,3C,Low
+15/10/19,13:00,43753978EIA,62,Neurosurgery,SK818B,Attended,15/10/19,0,18/10/19,3,GNES,2,12:14:00,15:50:00,22,4A,Moderate
+15/10/19,15:30,43753760INJ,69,Urology,SG813B,Attended,15/10/19,0,22/10/19,7,GURO,2,15:46:00,18:27:00,69,3B,Moderate
+15/10/19,16:00,43753646JGE,59,Orthop Surg,SA723S,Attended,15/10/19,0,17/10/19,2,GOTO,2,14:01:00,17:21:00,12,5A,Moderate
+15/10/19,15:00,43753043DYH,80,VASCULAR SUR,SD720A,Attended,15/10/19,0,18/10/19,3,GS0V,2,15:02:00,17:12:00,24,4A,Moderate
+15/10/19,15:30,43753856CNI,47,Plastic Surg,SM712N,Attended,14/10/19,1,17/10/19,3,GPLS,2,14:03:00,16:19:00,13,1B,Low
+16/10/19,12:30,43754467BIZ,37,Orthop Surg,SB712K,Attended,15/10/19,1,17/10/19,2,GOTO,1,08:01:00,08:57:00,6,5C,Low
+16/10/19,13:00,43754034GAE,56,Orthop Surg,SB715K,Attended,16/10/19,0,21/10/19,5,GOTO,1,09:58:00,11:24:00,5,5A,Low
+16/10/19,12:00,43754612BMD,65,Orthop Surg,SB839H,Attended,3/10/19,13,21/10/19,18,GOTO,2,11:00:00,15:12:00,17,6A,Moderate
+16/10/19,14:30,43754933Z H,66,HPB,SF809P,Attended,25/9/19,21,17/10/19,22,GS0H,2,12:48:00,15:15:00,8,7C,High
+16/10/19,11:00,43754042JYE,31,Orthop Surg,SB808J,Attended,15/10/19,1,17/10/19,2,GOTO,2,11:46:00,15:02:00,11,5C,Moderate
+16/10/19,15:30,43754608JIH,52,Urology ,SG800U,Attended,15/10/19,1,24/10/19,9,GURO,2,13:46:00,15:29:00,8,4A,Low
+16/10/19,15:00,43754493IKE,71,Orthop Surg,SB816S,Attended,16/10/19,0,18/10/19,2,GOTO,2,13:27:00,17:12:00,9,6A,Moderate
+16/10/19,15:30,43754944ENJ,30,Obstetrics ,SI834U,Attended,16/10/19,0,18/10/19,2,GOBS,1,08:46:00,15:51:00,(blank),4A,Moderate
+16/10/19,14:00,43754467AEE,84,Orthop Surg,SB810K,Attended,16/10/19,0,22/10/19,6,GOTO,2,12:34:00,16:37:00,38,6A,Moderate
+16/10/19,13:30,43754766BGG,48,Orthop Surg,SB715K,Attended,16/10/19,0,17/10/19,1,GOTO,1,09:44:00,14:30:00,13,5A,Low
+16/10/19,15:00,43754714IEB,80,Colorec Surg,SF802C,Attended,11/10/19,5,25/10/19,14,GCLR,2,14:36:00,17:25:00,36,4A,Moderate
+17/10/19,NO BOOK,43755169JII,#N/A,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,1,10:27:00,11:15:00,0,No Code,#N/A
+17/10/19,12:00,43755894BGA,74,Gynaecology,SI803U,Attended,17/10/19,0,18/10/19,1,GGYN,2,08:44:00,11:53:00,0,4A,Moderate
+17/10/19,12:00,43755436JEE,65,Gynaecology,SI828U,Attended,17/10/19,0,18/10/19,1,GGYN,2,08:53:00,12:30:00,9,4A,Moderate
+17/10/19,16:00,43755717IID,30,Otolary,SM705T,Attended,17/10/19,0,22/10/19,5,GENT,2,12:35:00,15:05:00,11,3B,Low
+17/10/19,12:30,43755830LUZ,27,Colorec Surg,SF833A,Attended,17/10/19,0,22/10/19,5,GCLR,1,10:53:00,12:41:00,(blank),2B,Low
+17/10/19,11:00,43755891EGH,45,Neuosurgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:42:00,13:29:00,8,No Code,#N/A
+17/10/19,14:00,43755676ZUE,49,Gen Surgery,SA827B,Attended,17/10/19,0,23/10/19,6,GSUR,2,12:59:00,16:08:00,41,4C,Low
+17/10/19,11:00,43755577AID,39,Urology,SG714B,Attended,16/10/19,1,18/10/19,2,GURO,1,13:42:00,16:39:00,48,4A,Moderate
+17/10/19,16:00,43755330GID,63,Orthop Surg,SA717S,Attended,16/10/19,1,23/10/19,7,GOTO,2,14:16:00,16:21:00,13,5C,Moderate
+18/10/19,09:00,43756966AGI,57,Orthop Surg,SA716S,Attended,17/10/19,1,23/10/19,6,GOTO,2,08:32:00,10:00:00,9,4A,Low
+18/10/19,09:00,43756107HHC,78,Urology,SG831U,Attended,17/10/19,1,21/10/19,4,GURO,2,08:31:00,10:08:00,22,2C,Low
+18/10/19,08:30,43756770GNA,53,VASCULAR SURG,SD716V,Attended,17/10/19,1,21/10/19,4,GS0V,1,09:57:00,12:36:00,13,3B,Low
+18/10/19,11:30,43756451BNI,67,Gen Surgery,SA826B,Attended,17/10/19,1,1/11/19,15,GSUR,1,10:35:00,15:02:00,42,4A,Low
+18/10/19,13:30,43756299GGE,47,GI/BARIATRIC,SA840S,Attended,17/10/19,1,23/10/19,6,GS0G,2,13:01:00,14:24:00,12,1A,Low
+18/10/19,10:00,43756946GAE,42,Gen Surgery,SA827B,Attended,18/10/19,0,21/10/19,3,GSUR,1,11:13:00,15:53:00,14,4C,Low
+18/10/19,14:00,43756798EUG,76,Gastro,SF701D,Attended,18/10/19,0,24/10/19,6,GGAS,2,12:33:00,15:43:00,0,3C,Low
+18/10/19,12:00,43756915DHG,53,VASCULAR SURG,SD709A,Attended,18/10/19,0,23/10/19,5,GS0V,#N/A,12:50:00,15:52:00,65,5A,Low
+18/10/19,15:30,43756703ZRA,58,GI/BARIATRIC,SF819A,Attended,5/9/19,43,5/11/19,61,GS0G,2,09:33:00,13:19:00,104,3B,Low
+18/10/19,15:30,43756826JGE,44,Dental,SF816T,Attended,18/10/19,0,31/10/19,13,GDEN,#N/A,15:19:00,16:25:00,(blank),2C,Low
+18/10/19,16:00,43756921BGI,54,Orthop Surg,SB701K,Attended,18/10/19,0,24/10/19,6,GOTO,1,13:27:00,18:10:00,10,5C,Low
+18/10/19,16:00,43756496BNZ,23,Gynaecology,SI820U,Attended,18/10/19,0,22/10/19,4,GGYN,1,08:53:00,17:27:00,19,2A,Low
+18/10/19,16:30,43756911HNI,68,GI/BARIATRIC,SA800S,Attended,18/10/19,0,22/10/19,4,GS0G,2,15:49:00,19:09:00,62,1A,Low
+21/10/19,09:00,43759355HGG,44,Orhtop Surg,SB809T,Attended,18/10/19,3,22/10/19,4,GOTO,1,08:29:00,09:39:00,0,3A,Low
+21/10/19,15:00,43759685DYH,49,Orhtop Surg,SB734S,Attended,21/10/19,0,24/10/19,3,GOTO,1,12:19:00,13:47:00,19,6A,Moderate
+21/10/19,16:00,43759918EGE,76,Colorec Surg,SF802C,Attended,21/10/19,0,23/10/19,2,GCLR,2,11:14:00,13:20:00,22,4A,Moderate
+21/10/19,11:30,43759275DGG,35,Gynaecology,SI700O,Attended,21/10/19,0,24/10/19,3,GGYN,1,08:26:00,12:36:00,11,4B,Moderate
+21/10/19,13:00,43759582JMZ,51,Orhtop Surg,SB727S,Attended,18/10/19,3,23/10/19,5,GOTO,2,13:09:00,16:55:00,0,6B,Moderate
+21/10/19,14:30,43759035HGA,74,Orhtop Surg,SB810K,Attended,21/10/19,0,1/11/19,11,GOTO,2,12:05:00,15:28:00,35,6A,Moderate
+21/10/19,16:00,43759140XKJ,33,Otolary,SM712N,Attended,21/10/19,0,22/10/19,1,GENT,2,#N/A,#N/A,#N/A,1B,Low
+21/10/19,11:30,43759659DND,47,Gynaecology,SI802U,Attended,19/10/19,2,30/10/19,11,GGYN,2,08:00:00,09:17:00,33,4A,Moderate
+21/10/19,14:30,43759456HNJ,50,Orhtop Surg,SB704U,Attended,21/10/19,0,29/10/19,8,GOTO,1,11:40:00,13:20:00,30,4B,Moderate
+21/10/19,15:30,43759865CKG,65,Gynaecology,SI725U,Attended,21/10/19,0,29/10/19,8,GGYN,2,13:05:00,15:34:00,(blank),2B,Low
+21/10/19,12:00,43759322ANI,69,Orhtop Surg,SB715K,Attended,18/10/19,3,31/10/19,13,GOTO,2,11:32:00,15:10:00,71,5A,Low
+21/10/19,14:00,43759235DNF,69,Gen Surgery,SF806T,Attended,18/10/19,3,30/10/19,12,GSUR,2,13:33:00,17:11:00,0,6B,High
+21/10/19,15:30,43759233JOZ,65,Gynaecology,SI725U,Attended,21/10/19,0,24/10/19,3,GGYN,1,13:22:00,17:11:00,27,2B,Low
+22/10/19,16:00,43760930RIH,64,Plastic Surg,SA824S,Attended,21/10/19,1,24/10/19,3,GPLS,2,08:01:00,09:41:00,43,3A,Low
+22/10/19,10:00,43760796IGI,81,Gynaecology,SI825U,Attended,21/10/19,1,23/10/19,2,GGYN,2,09:36:00,11:04:00,22,5C,Moderate
+22/10/19,15:00,43760290QGE,45,HRM,SB704H,Attended,22/10/19,0,25/10/19,3,GHND,2,11:09:00,13:01:00,(blank),3C,Low
+22/10/19,12:00,43760457ZMH,55,Gen Surgery,SF801G,Attended,22/10/19,0,4/11/19,13,GSUR,2,11:29:00,13:30:00,7,4A,Moderate
+22/10/19,15:30,43760727BGH,58,Orthop Surg,SB716K,Attended,22/10/19,0,23/10/19,1,GOTO,1,12:26:00,14:13:00,9,6B,Moderate
+22/10/19,16:00,43760163BNI,19,H&N - ENT,SJ804T,Attended,22/10/19,0,30/10/19,8,GE1H,2,10:31:00,14:20:00,36,6A,High
+22/10/19,14:30,43760611GEC,68,Orthop Surg,SB810K,Attended,22/10/19,0,29/10/19,7,GOTO,2,10:50:00,13:52:00,11,6A,Moderate
+22/10/19,11:30,43760013GGH,70,Urology,SG702P,Attended,22/10/19,0,7/11/19,16,GURO,2,11:26:00,14:58:00,36,5C,Moderate
+22/10/19,11:00,43760545ZDJ,66,Orthop Surg,SB727S,Attended,22/10/19,0,25/10/19,3,GOTO,2,10:45:00,14:33:00,0,6B,Moderate
+22/10/19,14:00,43760411ZRE,27,Orthop Surg,SA716S,Attended,22/10/19,0,24/10/19,2,GOTO,1,13:48:00,15:26:00,22,4A,Low
+22/10/19,16:00,43760346DEA,15,HRM,SB801C,Attended,22/10/19,0,29/10/19,7,GHND,1,14:58:00,15:33:00,6,4B,Low
+22/10/19,15:00,43760211CGI,75,Gastro,SF807E,Attended,22/10/19,0,31/10/19,9,GGAS,3,14:37:00,16:05:00,14,3A,Low
+22/10/19,12:00,43760442BAD,81,VASCULAR SUR,SD712B,Attended,22/10/19,0,30/10/19,8,GS0V,3,13:06:00,16:49:00,0,2A,Low
+22/10/19,16:00,43760611HGC,67,HPB,SF706G,Attended,19/10/19,3,4/11/19,16,GS0H,3,15:20:00,17:24:00,45,4C,Moderate
+22/10/19,16:30,43760492HNH,78,Orthop Surg,SA716S,Attended,22/10/19,0,25/10/19,3,GOTO,2,15:04:00,16:55:00,28,4A,Low
+22/10/19,16:00,43760368JNF,80,Orthop Surg,SB818J,Attended,24/10/19,-2,6/11/19,13,GOTO,2,12:47:00,16:49:00,43,5C,Moderate
+23/10/19,14:00,43761513JNZ,58,Orthop Surg,SB727F,Attended,16/10/19,7,25/10/19,9,GOTO,2,08:03:00,09:13:00,17,5C,Low
+23/10/19,13:00,43761773FGE,36,Gen Surgery,SA823B,Attended,22/10/19,1,24/10/19,2,GSUR,#N/A,08:15:00,10:04:00,37,4B,Low
+23/10/19,10:30,43761343CNE,79,BREAST SURG,SA827B,Attended,23/10/19,0,24/10/19,1,GS0B,2,09:36:00,13:14:00,0,4C,Low
+23/10/19,12:30,43761030IGI,49,Gynaecology,SI802O,Attended,22/10/19,1,25/10/19,3,GGYN,1,08:11:00,10:10:00,29,4A,Moderate
+23/10/19,12:00,43761350AOD,33,Gen Surgery,SA812B,Attended,23/10/19,0,25/10/19,2,GSUR,#N/A,12:33:00,14:07:00,9,2C,Low
+23/10/19,11:30,43761743ZRA,37,VASCULAR SUR,SD821A,Attended,23/10/19,0,25/10/19,2,GS0V,3,10:03:00,16:30:00,0,3C,Low
+23/10/19,14:30,43761526ZED,84,VASCULAR SUR,SD722A,Attended,22/10/19,1,25/10/19,3,GS0V,3,11:43:00,15:17:00,0,4A,Moderate
+23/10/19,13:00,43761282JIH,69,Orthop Surg,SB810K,Attended,23/10/19,0,25/10/19,2,GOTO,2,12:50:00,14:16:00,(blank),6A,Moderate
+23/10/19,15:00,43761706HNA,72,Orthop Surg,SB810K,Attended,23/10/19,0,25/10/19,2,GOTO,2,13:59:00,16:46:00,0,6A,Moderate
+23/10/19,16:00,43761106EGA,50,Gynaecology,SI803U,Attended,23/10/19,0,25/10/19,2,GGYN,2,13:42:00,19:01:00,0,4A,Moderate
+23/10/19,13:30,43761417BGC,86,Orthop Surg,SB810K,Attended,18/10/19,5,24/10/19,6,GOTO,2,13:29:00,17:30:00,0,6A,Moderate
+23/10/19,11:30,43761719JGB,93,Colorec Surg,SF703R,Attended,23/10/19,0,18/11/19,26,GCLR,2,11:15:00,15:22:00,63,6C,High
+23/10/19,16:00,43761240HIA,50,Urology,SA831S,Attended,14/10/19,9,1/11/19,18,GURO,2,14:16:00,17:29:00,16,1C,Low
+24/10/19,11:30,43762742HTZ,#N/A,Neurosurgery,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,11:22:00,13:08:00,20,No Code,#N/A
+24/10/19,11:00,43762945JGF,93,Urology,SG714B,Attended,24/10/19,0,8/11/19,15,GURO,2,11:00:00,14:02:00,19,4A,Moderate
+24/10/19,12:00,43762994GNI,76,Orthop Surg,SB839H,Attended,24/10/19,0,8/11/19,15,GOTO,2,11:57:00,17:11:00,0,6A,Moderate
+24/10/19,11:00,43762587INA,59,Gen Surgery,SA815S,Attended,9/10/19,15,25/10/19,16,GSUR,2,11:33:00,14:33:00,72,7C,Moderate
+24/10/19,15:00,43762485UYB,36,Colorec Surg,SF833A,Attended,21/10/19,3,1/11/19,11,GCLR,1,14:37:00,16:21:00,5,2B,Low
+24/10/19,13:30,43762710DNJ,40,VASCULAR SURG,SD821A,Attended,24/10/19,0,1/11/19,8,GS0V,3,13:57:00,16:18:00,4,3C,Low
+24/10/19,15:30,43762203CNA,40,Obestetrics,SI834U,Attended,24/10/19,0,29/10/19,5,GOBS,2,12:02:00,16:43:00,23,4A,Moderate
+25/10/19,09:30,43763748FNB,74,DDR/Gastro,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,07:52:00,09:56:00,59,No Code,#N/A
+25/10/19,16:00,43763329FAF,63,GI/BARIATRIC,SF819A,Attended,16/9/19,39,29/10/19,43,GS0G,1,#N/A,#N/A,#N/A,3B,Low
+25/10/19,16:00,43763508IGA,81,Urology,SG804B,Attended,1/10/19,24,4/11/19,34,GURO,2,09:26:00,11:27:00,19,3B,Moderate
+25/10/19,14:00,43763487HGC,55,Plastic Surg,SA821S,Attended,25/10/19,0,26/11/19,32,GPLS,2,11:06:00,13:59:00,19,4A,Low
+25/10/19,14:30,43763740AFZ,57,Orthop Surg,SB810K,Attended,25/10/19,0,30/10/19,5,GOTO,2,12:36:00,15:44:00,18,6A,Moderate
+25/10/19,13:30,43763058PNC,37,Orthop Surg,SB801R,Attended,25/10/19,0,31/10/19,6,GOTO,1,08:07:00,13:09:00,18,4B,Moderate
+25/10/19,,43763385BHE,25,Gynaecology,SI802O,Attended,24/10/19,1,29/10/19,5,GGYN,1,12:47:00,15:11:00,37,4A,Moderate
+25/10/19,15:00,43763522CGH,20,Plastic Surg,SA854S,Attended,12/10/19,13,29/11/19,48,GPLS,1,12:49:00,17:48:00,0,1A,Low
+25/10/19,,43763559CHF,59,HRM,SB706W,Attended,25/10/19,0,29/10/19,4,GHND,2,16:39:00,17:05:00,(blank),4C,Moderate
+29/10/19,SYSTEM DOWN,43767790HKF,49,Gynaecology,SI812U,Attended,30/10/19,-1,1/11/19,2,GGYN,1,08:37:00,11:59:00,27,5C,Moderate
+29/10/19,SYSTEM DOWN,43767253FMA,74,Orthop Surg,SB716K,Attended,30/10/19,-1,30/10/19,0,GOTO,2,11:02:00,14:35:00,11,6B,Moderate
+29/10/19,SYSTEM DOWN,43767450DNE,37,Obstetrics,SI834U,Attended,30/10/19,-1,30/10/19,0,GOBS,2,11:37:00,14:19:00,81,4A,Moderate
+29/10/19,SYSTEM DOWN,43767325FJJ,33,Gynaecology,SI820U,Attended,29/10/19,0,31/10/19,2,GGYN,1,09:33:00,11:41:00,0,2A,Low
+29/10/19,SYSTEM DOWN,43767215IGF,75,Colorec Surg,SF703R,Attended,25/10/19,4,30/10/19,5,GCLR,2,09:55:00,14:47:00,0,6C,High
+29/10/19,SYSTEM DOWN,43767507BGJ,54,Colorec Surg,SF701C,Attended,30/10/19,-1,30/10/19,0,GCLR,2,15:45:00,16:53:00,19,6C,Moderate
+30/10/19,SYSTEM DOWN,43768623HNG,64,Otolary ,SA815S,Attended,24/10/19,6,1/11/19,8,GENT,2,10:42:00,12:06:00,30,7C,Moderate
+30/10/19,SYSTEM DOWN,43768661EGE,73,GI/BARIATRIC,SF812S,Attended,4/10/19,26,5/11/19,32,GS0G,1,10:19:00,10:55:00,8,6B,High
+30/10/19,10:30,43768711AHB,61,Colorec Surg,SF802C,Attended,30/10/19,0,5/11/19,6,GCLR,2,09:39:00,11:42:00,40,4A,Moderate
+30/10/19,SYSTEM DOWN,43768609BNB,72,VASCULAR SUR,SD712B,Attended,30/10/19,0,1/11/19,2,GS0V,3,11:01:00,11:40:00,(blank),2A,Low
+30/10/19,15:00,43768515AYD,47,Colorec Surg,SF802C,Attended,30/10/19,0,4/11/19,5,GCLR,1,12:21:00,13:56:00,7,4A,Moderate
+30/10/19,13:30,43768798FGI,56,HPB,SA702S,Attended,30/10/19,0,5/11/19,6,GS0H,1,11:25:00,13:46:00,22,1B,Low
+30/10/19,14:30,43768523HAE,38,HRM,SB830J,Attended,30/10/19,0,8/11/19,9,GHND,1,11:05:00,13:35:00,15,1C,Low
+30/10/19,12:00,43768898IKI,64,Gen Surgery,SF820A,Attended,30/10/19,0,1/11/19,2,GSUR,1,11:48:00,13:16:00,(blank),4C,Low
+30/10/19,12:00,43768912GKA,78,Gen Surgery,SF819A,Attended,30/10/19,0,1/11/19,2,GSUR,2,11:14:00,12:55:00,(blank),3B,Low
+30/10/19,12:30,43768046KNI,55,Orthop Surg,SB726F,Attended,30/10/19,0,31/10/19,1,GOTO,1,13:05:00,15:33:00,10,5A,Low
+30/10/19,13:00,43768527JEF,65,Urology ,SH830P,Attended,30/10/19,0,4/11/19,5,GURO,2,13:28:00,14:28:00,(blank),6A,Moderate
+30/10/19,11:30,43768823JHJ,80,Neurosurgery,SK810B,Attended,30/10/19,0,4/11/19,5,GNES,3,09:49:00,11:48:00,23,6B,High
+30/10/19,16:00,43768874CHJ,64,Gynaecology,SI713V,Attended,30/10/19,0,1/11/19,2,GGYN,1,11:18:00,13:16:00,52,4A,Moderate
+30/10/19,15:30,43768256ENA,70,Urology ,SG702P,Attended,17/10/19,13,6/11/19,20,GURO,2,10:43:00,12:31:00,25,5C,Moderate
+30/10/19,14:30,43768273ZDG,42,Urology ,SG710K,Attended,15/5/19,168,19/8/19,96,GURO,2,14:29:00,16:19:00,16,6A,High
+30/10/19,17:00,43768749GIE,35,HRM,SB706H,Attended,30/10/19,0,7/11/19,8,GHND,1,16:22:00,17:04:00,0,5C,Low
+30/10/19,16:00,43768211AEZ,50,Urology ,SG800U,Attended,30/10/19,0,1/11/19,2,GURO,2,15:52:00,16:52:00,0,4A,Low
+31/10/19,16:00,43769769COZ,38,Gynaecology,SI808F,Attended,30/10/19,1,1/11/19,2,GGYN,1,08:15:00,09:49:00,12,4A,Moderate
+31/10/19,12:30,43769324ENI,55,Urology,SI801U,Attended,31/10/19,0,25/11/19,25,GURO,2,09:55:00,12:15:00,33,1A,Low
+31/10/19,SYSTEM DOWN,43769068JHC,51,Gynaecology,SI712U,Attended,22/10/19,9,4/11/19,13,GGYN,1,09:03:00,11:07:00,20,5A,Moderate
+31/10/19,10:30,43769618IED,79,Neurosurgery,SK814B,Attended,30/10/19,1,8/11/19,9,GNES,3,08:45:00,10:38:00,31,6B,High
+31/10/19,15:00,43769428ZRE,54,Orthop Surg,SB705W,Attended,30/10/19,1,4/11/19,5,GOTO,2,09:44:00,13:20:00,55,3C,Low
+31/10/19,15:30,43769936ZNB,46,Gynaecology,SI803U,Attended,30/10/19,1,1/11/19,2,GGYN,1,11:38:00,14:56:00,41,4A,Moderate
+31/10/19,11:30,43769320FNI,75,Orthop Surg,SB741S,Attended,31/10/19,0,15/11/19,15,GOTO,2,11:14:00,15:20:00,(blank),7A,Moderate
+31/10/19,09:30,43769657IGZ,49,VASCULAR SURG,SD712B,Attended,30/10/19,1,4/11/19,5,GS0V,#N/A,09:44:00,12:52:00,61,2A,Low
+31/10/19,13:30,43769793MMF,69,HPB,SF801G,Attended,9/10/19,22,7/11/19,29,GS0H,2,13:17:00,15:17:00,13,4A,Moderate
+31/10/19,14:30,43769438BWG,43,Gynaecology,SI812U,Attended,31/10/19,0,1/11/19,1,GGYN,1,12:02:00,16:06:00,22,5C,Moderate
+31/10/19,13:00,43769249QDE,35,Colorec Surg,SF832A,Attended,31/10/19,0,5/11/19,5,GCLR,1,12:45:00,16:05:00,8,3C,Low
+31/10/19,14:30,43769730BIH,76,Neurosurgery,SJ700P,Attended,31/10/19,0,5/11/19,5,GNES,2,11:33:00,15:23:00,26,7B,High
+31/10/19,13:30,43769595GGF,42,Plastic Surg,SA853S,Attended,31/10/19,0,4/11/19,4,GPLS,2,13:02:00,16:17:00,(blank),1A,Low
+1/11/19,SYSTEM DOWN,43770246BGI,67,Urology,SG727K,Attended,8/10/19,24,12/11/19,35,GURO,2,09:41:00,11:00:00,13,4A,Low
+1/11/19,SYSTEM DOWN,43770847FNZ,70,Urology,SH835P,Attended,16/10/19,16,12/11/19,27,GURO,3,08:43:00,12:57:00,0,2A,Low
+1/11/19,SYSTEM DOWN,43770436IME,64,Colorec Surg,SF800I,Attended,16/10/19,16,7/11/19,22,GCLR,2,10:06:00,12:10:00,15,3B,Low
+1/11/19,13:30,43770217ENI,71,Gynaecology,SI721U,Attended,31/10/19,1,5/11/19,5,GGYN,1,12:43:00,14:36:00,6,4B,Moderate
+1/11/19,SYSTEM DOWN,43770900GNG,47,Otolary,SM714N,Attended,11/10/19,21,21/10/19,10,GENT,1,09:39:00,11:43:00,9,2C,Low
+1/11/19,SYSTEM DOWN,43770599ZME,68,Orthop Surg,SB808S,Attended,22/10/19,10,11/11/19,20,GOTO,2,08:25:00,11:11:00,12,7C,Moderate
+1/11/19,11:00,43770128BIA,71,Colorec Surg,SF819A,Attended,24/10/19,8,5/11/19,12,GCLR,2,10:43:00,12:20:00,14,3B,Low
+1/11/19,SYSTEM DOWN,43770895FIB,51,Otolary,SF819M,Attended,21/10/19,11,15/11/19,25,GENT,1,14:15:00,16:58:00,7,2C,Low
+1/11/19,15:00,43770150GOA,86,H&N - SUR,SF814P,Attended,1/11/19,0,4/11/19,3,GS1H,3,13:27:00,16:10:00,52,5C,Moderate
+1/11/19,16:00,43770860FHH,61,HPB,SA852S,Attended,1/11/19,0,5/11/19,4,GS0H,3,15:49:00,17:44:00,34,1A,Low
+1/11/19,16:00,43770943IGJ,59,Urology,SF814A,Attended,12/7/19,112,13/11/19,124,GURO,2,15:45:00,17:33:00,18,3A,Moderate
+4/11/19,08:00,43773407ANF,45,Otolary,SM716L,Attended,1/11/19,3,5/11/19,4,GENT,1,08:19:00,10:37:00,38,1B,Low
+4/11/19,08:00,43773983ZTZ,70,HPB,SF801G,Attended,1/11/19,3,5/11/19,4,GS0H,2,08:00:00,09:25:00,21,4A,Moderate
+4/11/19,12:30,43773762BEG,54,HRM,SK807N,Attended,1/11/19,3,5/11/19,4,GHND,1,09:48:00,10:44:00,11,4A,Moderate
+4/11/19,14:30,43773883FIC,33,Orthop Surg,SB816S,Attended,31/10/19,4,8/11/19,8,GOTO,1,13:14:00,15:52:00,17,6A,Moderate
+4/11/19,13:30,43773646EGC,63,Orthop Surg,SB708S,Attended,4/11/19,0,7/11/19,3,GOTO,3,13:05:00,16:07:00,19,5B,Moderate
+4/11/19,14:30,43773216EEI,66,Urology,SG727K,Attended,30/9/19,35,19/11/19,50,GURO,2,13:27:00,16:20:00,18,4A,Low
+4/11/19,11:30,43773939GGF,59,Gen Surgery,SF808A,Attended,1/11/19,3,5/11/19,4,GSUR,2,10:50:00,12:20:00,(blank),3A,Moderate
+4/11/19,14:00,43773040FIB,51,Orthop Surg,SB700H,Attended,4/11/19,0,5/11/19,1,GOTO,2,08:00:00,16:37:00,(blank),4A,Low
+4/11/19,11:00,43773196HNB,39,Urology,SG800U,Attended,24/10/19,11,11/11/19,18,GURO,2,15:14:00,17:33:00,21,4A,Low
+4/11/19,,43773530CHH,68,Gastro,SF701D,Attended,1/11/19,3,7/11/19,6,GGAS,3,15:27:00,17:48:00,0,3C,Low
+4/11/19,16:00,43773005ZIZ,74,VASCULAR SURG,SD714V,Attended,4/11/19,0,11/11/19,7,GS0V,2,11:59:00,17:33:00,108,4A,Low
+5/11/19,09:00,43774635GRZ,63,Orthop Surg,SB810K,Attended,25/7/19,103,5/8/19,11,GOTO,2,09:34:00,10:53:00,28,6A,Moderate
+5/11/19,11:00,43774625G I,78,Orthop Surg,SB810K,Attended,4/11/19,1,12/11/19,8,GOTO,2,10:51:00,13:46:00,34,6A,Moderate
+5/11/19,12:00,43774341ENB,37,Obstetrics,SI820U,Attended,5/11/19,0,6/11/19,1,GGYN,1,10:49:00,13:21:00,33,2A,Low
+5/11/19,11:30,43774504JGI,90,Urology,SG709U,Attended,5/11/19,0,13/11/19,8,GURO,2,09:54:00,11:36:00,16,2C,Low
+5/11/19,14:00,43774082CRA,76,Orthop Surg,SB810K,Attended,8/10/19,28,6/11/19,29,GOTO,3,11:11:00,15:36:00,50,6A,Moderate
+5/11/19,11:00,43774457AGZ,76,Urology,SA702S,Attended,5/11/19,0,20/11/19,15,GURO,2,10:58:00,15:15:00,70,1B,Low
+5/11/19,14:30,43774679Z D,82,Colorec Surg,SF803C,Attended,4/11/19,1,8/11/19,4,GCLR,3,09:02:00,15:58:00,118,5C,Moderate
+5/11/19,12:30,43774674CYB,57,Orthop Surg,SB700A,Attended,5/11/19,0,6/11/19,1,GOTO,1,12:21:00,16:41:00,38,4A,Moderate
+5/11/19,14:00,43774428CDB,69,Orthop Surg,SB701C,Attended,5/11/19,0,7/11/19,2,GOTO,2,10:37:00,15:48:00,37,4A,Moderate
+5/11/19,12:00,43774217IOA,67,Urology,SH835P,Attended,5/11/19,0,7/11/19,2,GURO,2,12:11:00,15:05:00,26,2A,Low
+6/11/19,9:30,43775622ZDC,#N/A,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:36:00,10:03:00,12,No Code,#N/A
+6/11/19,16:00,43775959JEB,56,VASCULAR SUR,SD710V,Attended,1/11/19,5,19/11/19,18,GS0V,2,07:59:00,08:55:00,7,4A,Moderate
+6/11/19,15:30,43775174FGJ,38,Otolary,SM716L,Attended,21/9/19,46,12/11/19,52,GENT,1,10:19:00,12:08:00,12,1B,Low
+6/11/19,11:00,43775233HNB,43,Gastro,SF807E,Attended,5/11/19,1,7/11/19,2,GGAS,2,12:26:00,14:58:00,11,3A,Low
+6/11/19,11:00,43775351EKF,60,VASCULAR SUR,SA811S,Attended,16/11/19,-10,18/11/19,2,GS0V,3,09:45:00,15:47:00,156,2C,Low
+6/11/19,13:30,43775592JNI,70,HPB,SF808A,Attended,5/11/19,1,7/11/19,2,GS0H,2,12:52:00,16:07:00,33,3A,Moderate
+6/11/19,14:30,43775212JIC,25,Orthop Surg,SB700K,Attended,6/11/19,0,7/11/19,1,GOTO,2,11:48:00,16:13:00,24,5C,Low
+6/11/19,13:30,43775298GNF,42,Neurosurgery,SB832B,Attended,6/11/19,0,22/11/19,16,GNES,1,12:02:00,14:03:00,19,1B,Low
+6/11/19,11:30,43775597FND,#N/A,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,15:17:00,17:31:00,25,No Code,#N/A
+6/11/19,11:30,43775643GOZ,69,BREAST SURG,SA827B,Attended,1/11/19,5,8/11/19,7,GS0B,2,13:22:00,17:27:00,51,4C,Low
+7/11/19,14:30,43776372AIH,32,Obstetrics,SI834U,Attended,6/11/19,1,11/11/19,5,GOBS,1,08:58:00,10:06:00,28,4A,Moderate
+7/11/19,12:30,43776085ANF,35,Gynaecology,SI820U,Attended,31/10/19,7,8/11/19,8,GGYN,1,07:59:00,08:39:00,0,2A,Low
+7/11/19,11:00,43776792GGG,69,Orthop Surg,SB727F,Attended,16/10/19,22,21/11/19,36,GOTO,2,09:27:00,11:26:00,12,5C,Low
+7/11/19,15:30,43776457ZME,55,Gastro,SF708B,Attended,5/11/19,2,14/11/19,9,GGAS,#N/A,10:16:00,12:30:00,13,3C,Low
+7/11/19,11:30,43776874DND,90,GI/BAEIATRIC,SF819A,Attended,7/11/19,0,12/11/19,5,GS0G,3,11:04:00,13:18:00,47,3B,Low
+7/11/19,12:00,43776322ZIZ,47,HRM,SB707W,Attended,6/11/19,1,14/11/19,8,GHND,2,11:35:00,14:25:00,24,4C,Moderate
+7/11/19,12:30,43776221EHG,#N/A,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:17:00,15:18:00,51,No Code,#N/A
+7/11/19,12:00,43776124ADB,66,Orthop Surg,SB810K,Attended,7/11/19,0,11/11/19,4,GOTO,2,13:11:00,15:35:00,22,6A,Moderate
+7/11/19,15:30,43776970ZIH,79,Colorec Surg,SF823A,Attended,7/11/19,0,13/11/19,6,GCLR,2,12:47:00,14:56:00,(blank),4A,Moderate
+7/11/19,15:00,43776490JEZ,#N/A,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,15:23:00,17:53:00,42,No Code,#N/A
+8/11/19,14:30,43777653ENF,78,GI/BARIATRIC,SF823A,Attended,7/11/19,1,13/11/19,6,GS0G,2,08:59:00,15:26:00,54,4A,Moderate
+8/11/19,14:30,43777180AIB,#N/A,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:01:00,14:49:00,27,No Code,#N/A
+8/11/19,15:00,43777892AGC,56,Gynaecology,SI725U,Attended,8/11/19,0,12/11/19,4,GGYN,1,14:14:00,15:55:00,13,2B,Low
+8/11/19,11:00,43777444JND,55,Orthop Surg,SB712K,Attended,8/11/19,0,11/11/19,3,GOTO,1,14:41:00,16:31:00,17,5C,Low
+8/11/19,15:30,43777117GNF,#N/A,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,09:32:00,15:13:00,108,No Code,#N/A
+8/11/19,15:30,43777118IIB,33,Orthop Surg,SB815J,Attended,19/9/19,50,12/11/19,54,GOTO,1,14:46:00,15:56:00,36,1C,Low
+8/11/19,13:00,43777565ZBE,63,Orthop Surg,SB807L,Attended,8/11/19,0,11/11/19,3,GOTO,2,12:15:00,15:32:00,38,4B,Moderate
+8/11/19,13:00,43777370HNG,56,HPB,SF801G,Attended,8/11/19,0,12/11/19,4,GS0H,2,12:41:00,15:35:00,0,4A,Moderate
+8/11/19,15:00,43777337JUF,77,Gen Surgery,SM700L,Attended,7/11/19,1,13/11/19,6,GSUR,2,14:03:00,17:09:00,81,3A,Low
+8/11/19,15:00,43777407GID,52,GI/BARIATRIC,SF814A,Attended,8/11/19,0,12/11/19,4,GS0G,1,15:08:00,16:25:00,9,3A,Moderate
+8/11/19,13:00,43777149DMA,49,Orthop Surg,SB806B,Attended,16/11/19,-8,18/11/19,2,GOTO,2,12:26:00,17:00:00,(blank),4A,Low
+11/11/19,10:30,43780141ZGC,63,Gen Surgery,SF822M,Attended,23/10/19,19,20/11/19,28,GSUR,2,08:00:00,10:01:00,34,7C,High
+11/11/19,,43780792JIH,75,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,No Code,#N/A
+11/11/19,8:00,43780088HNJ,37,Urology,SH802S,Attended,17/10/19,25,13/11/19,27,GURO,1,08:12:00,08:51:00,0,2B,Low
+11/11/19,12:00,43780405ANG,57,Neurosurgery,SK708B,Attended,8/11/19,3,13/11/19,5,GNES,3,12:02:00,16:10:00,67,7A,High
+11/11/19,13:00,43780252GRF,30,Gynaecology,SI820U,Attended,11/11/19,0,12/11/19,1,GGYN,1,10:52:00,14:27:00,19,2A,Low
+11/11/19,12:00,43780789IEH,70,Orthop Surg,SB810K,Attended,11/11/19,0,20/11/19,9,GOTO,2,12:25:00,15:43:00,(blank),6A,Moderate
+11/11/19,13:30,43780646FND,45,Gynaecology,SI725U,Attended,8/11/19,3,22/11/19,14,GGYN,1,13:33:00,17:04:00,26,2B,Low
+11/11/19,11:30,43780469AGF,55,Gynaecology,SI725U,Attended,8/11/19,3,19/11/19,11,GGYN,1,07:59:00,09:13:00,25,2B,Low
+11/11/19,16:30,43780539BNH,70,HRM,SB706W,Attended,11/11/19,0,15/11/19,4,GHND,2,16:02:00,18:04:00,43,4C,Moderate
+11/11/19,13:00,43780012HLJ,37,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,#N/A,#N/A,#N/A,No Code,#N/A
+12/11/19,8:00,43781722BGI,69,Orthop Surg,SB801R,Attended,11/11/19,1,13/11/19,2,GOTO,2,08:46:00,10:16:00,35,4B,Moderate
+12/11/19,12:00,43781093GNJ,42,Gynaecology,SI806C,Attended,11/11/19,1,21/11/19,10,GGYN,1,08:14:00,09:17:00,22,1B,Low
+12/11/19,12:30,43781739BGZ,66,HPB,SF812L,Attended,11/11/19,1,14/11/19,3,GS0H,1,08:43:00,10:33:00,27,6B,High
+12/11/19,14:00,43781232HFD,31,Otolary,SM705T,Attended,12/11/19,0,13/11/19,1,GENT,1,11:53:00,12:55:00,9,3B,Low
+12/11/19,14:00,43781304IPB,64,Orthop Surg,SB710K,Attended,23/9/19,50,13/11/19,51,GOTO,2,11:08:00,15:45:00,106,6A,Low
+12/11/19,15:00,43781248CGH,66,Gynaecology,SB810K,Attended,11/11/19,1,14/11/19,3,GOTO,1,12:43:00,16:17:00,24,6A,Moderate
+12/11/19,14:30,43781549IGH,60,Orthop Surg,SB722F,Attended,12/11/19,0,14/11/19,2,GOTO,1,13:41:00,15:38:00,27,3B,Low
+12/11/19,14:30,43781559TAG,31,Orthop Surg,SB706S,Attended,13/11/19,-1,14/11/19,1,GOTO,1,#N/A,#N/A,#N/A,5C,Moderate
+12/11/19,13:30,43781654HND,63,GI/BARIATRIC,SF710S,Attended,4/11/19,8,2/12/19,28,GS0G,2,13:30:00,14:33:00,(blank),6B,High
+13/11/19,14:00,43782539FHD,75,Orthop Surg,SA721S,Attended,12/11/19,1,15/11/19,3,GOTO,1,09:30:00,11:38:00,68,4A,Low
+13/11/19,14:30,43782222DGD,#N/A,HPB,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,10:20:00,11:42:00,18,No Code,#N/A
+13/11/19,15:00,43782666DNF,80,HPB,SF813L,Attended,13/11/19,0,22/11/19,9,GS0H,2,10:25:00,14:07:00,26,5C,High
+13/11/19,16:00,43782551AED,51,Colorec Surg,SF702C,Attended,13/11/19,0,19/11/19,6,GCLR,2,11:45:00,14:42:00,21,2C,Low
+13/11/19,13:30,43782056CNB,72,Orthop Surg,SB716K,Attended,13/11/19,0,18/11/19,5,GOTO,2,11:46:00,14:19:00,(blank),6B,Moderate
+13/11/19,13:00,43782439HHC,63,Neurology,SK708B,Attended,13/11/19,0,18/11/19,5,GNES,2,11:00:00,15:22:00,34,7A,High
+13/11/19,13:30,43782143FTG,57,HPB,SF801G,Attended,13/11/19,0,19/11/19,6,GS0H,2,12:22:00,15:57:00,86,4A,Moderate
+13/11/19,12:00,43782816GGH,35,Orthop Surg,SB723S,Attended,13/11/19,0,15/11/19,2,GOTO,1,11:42:00,13:16:00,(blank),5C,Low
+13/11/19,13:30,43782597AEB,41,Gynaecology,SI803U,Attended,12/11/19,1,15/11/19,3,GGYN,1,14:03:00,15:36:00,14,4A,Moderate
+13/11/19,13:30,43782116DNE,70,Orthop Surg,SB729S,Attended,13/11/19,0,18/11/19,5,GOTO,2,12:51:00,15:36:00,23,7B,Moderate
+13/11/19,15:30,43782194IEF,47,Gynaecology,SI803U,Attended,13/11/19,0,15/11/19,2,GGYN,1,15:06:00,17:10:00,21,4A,Moderate
+13/11/19,15:30,43782086HAJ,47,HRM,SB706W,Attended,13/11/19,0,15/11/19,2,GHND,2,16:20:00,17:01:00,(blank),4C,Moderate
+13/11/19,12:00,43782565GGC,64,Orthop Surg,SB810F,Attended,21/11/19,-8,22/11/19,1,GOTO,2,09:19:00,12:56:00,(blank),5A,Moderate
+14/11/19,16:00,43783122GNA,68,Colorectal,SF829A,Attended,14/11/19,0,21/11/19,7,GCLR,2,10:09:00,13:48:00,14,4A,Moderate
+14/11/19,11:30,43783409JNG,71,Gen Surgery,SE800L,Attended,13/11/19,1,21/11/19,8,GSUR,#N/A,11:08:00,14:09:00,24,3A,Low
+14/11/19,15:30,43783468FEJ,58,Otolary,SM700L,Attended,14/11/19,0,20/11/19,6,GENT,2,12:25:00,14:52:00,23,3A,Low
+14/11/19,15:00,43783544BEI,64,Orthop Surg,SB834B,Attended,14/11/19,0,15/11/19,1,GOTO,2,14:12:00,16:15:00,10,2A,Low
+14/11/19,12:00,43783093IEH,69,VASCULAR,SD714V,Attended,14/11/19,0,18/11/19,4,GS0V,2,08:33:00,12:56:00,20,4A,Low
+14/11/19,15:30,43783972CNH,72,Orthop Surg,SB701E,Attended,13/11/19,1,19/11/19,6,GOTO,2,13:46:00,16:06:00,22,4B,Moderate
+14/11/19,15:00,43783154BRE,60,Orthop Surg,SB710S,Attended,1/11/19,13,5/12/19,34,GOTO,2,12:08:00,15:49:00,66,5B,Moderate
+14/11/19,16:00,43783719BMJ,22,Gynaecology,SI820U,Attended,14/11/19,0,19/11/19,5,GGYN,1,#N/A,#N/A,#N/A,2A,Low
+14/11/19,13:30,43783639Q F,30,HRM,SA811S,Attended,12/11/19,2,15/11/19,3,GHND,1,15:55:00,17:16:00,(blank),2C,Low
+14/11/19,09:30,43783920DKH,67,Orthop Surg,SB810K,Attended,4/9/19,71,29/11/19,86,GOTO,2,#N/A,#N/A,#N/A,6A,Moderate
+15/11/19,11:00,43784409ENB,70,Orthop Surg,SB809K,Attended,11/11/19,4,18/11/19,7,GOTO,1,08:09:00,10:19:00,32,7B,Moderate
+15/11/19,11:30,43784505IMF,66,Orthop Surg,SB714S,Attended,14/11/19,1,11/12/19,27,GOTO,2,08:29:00,10:55:00,9,6B,Moderate
+15/11/19,12:30,43784186IMF,60,Gen Surg,SA712B,Attended,11/11/19,4,28/11/19,17,GSUR,2,08:54:00,11:11:00,27,3A,Low
+15/11/19,11:00,43784061Z G,32,Orthop Surg,SB715K,Attended,14/11/19,1,18/11/19,4,GOTO,1,08:22:00,10:15:00,10,5A,Low
+15/11/19,11:00,43784464JGC,59,Urology,SH835P,Attended,14/11/19,1,19/11/19,5,GURO,2,10:53:00,13:06:00,9,2A,Low
+15/11/19,12:00,43784932JDC,58,HRM,SB710H,Attended,15/11/19,0,18/11/19,3,GHND,#N/A,11:45:00,14:24:00,11,3B,Low
+15/11/19,12:00,43784570CNC,28,Orthop Surg,SB715K,Attended,15/11/19,0,19/11/19,4,GOTO,1,11:11:00,12:43:00,9,5A,Low
+15/11/19,12:30,43784992GMA,36,Gynaecology,SI807U,Attended,15/11/19,0,19/11/19,4,GGYN,1,08:25:00,13:50:00,7,MSP,Low
+15/11/19,11:30,43784675ZAF,70,Orthop Surg,SB804L,Attended,14/11/19,1,19/11/19,5,GOTO,2,11:37:00,14:04:00,12,1B,Low
+15/11/19,10:30,43784064C I,71,Urology,SH835P,Attended,15/11/19,0,29/11/19,14,GURO,2,11:51:00,15:24:00,15,2A,Low
+15/11/19,13:30,43784530IEJ,47,Orthop Surg,SB803C,Attended,15/11/19,0,20/11/19,5,GOTO,2,12:13:00,14:49:00,20,6A,Moderate
+15/11/19,13:30,43784334DGB,57,Orthop Surg,SB700A,Attended,15/11/19,0,18/11/19,3,GOTO,1,08:37:00,15:08:00,(blank),4A,Moderate
+15/11/19,16:00,43784604AMH,65,HPB,SF815L,Attended,8/11/19,7,2/12/19,24,GS0H,3,#N/A,#N/A,#N/A,4C,Moderate
+18/11/19,11:00,43787065JNC,#N/A,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:08:00,13:13:00,23,No Code,#N/A
+18/11/19,9:30,43787648BGC,72,Orthop Surg,SB810K,Attended,12/11/19,6,29/11/19,17,GOTO,2,09:08:00,11:31:00,39,6A,Moderate
+18/11/19,10:00,43787216JNF,80,VASCULAR SUR,SB708T,Attended,15/11/19,3,20/11/19,5,GS0V,2,09:42:00,12:23:00,43,1C,Low
+18/11/19,11:30,43787106JGE,28,Gynaecology,SI708U,Attended,18/11/19,0,21/11/19,3,GGYN,1,08:35:00,13:26:00,21,5A,Moderate
+18/11/19,11:30,43787353UPZ,31,Obstetrics,SI834U,Attended,18/11/19,0,19/11/19,1,GOBS,1,08:55:00,13:22:00,18,4A,Moderate
+18/11/19,10:30,43787423GND,72,Urology,SG702P,Attended,15/11/19,3,19/11/19,4,GURO,2,07:59:00,09:12:00,12,5C,Moderate
+18/11/19,11:30,43787081FWE,#N/A,Colorec Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,11:04:00,14:40:00,35,No Code,#N/A
+18/11/19,8:00,43787047CGC,59,Gen Surgery,SA827B,Attended,15/11/19,3,21/11/19,6,GSUR,2,08:01:00,10:47:00,26,4C,Low
+18/11/19,9:00,43787017DLA,28,Obstetrics,SI834U,Attended,16/11/19,2,19/11/19,3,GOBS,1,12:25:00,15:12:00,28,4A,Moderate
+18/11/19,13:00,43787569EGJ,64,Orthop Surg,SB706W,Attended,18/11/19,0,20/11/19,2,GOTO,2,12:51:00,15:17:00,(blank),4C,Moderate
+18/11/19,11:00,43787930W B,52,HPB,SF814A,Attended,18/11/19,0,19/11/19,1,GS0H,2,10:50:00,14:25:00,25,3A,Moderate
+18/11/19,,43787365ZTE,39,Gastro,SF807E,Attended,31/10/19,18,19/11/19,19,GGAS,2,16:20:00,17:30:00,13,3A,Low
+18/11/19,11:00,43787500ZNF,45,GI/ BARIATRIC,SF701I,Attended,1/11/19,17,25/11/19,24,GS0G,1,11:52:00,13:58:00,33,1B,Low
+18/11/19,15:30,43787185EEA,65,VASCULAR SUR,SD721A,Attended,18/11/19,0,27/11/19,9,GS0V,3,16:02:00,17:05:00,13,3A,Low
+18/11/19,10:00,43787606DNC,78,Orthop Surg,SB716K,Attended,16/10/19,33,22/11/19,37,GOTO,2,#N/A,#N/A,#N/A,6B,Moderate
+19/11/19,10:30,43788829EIB,18,Orthop Surg,SB801R,Attended,19/11/19,0,20/11/19,1,GOTO,1,09:39:00,11:28:00,21,4B,Moderate
+19/11/19,10:00,43788542DNA,80,Orthop Surg,SB839H,Attended,18/11/19,1,21/11/19,3,GOTO,1,09:45:00,15:30:00,26,6A,Moderate
+19/11/19,13:00,43788775ANH,51,Otolary,SJ802T,Attended,18/11/19,1,25/11/19,7,GENT,2,13:21:00,15:30:00,36,4A,Moderate
+19/11/19,14:00,43788889CDC,63,VASCULAR SUR,SA853S,Attended,19/11/19,0,20/11/19,1,GS0V,3,13:20:00,15:16:00,27,1A,Low
+19/11/19,15:30,43788645DGE,53,HRM,SB707W,Attended,19/11/19,0,22/11/19,3,GHND,2,13:53:00,16:22:00,21,4C,Moderate
+19/11/19,11:00,43788263HYI,76,Urology,SH835P,Attended,18/11/19,1,20/11/19,2,GURO,2,14:05:00,16:28:00,27,2A,Low
+19/11/19,16:00,43788538JNG,50,Plastic Surg,SA819B,Attended,19/11/19,0,28/11/19,9,GPLS,1,14:49:00,17:15:00,54,7C,Moderate
+19/11/19,16:30,43788476ZOE,29,Obstetrics,SI834U,Attended,19/11/19,0,22/11/19,3,GOBS,1,14:15:00,17:01:00,17,4A,Moderate
+19/11/19,16:30,43788245ZEF,66,HPB,SF813L,Attended,19/11/19,0,28/11/19,9,GS0H,1,15:13:00,17:01:00,40,5C,High
+19/11/19,16:30,43788710EAA,54,Orthop Surg,SB706W,Attended,19/11/19,0,20/11/19,1,GOTO,1,15:18:00,16:56:00,16,4C,Moderate
+19/11/19,16:00,43788006EOA,74,Orthop Surg,SB810K,Attended,19/11/19,0,17/12/19,28,GOTO,2,14:33:00,17:39:00,40,6A,Moderate
+20/11/19,16:00,43789722BGA,69,Orthop Surg,SB706W,Attended,19/11/19,1,21/11/19,2,GOTO,2,08:53:00,10:07:00,30,4C,Moderate
+20/11/19,13:30,43789448BMB,62,VASCULAR SUR,SA811S,Attended,20/11/19,0,22/11/19,2,GS0V,2,09:08:00,14:06:00,31,2C,Low
+20/11/19,14:30,43789794IUZ,41,Gynaecology,SI725U,Attended,20/11/19,0,2/12/19,12,GGYN,2,08:04:00,14:45:00,72,2B,Low
+20/11/19,11:00,43789177G G,64,Orthop Surg,SB810K,Attended,20/11/19,0,21/11/19,1,GOTO,2,11:05:00,12:25:00,(blank),6A,Moderate
+20/11/19,12:30,43789566XAG,46,Orthop Surg,SA811S,Attended,20/11/19,0,21/11/19,1,GOTO,1,11:55:00,14:37:00,11,2C,Low
+20/11/19,15:00,43789525GYE,51,Otolary,SM829E,Attended,10/7/19,133,5/12/19,148,GENT,1,10:57:00,15:46:00,12,4A,Low
+20/11/19,14:00,43789987GNI,52,Gen Surgery,SA811S,Attended,20/11/19,0,22/11/19,2,GSUR,2,15:01:00,16:14:00,11,2C,Low
+20/11/19,12:00,43789314ZDB,75,HPB,SF708G,Attended,20/11/19,0,22/11/19,2,GS0H,2,14:52:00,17:26:00,42,7A,High
+21/11/19,14:30,43790630ZMD,77,HPB,SF823A,Attended,15/11/19,6,5/12/19,20,GS0H,2,09:23:00,12:00:00,30,4A,Moderate
+21/11/19,14:30,43790305ENZ,56,Colorectal,SF832A,Attended,21/11/19,0,25/11/19,4,GCLR,2,10:02:00,13:13:00,57,3C,Low
+21/11/19,14:30,43790403ZYC,70,Orthop Surg,SB810K,Attended,21/11/19,0,25/11/19,4,GOTO,2,#N/A,#N/A,#N/A,6A,Moderate
+21/11/19,15:00,43790346HNH,41,Gynaecology,SI704C,Attended,21/11/19,0,25/11/19,4,GGYN,1,11:22:00,13:32:00,16,2B,Low
+21/11/19,15:30,43790919AGI,52,Gynaecology,SI712U,Attended,20/11/19,1,26/11/19,6,GGYN,1,07:59:00,09:56:00,60,5A,Moderate
+21/11/19,15:30,43790241GIZ,27,Gynaecology,SI802O,Attended,18/11/19,3,29/11/19,11,GGYN,1,08:37:00,10:13:00,13,4A,Moderate
+21/11/19,12:30,43790097RNC,56,GI/BARITATRIC,SF823A,Attended,21/11/19,0,26/11/19,5,GS0G,2,11:44:00,15:23:00,31,4A,Moderate
+21/11/19,16:00,43790294ZNH,33,Gynaecology,SI820U,Attended,21/11/19,0,26/11/19,5,GGYN,1,11:15:00,15:54:00,7,2A,Low
+21/11/19,15:30,43790930ZNG,41,Otolary,SM823E,Attended,21/11/19,0,22/11/19,1,GENT,1,15:44:00,16:29:00,6,2B,Low
+21/11/19,16:00,43790620ENC,76,Urology,SG800U,Attended,21/11/19,0,25/11/19,4,GURO,2,14:39:00,17:51:00,91,4A,Low
+22/11/19,11:30,43791139EEZ,69,BREAST SURG,SA824B,Attended,21/11/19,1,25/11/19,4,GS0B,2,09:06:00,10:31:00,12,5A,Low
+22/11/19,12:30,43791795ZMA,72,Orthop Surg,SB839H,Attended,22/11/19,0,26/11/19,4,GOTO,1,09:49:00,11:56:00,19,6A,Moderate
+22/11/19,13:30,43791192IGJ,73,HPB,SF819A,Attended,22/11/19,0,10/12/19,18,GS0H,2,10:16:00,13:35:00,55,3B,Low
+22/11/19,16:00,43791627ZNG,72,Colorec Surg,SF800I,Attended,22/11/19,0,27/11/19,5,GCLR,2,09:57:00,13:34:00,28,3B,Low
+22/11/19,14:00,43791540GGF,56,GI/BARIATRIC,SF819A,Attended,22/11/19,0,27/11/19,5,GS0G,1,10:44:00,13:40:00,8,3B,Low
+22/11/19,11:30,43791615ZNB,53,Orthop Surg,SB810K,Attended,22/11/19,0,27/11/19,5,GOTO,1,10:54:00,14:29:00,14,6A,Moderate
+22/11/19,11:00,43791676BGC,69,Orthop Surg,SB810K,Attended,22/11/19,0,25/11/19,3,GOTO,2,10:26:00,15:13:00,39,6A,Moderate
+22/11/19,12:00,43791390INF,23,Orthop Surg,SB701K,Attended,22/11/19,0,26/11/19,4,GOTO,1,11:18:00,14:19:00,7,5C,Low
+22/11/19,14:30,43791181JEB,59,Orthop Surg,SB712K,Attended,22/11/19,0,26/11/19,4,GOTO,2,11:36:00,15:07:00,41,5C,Low
+22/11/19,13:30,43791412HNE,67,VASCULAR SUR,SA853S,Attended,2/12/19,-10,3/12/19,1,GS0V,3,13:45:00,14:50:00,8,1A,Low
+22/11/19,14:00,43791164JED,62,Urology,SG702P,Attended,22/11/19,0,22/11/19,0,GURO,2,13:01:00,15:40:00,24,5C,Moderate
+22/11/19,13:00,43791018EEE,72,Urology,SG714B,Attended,21/11/19,1,2/12/19,11,GURO,2,12:54:00,16:13:00,90,4A,Moderate
+22/11/19,15:30,43791687DNG,#N/A,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,15:43:00,17:28:00,43,No Code,#N/A
+25/11/19,14:30,43794858JGH,56,Colorec Surg,SF805R,Attended,25/11/19,0,29/11/19,4,GCLR,2,11:02:00,13:39:00,43,6C,High
+25/11/19,16:00,43794544ZWI,#N/A,Urology,SG726K,No Show,25/10/19,31,2/12/19,38,GURO,2,15:55:00,16:19:00,(blank),2C,Low
+25/11/19,14:30,43794216EEC,76,VASCULAR SUR,SD712B,Attended,25/11/19,0,27/11/19,2,GS0V,2,08:35:00,12:26:00,27,2A,Low
+25/11/19,16:00,43794906FHC,51,Gen Surgery,SA852S,Attended,22/11/19,3,27/11/19,5,GSUR,2,10:39:00,12:58:00,39,1A,Low
+25/11/19,11:30,43794327ENI,66,GI/BARIATRIC,SF701I,Attended,22/11/19,3,26/11/19,4,GS0G,#N/A,11:54:00,13:50:00,13,1B,Low
+25/11/19,11:00,43794879BYC,62,VASCULAR SUR,SD720A,Attended,25/11/19,0,29/11/19,4,GS0V,3,09:01:00,14:03:00,33,4A,Moderate
+25/11/19,16:30,43794178IYA,#N/A,Orthop Surg,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:59:00,14:57:00,32,No Code,#N/A
+25/11/19,12:30,43794911ANZ,#N/A,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:51:00,14:46:00,30,No Code,#N/A
+25/11/19,16:30,43794192AND,69,HRM,SB704H,Attended,25/11/19,0,29/11/19,4,GHND,2,12:29:00,15:24:00,18,3C,Low
+25/11/19,16:30,43794237ZHB,56,Otolary,SM711L,Attended,25/11/19,0,27/11/19,2,GENT,2,14:29:00,16:13:00,56,2C,Low
+25/11/19,14:30,43794530CNA,19,Urology,SG800U,Attended,25/11/19,0,26/11/19,1,GURO,2,14:22:00,15:55:00,38,4A,Low
+25/11/19,15:30,43794354DNA,29,Orthop Surg,SB701K,Attended,25/11/19,0,29/11/19,4,GOTO,1,08:49:00,12:40:00,25,5C,Low
+25/11/19,15:30,43794227DTA,70,Urology,SG702P,Attended,22/11/19,3,4/12/19,12,GURO,1,14:29:00,16:50:00,36,5C,Moderate
+25/11/19,16:00,43794950EHI,90,Gen Surgery,SB841M,Attended,22/11/19,3,28/11/19,6,GSUR,2,14:48:00,16:32:00,35,5C,Moderate
+25/11/19,16:30,43794796DNA,38,Gynaecology,SI725U,Attended,25/11/19,0,28/11/19,3,GGYN,1,16:13:00,17:01:00,10,2B,Low
+25/11/19,15:30,43794010EOJ,72,Urology,SH808P,Attended,22/11/19,3,28/11/19,6,GURO,2,15:22:00,16:50:00,23,1B,Low
+25/11/19,16:30,43794006CEI,61,HPB,SA851S,Attended,25/11/19,0,28/11/19,3,GS0H,2,12:49:00,15:19:00,(blank),1B,Low
+26/11/19,09:30,43795001BYC,54,Orthop Surg,SB715K,Attended,25/11/19,1,3/12/19,8,GOTO,2,09:22:00,11:33:00,26,5A,Low
+26/11/19,11:00,43795162EGA,59,Urology,SG709K,Attended,26/11/19,0,29/11/19,3,GURO,2,10:17:00,12:34:00,43,4C,Moderate
+26/11/19,13:00,43795438BED,40,Gynaecology,SI820U,Attended,26/11/19,0,27/11/19,1,GGYN,1,07:54:00,14:11:00,10,2A,Low
+26/11/19,12:30,43795492QYC,59,Gynaecology,SI725U,Attended,22/11/19,4,28/11/19,6,GGYN,1,08:55:00,11:25:00,15,2B,Low
+26/11/19,14:30,43795360MYC,44,HPB,SF813L,Attended,22/11/19,4,29/11/19,7,GS0H,2,12:05:00,13:25:00,(blank),5C,High
+26/11/19,14:00,43795774DIF,68,HRM,SA811S,Attended,26/11/19,0,28/11/19,2,GHND,2,11:46:00,15:29:00,42,2C,Low
+26/11/19,13:00,43795257DED,72,VASCULAR SUR,SD720A,Attended,26/11/19,0,4/12/19,8,GS0V,2,11:26:00,16:43:00,101,4A,Moderate
+26/11/19,16:00,43795519DNF,41,Gynaecology,SI803U,Attended,19/11/19,7,28/11/19,9,GGYN,1,14:40:00,16:53:00,33,4A,Moderate
+26/11/19,16:00,43795761BMC,63,Urology,SG702P,Attended,25/11/19,1,3/12/19,8,GURO,2,15:43:00,17:14:00,31,5C,Moderate
+26/11/19,14:30,43795814BMA,78,VASCULAR SUR,SD720A,Attended,19/11/19,7,29/11/19,10,GS0V,#N/A,#N/A,#N/A,#N/A,4A,Moderate
+27/11/19,11:00,43796991JGC,67,Orthop Surg,SB722S,Attended,26/11/19,1,4/12/19,8,GOTO,2,09:01:00,12:10:00,28,6A,Low
+27/11/19,10:30,43796918FNA,62,Gastro ,SF708B,Attended,27/11/19,0,28/11/19,1,GGAS,2,#N/A,#N/A,#N/A,3C,Low
+27/11/19,11:30,43796029FHG,63,Orthop Surg,SB706W,Attended,27/11/19,0,29/11/19,2,GOTO,2,#N/A,#N/A,#N/A,4C,Moderate
+27/11/19,13:30,43796644ZED,62,BREAST SURG,SA822B,Attended,26/11/19,1,5/12/19,9,GS0B,2,10:12:00,12:04:00,20,3B,Low
+27/11/19,14:00,43796545CNI,65,BREAST SURG,SA824B,Attended,26/11/19,1,4/12/19,8,GS0B,2,11:42:00,13:48:00,30,5A,Low
+27/11/19,16:00,43796180DGG,57,Neurosurgery,SA847S,Attended,27/11/19,0,10/12/19,13,GNES,1,11:39:00,14:55:00,16,3A,Low
+27/11/19,14:30,43796220ZGI,80,HPB,SF801G,Attended,26/11/19,1,5/12/19,9,GS0H,1,13:55:00,15:53:00,33,4A,Moderate
+27/11/19,14:30,43796501CNE,66,Gastro ,SF708B,Attended,27/11/19,0,5/12/19,8,GGAS,2,11:59:00,14:24:00,63,3C,Low
+27/11/19,15:30,43796588HIA,19,Gynaecology,SI820U,Attended,27/11/19,0,2/12/19,5,GGYN,1,11:34:00,16:33:00,24,2A,Low
+27/11/19,15:00,43796707AKI,50,Gen Surgery,SA822B,Attended,27/11/19,0,4/12/19,7,GSUR,#N/A,13:02:00,14:26:00,20,3B,Low
+27/11/19,14:00,43796333JNH,77,Colorec Surg,SF809A,Attended,26/11/19,1,29/11/19,3,GCLR,2,13:14:00,18:13:00,0,4A,Moderate
+27/11/19,14:30,43796154GIF,54,VASCULAR SUR,SD713B,Attended,26/11/19,1,29/11/19,3,GS0V,3,14:57:00,16:36:00,28,2A,Low
+27/11/19,16:00,43796604ZGE,68,HPB,SF812L,Attended,27/11/19,0,5/12/19,8,GS0H,2,15:36:00,16:43:00,17,6B,High
+27/11/19,15:30,43796215ZBF,42,Neurosurgery,SB733S,Attended,27/11/19,0,2/12/19,5,GNES,1,11:08:00,15:18:00,20,7A,Moderate
+28/11/19,10:00,43797208EYZ,29,Geriatric Me,SF816T,Attended,27/11/19,1,29/11/19,2,GDEN,2,10:03:00,11:29:00,33,2C,Low
+28/11/19,10:00,43797669H C,78,Orthop Surg,SB802C,Attended,27/11/19,1,5/12/19,8,GOTO,2,10:27:00,13:48:00,22,6B,Moderate
+28/11/19,15:30,43797645CGZ,50,Otolary,SM700L,Attended,28/11/19,0,29/11/19,1,GENT,2,12:02:00,14:46:00,19,3A,Low
+28/11/19,15:00,43797115ZIF,70,Orthop Surg,SB802C,Attended,28/11/19,0,2/12/19,4,GOTO,2,#N/A,#N/A,#N/A,6B,Moderate
+28/11/19,16:00,43797754HEF,24,HPB,SF801G,Attended,28/11/19,0,12/12/19,14,GS0H,2,12:55:00,14:01:00,10,4A,Moderate
+28/11/19,13:30,43797175GNA,64,BREAST SURG,SA827B,Attended,28/11/19,0,2/12/19,4,GS0B,2,13:02:00,14:59:00,18,4C,Low
+28/11/19,16:00,43797575JHF,63,Gynaecology,SI701O,Attended,28/11/19,0,2/12/19,4,GGYN,1,14:12:00,16:14:00,16,3C,Moderate
+28/11/19,15:30,43797669HII,69,Gynaecology,SI725U,Attended,19/11/19,9,19/12/19,30,GGYN,2,15:05:00,16:43:00,33,2B,Low
+28/11/19,16:00,43797583CKA,70,Urology,SG700K,Attended,28/11/19,0,4/12/19,6,GURO,2,15:43:00,17:12:00,0,6A,Moderate
+28/11/19,16:30,43797702HDC,23,Obstetrics,SI834U,Attended,15/11/19,13,2/12/19,17,GOBS,1,14:38:00,17:36:00,47,4A,Moderate
+29/11/19,09:00,43798788HOC,#N/A,BREAST SURG,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,09:05:00,10:37:00,30,No Code,#N/A
+29/11/19,08:00,43798012CME,43,Orthop Surg,SB715K,Attended,28/11/19,1,30/11/19,2,GOTO,1,08:01:00,09:20:00,12,5A,Low
+29/11/19,12:30,43798879HMJ,75,Orthop Surg,SB715F,Attended,29/11/19,0,2/12/19,3,GOTO,2,12:40:00,15:19:00,32,4A,Low
+29/11/19,10:00,43798855CNH,60,Orthop Surg,SA715S,Attended,28/11/19,1,2/12/19,4,GOTO,2,09:12:00,10:56:00,12,2C,Low
+29/11/19,11:30,43798349CHF,77,Urology,SG700U,Attended,24/9/19,66,12/12/19,79,GURO,2,10:20:00,12:50:00,16,2C,Low
+29/11/19,11:00,43798300JSJ,16,Orthop Surg,SB706K,Attended,2/12/19,-3,3/12/19,1,GOTO,1,10:59:00,14:20:00,31,6A,Low
+29/11/19,16:00,43798109JGF,68,Orthop Surg,SB810K,Attended,29/11/19,0,4/12/19,5,GOTO,2,#N/A,#N/A,#N/A,6A,Moderate
+29/11/19,13:30,43798495BII,39,BREAST SURG,SA711B,Attended,29/11/19,0,11/12/19,12,GS0B,1,13:02:00,14:50:00,21,3B,Low
+29/11/19,15:30,43798512IID,13,Colorec Surg,SF713C,Attended,29/11/19,0,4/12/19,5,GCLR,1,11:22:00,14:31:00,13,6C,High
+29/11/19,16:00,43798170FGF,58,Gen Surgery,SA707B,Attended,28/11/19,1,4/12/19,6,GSUR,2,14:42:00,16:19:00,28,3C,Low
+29/11/19,14;30,43798190EUH,67,Orthop Surg,SB839H,Attended,3/7/19,149,25/10/19,114,GOTO,2,14:39:00,16:48:00,25,6A,Moderate
+29/11/19,15:30,43798495CKA,60,VASCULAR SUR,SD710V,Attended,22/11/19,7,3/12/19,11,GS0V,2,14:37:00,17:54:00,61,4A,Moderate
+29/11/19,16:30,43798911GEF,68,Orthop Surg,SB701C,Attended,29/11/19,0,2/12/19,3,GOTO,2,15:51:00,17:06:00,(blank),4A,Moderate
+2/12/19,10:00,43801566ANF,#N/A,Renal Med,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:05:00,10:11:00,28,No Code,#N/A
+2/12/19,10:30,43801189EHA,58,Urology,SG706K,Attended,24/10/19,39,11/12/19,48,GURO,1,08:07:00,10:04:00,33,5C,Moderate
+2/12/19,13:30,43801538IGC,76,Gen Surgery,SF809P,Attended,23/11/19,9,3/12/19,10,GSUR,2,09:48:00,12:27:00,42,7C,High
+2/12/19,14:00,43801035DGZ,67,Orthop Surg,SB839H,Attended,25/11/19,7,12/12/19,17,GOTO,2,07:59:00,15:45:00,18,6A,Moderate
+2/12/19,14:30,43801283AOC,69,Colorec Surg,SF802C,Attended,2/12/19,0,5/12/19,3,GCLR,2,11:09:00,14:03:00,20,4A,Moderate
+2/12/19,15:00,43801954ZGG,47,Colorec Surg,SF800I,Attended,2/12/19,0,12/12/19,10,GCLR,1,11:59:00,15:20:00,13,3B,Low
+2/12/19,13:00,43801399CGZ,71,HPB,SF809P,Attended,29/11/19,3,5/12/19,6,GS0H,2,12:50:00,15:44:00,0,7C,High
+2/12/19,13:30,43801662ECI,33,H&N - SUR,SM711L,Attended,2/12/19,0,3/12/19,1,GS1H,1,12:08:00,16:39:00,6,2C,Low
+2/12/19,15:30,43801830FGZ,58,VASCULAR SUR,SB830T,Attended,2/12/19,0,6/12/19,4,GS0V,#N/A,15:19:00,16:09:00,(blank),1C,Low
+2/12/19,12:00,43801795ANF,45,Colorec Surg,SF833A,Attended,2/12/19,0,6/12/19,4,GCLR,2,10:59:00,14:45:00,16,2B,Low
+3/12/19,9:00,43802231EUE,77,Urology,SG700U,Attended,14/10/19,50,13/12/19,60,GURO,2,08:23:00,09:51:00,17,2C,Low
+3/12/19,13:00,43802229EKZ,51,Gynaecology,SI803U,Attended,3/12/19,0,6/12/19,3,GGYN,2,09:18:00,11:31:00,30,4A,Moderate
+3/12/19,10:30,43802163BMF,45,BREAST SURG,SA813B,Attended,2/12/19,1,5/12/19,3,GS0B,2,09:47:00,11:39:00,27,3A,Low
+3/12/19,11:30,43802425BGE,69,HRM,SB819H,Attended,3/12/19,0,9/12/19,6,GHND,2,10:50:00,12:11:00,12,4B,Low
+3/12/19,13:00,43802490IGZ,72,Orthop Surg,SB706W,Attended,3/12/19,0,5/12/19,2,GOTO,2,10:58:00,13:01:00,50,4C,Moderate
+3/12/19,14:00,43802119EAA,38,Gynaecology,SI803U,Attended,3/12/19,0,6/12/19,3,GGYN,1,10:33:00,14:24:00,35,4A,Moderate
+3/12/19,15:00,43802732DIJ,40,Neurosurgery,SB702B,Attended,2/12/19,1,17/12/19,15,GNES,2,12:57:00,15:11:00,27,7B,High
+3/12/19,14:30,43802993ZWG,62,HRM,SB803T,Attended,3/12/19,0,11/12/19,8,GHND,2,11:05:00,15:11:00,26,4A,Low
+3/12/19,13:30,43802713INE,50,Gynaecology,SI803U,Attended,3/12/19,0,6/12/19,3,GGYN,1,10:58:00,13:18:00,31,4A,Moderate
+3/12/19,16:30,43802810ZGZ,#N/A,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,16:41:00,16:59:00,(blank),No Code,#N/A
+3/12/19,16:00,43802952HGE,66,HRM,SB707W,Attended,3/12/19,0,5/12/19,2,GHND,2,15:04:00,17:31:00,37,4C,Moderate
+3/12/19,16:00,43802176ZII,45,Otolary,SE702L,Attended,3/12/19,0,5/12/19,2,GENT,1,16:41:00,17:01:00,(blank),2C,Low
+4/12/19,10:00,43803843GNC,45,Otolary,SM701M,Attended,29/8/19,97,4/11/19,67,GENT,2,07:59:00,08:57:00,10,2B,Low
+4/12/19,11:00,43803647HMH,58,Orthop Surg,SB727F,Attended,28/11/19,6,9/12/19,11,GOTO,2,08:10:00,10:49:00,65,5C,Low
+4/12/19,9:30,43803152DOH,54,Orthop Surg,SA811S,Attended,9/12/19,-5,11/12/19,2,GOTO,2,08:06:00,10:40:00,18,2C,Low
+4/12/19,14:00,43803036GNH,75,Colorec Surg,SF701C,Attended,9/11/19,25,19/12/19,40,GCLR,3,10:13:00,15:08:00,21,6C,Moderate
+4/12/19,13:30,43803606AIJ,24,Orthop Surg,SB738S,Attended,3/12/19,1,6/12/19,3,GOTO,1,10:59:00,13:01:00,10,4A,Low
+4/12/19,13:30,43803356EMA,66,HPB,SF801G,Attended,4/12/19,0,11/12/19,7,GS0H,2,09:51:00,13:06:00,37,4A,Moderate
+4/12/19,15:30,43803313JKE,38,Urology,SH802S,Attended,30/9/19,65,18/12/19,79,GURO,1,07:37:00,10:00:00,12,2B,Low
+4/12/19,13:00,43803591XLC,32,HRM,SB801R,Attended,28/11/19,6,29/11/19,1,GHND,1,12:13:00,13:48:00,12,4B,Moderate
+4/12/19,14:00,43803338DDH,29,Orthop Surg,SB702A,Attended,1/11/19,33,12/12/19,41,GOTO,1,13:58:00,16:16:00,60,5A,Low
+4/12/19,12:30,43803391BGD,57,Colorec Surg,SF837A,Attended,4/12/19,0,16/12/19,12,GCLR,1,12:21:00,15:32:00,6,3A,Low
+4/12/19,13:30,43803694HRZ,54,Orthop Surg,SB712K,Attended,25/9/19,70,5/12/19,71,GOTO,2,13:59:00,15:45:00,29,5C,Low
+4/12/19,14:00,43803355DMI,83,Gastro,SF700I,Attended,4/6/19,183,5/12/19,184,GGAS,2,13:32:00,15:03:00,14,2C,Low
+4/12/19,14:30,43803641DHD,56,Gen Surgery,SA707B,Attended,4/12/19,0,11/12/19,7,GSUR,2,14:53:00,16:47:00,31,3C,Low
+4/12/19,12:30,43803902AEC,30,Otolary,SM705T,Attended,2/12/19,2,10/12/19,8,GENT,1,12:25:00,14:09:00,7,3B,Low
+5/12/19,16:00,43804732LGB,35,Obstetrics,SI834U,Attended,5/12/19,0,11/12/19,6,GOBS,1,08:09:00,10:34:00,7,4A,Moderate
+5/12/19,9:00,43804383ZOE,68,Orthop Surg,SB810K,Attended,4/12/19,1,10/12/19,6,GOTO,2,10:04:00,13:27:00,23,6A,Moderate
+5/12/19,14:30,43804657COE,65,Urology,SG716B,Attended,5/12/19,0,13/12/19,8,GURO,2,11:59:00,14:19:00,23,1C,Low
+5/12/19,12:00,43804333BDF,53,Plastic Surg,SA819B,Attended,5/12/19,0,9/12/19,4,GPLS,2,11:51:00,15:06:00,45,7C,Moderate
+5/12/19,15:00,43804946CGJ,44,Orthop Surg,SA721S,Attended,5/12/19,0,10/12/19,5,GOTO,1,08:59:00,15:12:00,11,4A,Low
+5/12/19,8:00,43804448CGC,42,Gynaecology,SI725U,Attended,7/11/19,28,10/12/19,33,GGYN,1,07:59:00,08:50:00,20,2B,Low
+5/12/19,12:30,43804336ZEG,72,Urology,SG712B,Attended,5/12/19,0,20/12/19,15,GURO,2,11:49:00,15:25:00,2,3B,Moderate
+5/12/19,15:00,43804486DME,47,Urology,SG812K,Attended,5/12/19,0,20/12/19,15,GURO,2,12:23:00,16:00:00,34,5C,Moderate
+5/12/19,10:30,43804992GNH,67,Gen Surgery,SF713P,Attended,4/12/19,1,16/12/19,12,GSUR,2,11:21:00,17:29:00,0,6B,High
+5/12/19,14:30,43804955DGF,68,Gen Surgery,SA824B,Attended,4/12/19,1,12/12/19,8,GSUR,3,12:10:00,16:46:00,23,5A,Low
+5/12/19,15:00,43804744EAG,71,HRM,SB818F,Attended,2/12/19,3,6/12/19,4,GHND,2,14:47:00,17:12:00,12,4A,Low
+5/12/19,14:30,43804275HHD,65,Plastic Surg,SA817B,Attended,4/12/19,1,17/12/19,13,GPLS,2,13:51:00,16:39:00,11,5C,Moderate
+5/12/19,16:00,43804753CGZ,62,Urology,SG800U,Attended,25/11/19,10,17/12/19,22,GURO,2,14:48:00,17:06:00,11,4A,Low
+5/12/19,15:30,43804964HNZ,70,HRM,SB706W,Attended,5/12/19,0,10/12/19,5,GHND,3,11:40:00,16:27:00,81,4C,Moderate
+6/12/19,16:00,43805540DMI,65,Colorec Surg,SF800C,Attended,2/12/19,4,11/12/19,9,GCLR,2,08:15:00,11:17:00,35,4A,Low
+6/12/19,10:00,43805350G B,60,Neurosurgery,SF800C,Attended,6/12/19,0,9/12/19,3,GSUR,3,09:10:00,10:51:00,(blank),4A,Low
+6/12/19,8:30,43805244A F,74,Orthop Surg,SB723H,Attended,5/12/19,1,9/12/19,4,GOTO,2,08:29:00,10:12:00,27,6B,Moderate
+6/12/19,10:00,43805875BDB,43,Dental,SF800T,Attended,6/12/19,0,11/12/19,5,GDEN,#N/A,10:10:00,11:46:00,15,3C,Low
+6/12/19,10:30,43805543I H,50,BREAST SURG,SA812B,Attended,5/12/19,1,9/12/19,4,GS0B,2,09:57:00,12:55:00,14,2C,Low
+6/12/19,10:00,43805792CNC,55,Orthop Surg,SB839H,Attended,5/12/19,1,10/12/19,5,GOTO,2,09:20:00,13:27:00,38,6A,Moderate
+6/12/19,8:30,43805043CGZ,50,VASCULAR SUR,SD712B,Attended,5/12/19,1,10/12/19,5,GS0V,3,12:23:00,14:43:00,7,2A,Low
+6/12/19,16:00,43805067IGH,58,Orthop Surg,SB801R,Attended,6/12/19,0,9/12/19,3,GOTO,2,10:00:00,15:52:00,20,4B,Moderate
+6/12/19,9:30,43805872EII,32,Orthop Surg,SB706K,Attended,14/11/19,22,19/12/19,35,GOTO,1,09:13:00,10:22:00,18,6A,Low
+6/12/19,13:00,43805035INZ,49,H&N - ENT,SE703L,Attended,6/12/19,0,13/12/19,7,GE1H,2,12:03:00,14:14:00,26,1B,Low
+6/12/19,16:00,43805369ZGG,64,HRM,SB712H,Attended,6/12/19,0,10/12/19,4,GHND,2,12:42:00,16:53:00,32,3C,Low
+6/12/19,15:30,43805832JNE,45,BREAST SURG,SA812B,Attended,6/12/19,0,10/12/19,4,GS0B,1,15:14:00,17:07:00,14,2C,Low
+6/12/19,16:00,43805501BNJ,23,Dental,SF800T,Attended,6/12/19,0,20/12/19,14,GDEN,#N/A,15:48:00,17:34:00,15,3C,Low
+9/12/19,9:00,43808383ATG,66,Orthop Surg,SK703S,Attended,7/12/19,2,10/12/19,3,GOTO,2,09:23:00,10:57:00,43,2C,Low
+9/12/19,10:30,43808460EIE,70,Orthop Surg,SB810K,Attended,7/12/19,2,13/12/19,6,GOTO,2,10:08:00,15:02:00,100,6A,Moderate
+9/12/19,16:00,43808815JSH,52,Gynaecology,SI803U,Attended,9/12/19,0,13/12/19,4,GGYN,1,08:23:00,12:55:00,35,4A,Moderate
+9/12/19,15:30,43808213JND,29,Orthop Surg,SB701K,Attended,4/12/19,5,19/12/19,15,GOTO,1,11:54:00,13:32:00,16,5C,Low
+9/12/19,15:00,43808284GNZ,55,VASCULAR SUR,SD713V,Attended,9/12/19,0,16/12/19,7,GS0V,1,11:00:00,13:51:00,13,3B,Low
+9/12/19,15:30,43808585KHF,30,HRM,SB704H,Attended,7/12/19,2,10/12/19,3,GHND,1,13:33:00,15:14:00,15,3C,Low
+9/12/19,15:00,43808986FTA,46,BREAST SURG,SA813B,Attended,7/12/19,2,11/12/19,4,GS0B,2,14:30:00,15:18:00,0,3A,Low
+9/12/19,16:00,43808444COZ,58,Orthop Surg,SB712K,Attended,9/12/19,0,11/12/19,2,GOTO,2,13:17:00,16:37:00,(blank),5C,Low
+9/12/19,16:00,43808932ZGC,58,HPB,SA838S,Attended,7/12/19,2,16/12/19,9,GS0H,2,15:31:00,16:56:00,21,3A,Moderate
+9/12/19,15:30,43808203GGA,51,Gynaecology,SI725U,Attended,9/12/19,0,12/12/19,3,GGYN,2,09:34:00,14:39:00,34,2B,Low
+10/12/19,8:00,43809688TDF,44,Orthop Surg,SB810K,Attended,9/12/19,1,18/12/19,9,GOTO,1,08:03:00,09:47:00,29,6A,Moderate
+10/12/19,15:00,43809344ZIJ,37,Gynaecology,SI820U,Attended,10/12/19,0,17/12/19,7,GGYN,1,09:34:00,12:18:00,21,2A,Low
+10/12/19,15:30,43809712HNF,47,Gynaecology,SI803U,Attended,9/12/19,1,13/12/19,4,GGYN,1,11:50:00,13:41:00,17,4A,Moderate
+10/12/19,12:30,43809332JDJ,33,VASCULAR SUR,SD709A,Attended,10/12/19,0,16/12/19,6,GS0V,3,12:09:00,15:34:00,24,5A,Low
+10/12/19,15:00,43809087BNG,21,Dental,SB827M,Attended,10/12/19,0,20/12/19,10,GDEN,2,14:53:00,16:47:00,36,5C,Moderate
+10/12/19,14:30,43809107EYJ,47,Gynaecology,SI725U,Attended,9/12/19,1,24/12/19,15,GGYN,2,15:01:00,16:25:00,16,2B,Low
+10/12/19,16;00,43809966TMD,26,Obstetrics,SI834U,Attended,10/12/19,0,12/12/19,2,GOBS,1,14:11:00,16:31:00,0,4A,Moderate
+10/12/19,14:30,43809914IEH,58,Orthop Surg,SA811S,Attended,10/12/19,0,12/12/19,2,GOTO,2,14:03:00,16:32:00,23,2C,Low
+10/12/19,16:00,43809241HGB,52,Gen Surgery,SA840S,Attended,10/12/19,0,13/12/19,3,GSUR,1,15:45:00,16:47:00,0,1A,Low
+10/12/19,14:30,43809865EGI,72,Colorec Surg,SF701C,Attended,10/12/19,0,19/12/19,9,GCLR,2,10:57:00,15:00:00,60,6C,Moderate
+10/12/19,15:30,43809363EEB,74,Orthop Surg,SB729S,Attended,10/12/19,0,17/12/19,7,GOTO,2,13:42:00,17:23:00,43,7B,Moderate
+10/12/19,16:00,43809201DNF,30,Gynaecology,SI716U,Attended,10/12/19,0,12/12/19,2,GGYN,1,15:49:00,17:12:00,31,3A,Low
+11/12/19,10:30,43810580IGB,64,Colorec Surg,SF701C,Attended,10/12/19,1,12/12/19,2,GCLR,2,07:59:00,10:14:00,26,6C,Moderate
+11/12/19,10:00,43810596BEH,65,VASCULAR SUR,SD710V,Attended,29/11/19,12,19/12/19,20,GS0V,2,08:20:00,09:52:00,27,4A,Moderate
+11/12/19,15:00,43810029BAB,37,HPB,SA702S,Attended,11/12/19,0,12/12/19,1,GS0H,1,10:16:00,11:40:00,20,1B,Low
+11/12/19,10:30,43810689GGA,19,GI/BARIATRIC,SA841S,Attended,6/12/19,5,19/12/19,13,GS0G,1,10:44:00,12:23:00,12,1B,Low
+11/12/19,15:30,43810287AGZ,70,Neurosurgery,SK726S,Attended,11/12/19,0,16/12/19,5,GNES,2,11:19:00,13:19:00,48,6B,Moderate
+11/12/19,16:00,43810589ZNA,62,Urology,SH835P,Attended,11/12/19,0,12/12/19,1,GURO,2,10:29:00,13:47:00,63,2A,Low
+11/12/19,14:30,43810965AMZ,70,VASCULAR SUR,SD722A,Attended,11/12/19,0,17/12/19,6,GS0V,2,11:23:00,14:59:00,25,4A,Moderate
+11/12/19,16:00,43810754JGB,68,Orthop Surg,SB801R,Attended,11/12/19,0,20/12/19,9,GOTO,2,12:51:00,14:19:00,3,4B,Moderate
+11/12/19,13:30,43810599HDH,21,Colorec Surg,SF800S,Attended,11/12/19,0,12/12/19,1,GCLR,1,12:48:00,14:03:00,7,2C,Low
+11/12/19,12:30,43810036BNE,47,Orthop Surg,SB809T,Attended,11/12/19,0,12/12/19,1,GOTO,1,11:47:00,15:48:00,15,3A,Low
+11/12/19,14:00,43810927DGF,23,Dental,SB819M,Attended,22/11/19,19,26/12/19,34,GDEN,1,14:24:00,15:48:00,11,5C,Moderate
+11/12/19,12:00,43810229ENJ,73,VASCULAR SUR,SD720A,Attended,11/12/19,0,17/12/19,6,GS0V,2,13:08:00,14:27:00,(blank),4A,Moderate
+11/12/19,16:00,43810071ANC,67,Urology,SH835P,Attended,11/12/19,0,19/12/19,8,GURO,2,15:50:00,17:46:00,28,2A,Low
+11/12/19,9:30,43810119IAG,44,BREAST SURG,SA822B,Attended,23/11/19,18,17/12/19,24,GS0B,1,09:19:00,11:10:00,34,3B,Low
+12/12/19,12:00,43811559ATI,50,Urology,SG812K,Attended,12/12/19,0,17/12/19,5,GURO,2,11:02:00,14:20:00,152,5C,Moderate
+12/12/19,15:30,43811872ZEF,43,Plastic Surg,SA819B,Attended,12/12/19,0,30/12/19,18,GPLS,1,13:30:00,14:22:00,0,7C,Moderate
+12/12/19,15:00,43811185NEE,80,Urology,SG700U,Attended,20/9/19,83,16/12/19,87,GURO,2,#N/A,#N/A,#N/A,2C,Low
+13/12/19,11:30,43812324DRD,80,HRM,SB703W,Attended,12/12/19,1,20/12/19,8,GHND,2,08:00:00,09:44:00,17,3A,Low
+13/12/19,8:00,43812042AGF,61,Orthop Surg,SB706W,Attended,12/12/19,1,16/12/19,4,GOTO,2,08:03:00,10:37:00,21,4C,Moderate
+13/12/19,8:30,43812792CGE,65,Colorec Surg,SF802C,Attended,12/12/19,1,17/12/19,5,GCLR,3,08:38:00,14:48:00,84,4A,Moderate
+13/12/19,12:00,43812075HGJ,18,H&N-ENT,SE803L,Attended,9/12/19,4,17/12/19,8,GE1H,1,09:29:00,12:31:00,19,4A,Moderate
+13/12/19,11:00,43812922DEE,49,Orthop Surg,SB706W,Attended,12/12/19,1,16/12/19,4,GOTO,1,10:44:00,11:58:00,22,4C,Moderate
+13/12/19,14:30,43812073H D,84,Orthop Surg,SB727S,Attended,13/12/19,0,14/12/19,1,GOTO,2,10:01:00,15:34:00,29,6B,Moderate
+13/12/19,14:30,43812677LGF,34,Urology,SH802S,Attended,11/12/19,2,3/1/20,23,GURO,1,13:57:00,15:09:00,12,2B,Low
+13/12/19,15:00,43812163WAE,27,Gynaecology,SI820U,Attended,13/12/19,0,17/12/19,4,GGYN,2,10:04:00,16:27:00,15,2A,Low
+13/12/19,13:30,43812695GHD,63,Orthop Surg,SB810K,Attended,13/12/19,0,17/12/19,4,GOTO,2,08:01:00,17:01:00,38,6A,Moderate
+13/12/19,15:00,43812101DGJ,73,Urology,SG700U,Attended,9/12/19,4,18/12/19,9,GURO,2,14:46:00,16:58:00,10,2C,Low
+13/12/19,15:00,43812807CNH,41,Orthop Surg,SB723H,Attended,9/12/19,4,20/12/19,11,GOTO,2,14:34:00,15:39:00,(blank),6B,Moderate
+13/12/19,13:00,43812502BNB,78,Gen Surgery,SF812L,Attended,13/12/19,0,9/1/20,27,GS0H,2,13:22:00,17:12:00,74,6B,High
+13/12/19,15:00,43812483FGI,56,BREAST SURG,SA707B,Attended,13/12/19,0,17/12/19,4,GS0B,1,13:54:00,17:30:00,34,3C,Low
+16/12/19,10:00,43815095DKI,57,Orthop Surg,SA811S,Attended,6/12/19,10,24/12/19,18,GOTO,2,08:00:00,10:10:00,9,2C,Low
+16/12/19,16:00,43815064CME,71,Urology,SH830P,Attended,13/12/19,3,27/12/19,14,GURO,2,10:00:00,11:33:00,25,6A,Moderate
+16/12/19,10:00,43815269IOH,20,Plastic Surg,SA854S,Attended,14/12/19,2,17/12/19,3,GPLS,1,09:51:00,12:06:00,18,1A,Low
+16/12/19,11:30,43815020JGB,43,GI/BARIATRIC,SA701S,Attended,16/12/19,0,17/12/19,1,GS0G,1,11:36:00,13:29:00,18,2A,Low
+16/12/19,8:30,43815854FIJ,38,Orthop Surg,SB801S,Attended,14/12/19,2,17/12/19,3,GOTO,1,08:16:00,09:26:00,15,5B,Moderate
+16/12/19,10:00,43815013HGA,46,Orthop Surg,SB701C,Attended,16/12/19,0,18/12/19,2,GOTO,1,09:21:00,11:16:00,28,4A,Moderate
+16/12/19,14:00,43815520BAZ,37,Obstetrics,SI834U,Attended,16/12/19,0,18/12/19,2,GOBS,2,10:10:00,13:43:00,41,4A,Moderate
+16/12/19,16:00,43815502BNC,57,Gen Surgery,SA815S,Attended,13/12/19,3,26/12/19,13,GSUR,2,11:38:00,14:20:00,14,7C,Moderate
+16/12/19,12:30,43815020INC,65,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,2,10:16:00,14:25:00,26,No Code,#N/A
+16/12/19,13:30,43815640BYC,20,H&N-ENT,SM705T,Attended,16/12/19,0,18/12/19,2,GE1H,1,12:40:00,13:52:00,27,3B,Low
+16/12/19,15:00,43815233BEI,59,Orthop Surg,SB727F,Attended,12/12/19,4,20/12/19,8,GOTO,2,15:16:00,16:36:00,8,5C,Low
+16/12/19,14:00,43815183FGF,58,GI/BARIATRIC,SF723A,Attended,13/12/19,3,6/1/20,24,GS0G,2,13:57:00,16:09:00,28,4A,Low
+16/12/19,16:30,43815488FIB,65,Orthop Surg,SB715K,No Show,16/12/19,0,17/12/19,1,GOTO,2,16:20:00,17:11:00,(blank),5A,Low
+16/12/19,15:30,43815832FNF,51,Plastic Surg,SA824S,Attended,16/12/19,0,19/12/19,3,GPLS,2,15:19:00,17:03:00,0,3A,Low
+16/12/19,16:00,43815634JHI,69,Urology,SG800U,Attended,13/12/19,3,26/12/19,13,GURO,2,15:59:00,16:45:00,(blank),4A,Low
+17/12/19,15:00,43816625AII,41,Obstetrics,SI834U,Attended,17/12/19,0,18/12/19,1,GOBS,1,08:45:00,10:01:00,23,4A,Moderate
+17/12/19,9:30,43816235HGB,#N/A,Otolary,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,09:19:00,10:34:00,28,No Code,#N/A
+17/12/19,9:30,43816733AMJ,68,Orthop Surg,SB810K,Attended,13/12/19,4,24/12/19,11,GOTO,2,09:13:00,12:43:00,12,6A,Moderate
+17/12/19,15:30,43816497FOD,62,HPB,SF812L,Attended,6/12/19,11,6/1/20,31,GS0H,2,09:31:00,12:42:00,20,6B,High
+17/12/19,11:00,43816680BGD,27,GI/BARIATRIC,SF819A,Attended,10/12/19,7,20/12/19,10,GS0G,1,11:09:00,12:16:00,9,3B,Low
+17/12/19,14:00,43816564HGF,11,Otolary,SM701E,Attended,17/12/19,0,3/1/20,17,GENT,1,12:02:00,12:56:00,7,6A,Moderate
+17/12/19,14:30,43816464JNC,57,Orthop Surg,SB839H,Attended,17/12/19,0,9/1/20,23,GOTO,1,12:07:00,13:58:00,0,6A,Moderate
+17/12/19,13:30,43816163FDA,35,Otolary,SJ802T,Attended,9/12/19,8,3/1/20,25,GS1H,2,11:38:00,15:38:00,78,4A,Moderate
+17/12/19,15:00,43816741HHF,58,HRM,SB801R,Attended,17/12/19,0,23/12/19,6,GHND,2,09:54:00,14:34:00,(blank),4B,Moderate
+17/12/19,13:00,43816264BNE,66,Gynaecology,SI803U,Attended,16/12/19,1,20/12/19,4,GGYN,2,14:48:00,16:36:00,23,4A,Moderate
+17/12/19,14:30,43816132CNB,46,Otolary,SM716L,Attended,17/12/19,0,7/1/20,21,GENT,2,09:26:00,16:37:00,32,1B,Low
+17/12/19,14:00,43816904FTB,67,GI/BARIATRIC,SF808A,Attended,16/12/19,1,18/12/19,2,GS0G,3,14:20:00,16:28:00,66,3A,Moderate
+17/12/19,16:00,43816201COI,78,Colorec Surg,SF701C,Attended,17/12/19,0,20/12/19,3,GCLR,2,15:23:00,16:08:00,(blank),6C,Moderate
+17/12/19,16:00,43816019ZEH,58,Orthop Surg,SB801S,Attended,17/12/19,0,20/12/19,3,GOTO,2,15:41:00,17:10:00,0,5B,Moderate
+18/12/19,8:00,43817720ING,77,Orthop Surg,SB706W,Attended,17/12/19,1,20/12/19,3,GOTO,2,08:10:00,10:32:00,48,4C,Moderate
+18/12/19,11:00,43817737GMI,67,Orthop Surg,SB810K,Attended,23/9/19,86,9/12/19,77,GOTO,2,10:32:00,12:22:00,16,6A,Moderate
+18/12/19,13:30,43817522QRJ,37,Otolary,SF811P,Attended,18/12/19,0,3/1/20,16,GENT,1,10:50:00,13:47:00,41,3A,Low
+18/12/19,11:30,43817291COH,77,Orthop Surg,SB810K,Attended,18/12/19,0,23/12/19,5,GOTO,2,10:44:00,12:41:00,41,6A,Moderate
+18/12/19,14:00,43817392ING,72,Orthop Surg,SB727F,Attended,18/12/19,0,30/12/19,12,GOTO,2,10:46:00,15:25:00,20,5C,Low
+18/12/19,11:30,43817682DIZ,27,Orthop Surg,SB700H,Attended,18/12/19,0,19/12/19,1,GOTO,1,09:57:00,10:58:00,19,4A,Low
+18/12/19,14:00,43817911FGD,85,Gastro,SF701I,Attended,13/12/19,5,19/12/19,6,GGAS,2,14:26:00,15:25:00,13,1B,Low
+18/12/19,15:30,43817508BYJ,70,Orthop Surg,SB708S,Attended,18/12/19,0,26/12/19,8,GOTO,2,15:21:00,17:14:00,37,5B,Moderate
+18/12/19,16:00,43817305EOE,77,Orthop Surg,SB727S,Attended,18/12/19,0,23/12/19,5,GOTO,2,15:30:00,17:04:00,14,6B,Moderate
+19/12/19,15:00,43818288EGB,73,Orthop Surg,SB839H,Attended,24/6/19,178,7/1/20,197,GOTO,2,10:20:00,12:31:00,16,6A,Moderate
+19/12/19,9:00,43818342GWC,60,Orthop Surg,SB708S,Attended,18/12/19,1,23/12/19,5,GOTO,2,08:42:00,10:13:00,22,5B,Moderate
+19/12/19,15:00,43818216JHD,48,Otolary,SM700N,Attended,19/12/19,0,14/1/20,26,GENT,1,11:27:00,12:36:00,16,1A,Low
+19/12/19,12:30,43818322ZII,46,Orthop Surg,SB703K,Attended,19/12/19,0,10/1/20,22,GOTO,1,11:47:00,13:05:00,24,5C,Low
+19/12/19,15:00,43818235CED,48,HRM,SB706W,Attended,19/12/19,0,20/12/19,1,GHND,1,11:24:00,13:11:00,35,4C,Moderate
+19/12/19,14:00,43818242CND,46,Otolary,SF814M,Attended,18/12/19,1,23/12/19,5,GENT,1,11:43:00,13:13:00,19,3A,Low
+19/12/19,15:30,43818499ZNE,59,Urology,SG703U,Attended,19/12/19,0,2/1/20,14,GURO,2,13:08:00,14:46:00,23,3A,Low
+19/12/19,14:30,43818100FGC,94,Gynaecology,SI725U,Attended,18/12/19,1,6/1/20,19,GGYN,2,13:26:00,15:33:00,25,2B,Low
+19/12/19,15:30,43818047HGF,28,Gynaecology,SI725U,Attended,19/12/19,0,24/12/19,5,GGYN,1,09:52:00,13:47:00,16,2B,Low
+19/12/19,13:30,43818909ZGI,24,Otolary,SM705T,Attended,19/12/19,0,23/12/19,4,GENT,2,13:34:00,15:21:00,24,3B,Low
+19/12/19,14:30,43818386DRC,23,Gen Surg,SE702L,Attended,18/12/19,1,23/12/19,5,GSUR,2,14:04:00,15:21:00,10,2C,Low
+19/12/19,14:30,43818729HGG,21,BREAST SURG,SA813B,Attended,18/12/19,1,23/12/19,5,GS0B,1,14:22:00,15:42:00,19,3A,Low
+19/12/19,14:30,43818111JGH,65,Gynaecology,SI711U,Attended,17/12/19,2,3/1/20,17,GGYN,1,13:53:00,15:52:00,34,6A,Moderate
+19/12/19,15:00,43818237GEF,65,Gen Surg,SA824B,Attended,19/12/19,0,27/12/19,8,GSUR,#N/A,14:31:00,15:56:00,26,5A,Low
+19/12/19,15:30,43818757JHD,47,Gynaecology,SI803U,Attended,16/12/19,3,20/12/19,4,GGYN,1,14:52:00,16:34:00,43,4A,Moderate
+19/12/19,15:00,43818245IOG,58,Gynaecology,SI725U,Attended,18/12/19,1,20/12/19,2,GGYN,1,14:22:00,16:46:00,40,2B,Low
+19/12/19,15:30,43818452FEC,55,GI/BARIATRIC,SA840S,Attended,19/12/19,0,24/12/19,5,GS0G,1,15:01:00,16:34:00,11,1A,Low
+19/12/19,14:00,43818978ZKF,78,HPB,SF802B,Attended,12/11/19,37,6/1/20,55,GS0H,2,13:53:00,15:58:00,24,4C,High
+19/12/19,16:00,43818264ENI,34,Gynaecology,SI820U,Attended,19/12/19,0,24/12/19,5,GGYN,1,14:02:00,17:22:00,63,2A,Low
+19/12/19,16:30,43818374FGA,56,Orthop Surg,SB715K,Attended,19/12/19,0,20/12/19,1,GOTO,2,16:21:00,16:40:00,(blank),5A,Low
+20/12/19,15:00,43819679UIB,62,Urology,SH833P,Attended,13/11/19,37,27/12/19,44,GURO,1,11:29:00,13:49:00,44,1A,Low
+20/12/19,16:00,43819531HHZ,56,Urology,SG800U,Attended,20/12/19,0,26/12/19,6,GURO,2,11:13:00,14:27:00,44,4A,Low
+20/12/19,12:30,43819518GGA,55,GI/BARIATRIC,SF819A,Attended,9/11/19,41,9/1/20,61,GS0G,1,12:04:00,14:03:00,0,3B,Low
+20/12/19,16:00,43819499FUD,42,Obstetrics,SI832U,Attended,20/12/19,0,23/12/19,3,GOBS,1,10:19:00,14:47:00,25,4B,Moderate
+20/12/19,15:00,43819960AEJ,55,Urology,SH835P,Attended,22/11/19,28,24/12/19,32,GURO,2,13:39:00,15:53:00,8,2A,Low
+20/12/19,13:30,43819549FEZ,#N/A,Urology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:24:00,16:04:00,10,No Code,#N/A
+20/12/19,15:00,43819550JGZ,73,Orthop Surg,SB702S,Attended,20/12/19,0,23/12/19,3,GOTO,2,11:48:00,15:20:00,25,5A,Moderate
+20/12/19,16:00,43819912CIC,26,HPB,SA840S,Attended,20/12/19,0,24/12/19,4,GS0H,1,15:24:00,16:36:00,13,1A,Low
+23/12/19,8:30,43822511INJ,38,Gynaecology,SI820U,Attended,21/12/19,2,26/12/19,5,GGYN,2,08:35:00,10:08:00,23,2A,Low
+23/12/19,13:00,43822980A J,71,VASCULAR SUR,SD718V,Attended,23/12/19,0,26/12/19,3,GS0V,2,09:01:00,12:07:00,36,3B,Low
+23/12/19,12:00,43822928BNF,53,Urology,SG715B,Attended,24/12/19,-1,26/12/19,2,GURO,1,11:21:00,13:04:00,13,4B,Moderate
+23/12/19,13:00,43822396CNA,#N/A,VASCULAR SUR,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,12:57:00,14:51:00,2,No Code,#N/A
+23/12/19,15:00,43822919GNE,34,Obstetrics,SI834U,Attended,23/12/19,0,26/12/19,3,GOBS,1,08:12:00,15:42:00,0,4A,Moderate
+23/12/19,14:30,43822588ETA,69,Gen Surgery,SF808A,Attended,23/12/19,0,27/12/19,4,GSUR,3,12:15:00,13:54:00,16,3A,Moderate
+23/12/19,14:00,43822962IKH,72,Otolary,SM838E,Attended,25/10/19,59,2/1/20,69,GENT,2,14:44:00,16:03:00,20,4B,Low
+23/12/19,13:30,43822847HGH,31,Gynaecology,SI704C,Attended,20/12/19,3,26/12/19,6,GGYN,2,12:49:00,14:22:00,15,2B,Low
+24/12/19,9:30,43823841BNF,45,Orthop Surg,SB805K,Attended,24/12/19,0,27/12/19,3,GOTO,1,08:53:00,10:35:00,37,4A,Moderate
+24/12/19,9:30,43823488JND,59,Gynaecology,SI705C,Attended,24/12/19,0,27/12/19,3,GGYN,2,08:36:00,10:35:00,18,2C,Low
+24/12/19,12:00,43823758DNC,70,HRM,SB713H,Attended,24/12/19,0,26/12/19,2,GHND,2,11:29:00,12:10:00,(blank),5C,Low
+24/12/19,11:30,43823351ARI,33,HRM,SB712H,Attended,24/12/19,0,27/12/19,3,GHND,1,11:17:00,11:58:00,5,3C,Low
+24/12/19,11:00,43823712COC,40,Gynaecology,SI705C,Attended,24/12/19,0,27/12/19,3,GGYN,1,10:06:00,12:03:00,23,2C,Low
+26/12/19,12:00,43825518JNI,66,Urology,SG700P,No Show,11/12/19,15,30/12/19,19,GURO,#N/A,#N/A,#N/A,#N/A,4B,Moderate
+26/12/19,12:00,43825913ENI,#N/A,Gynaecology,#N/A,Attended,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,08:34:00,10:45:00,25,No Code,#N/A
+26/12/19,11:00,43825582DNA,21,Orthop Surg,SB808J,Attended,26/12/19,0,27/12/19,1,GOTO,1,10:18:00,13:14:00,25,5C,Moderate
+26/12/19,15:30,43825633JGB,67,Gen Surgery,SF819A,Attended,24/12/19,2,27/12/19,3,GSUR,2,10:36:00,13:18:00,34,3B,Low
+26/12/19,11:30,43825610ZGJ,74,Orthop Surg,SB714S,Attended,24/12/19,2,3/1/20,10,GOTO,2,10:28:00,13:29:00,39,6B,Moderate
+26/12/19,11:30,43825795HGI,63,Orthop Surg,SB700H,Attended,24/12/19,2,28/12/19,4,GOTO,2,12:36:00,15:14:00,18,4A,Low
+26/12/19,13:00,43825245INA,41,Gynaecology,SI812U,Attended,26/12/19,0,27/12/19,1,GGYN,1,10:50:00,15:15:00,11,5C,Moderate
+26/12/19,13:30,43825719FEH,70,Orthop Surg,SB805C,Attended,26/12/19,0,30/12/19,4,GOTO,2,11:42:00,15:16:00,32,3B,Low
+26/12/19,11:00,43825921ARA,#N/A,Orthop Surg,SB808K,No Show,24/12/19,2,27/12/19,3,GOTO,2,08:06:00,08:41:00,(blank),4A,Low
+26/12/19,15:30,43825576FIZ,72,Orthop Surg,SB810K,Attended,23/12/19,3,4/1/20,12,GOTO,2,14:50:00,16:40:00,17,6A,Moderate
+26/12/19,14:30,43825879KKA,77,GI/BARIATRIC,SF819A,Attended,24/12/19,2,30/12/19,6,GS0G,2,10:40:00,13:44:00,67,3B,Low
+26/12/19,15:00,43825261HGZ,27,Gynaecology,SI700O,Attended,24/12/19,2,6/1/20,13,GGYN,2,14:56:00,16:35:00,14,4B,Moderate
+26/12/19,16:00,43825970CWB,69,Orthop Surg,SB708S,Attended,26/12/19,0,31/12/19,5,GOTO,2,15:12:00,17:59:00,34,5B,Moderate
+27/12/19,9:30,43826248XEC,57,Colorec Surg,SF808A,Attended,15/1/20,-19,16/1/20,1,GCLR,1,09:09:00,12:07:00,125,3A,Moderate
+27/12/19,11:00,43826747JKA,47,Orthop Surg,SB700H,Attended,19/12/19,8,27/12/19,8,GOTO,2,09:13:00,11:05:00,19,4A,Low
+27/12/19,12:30,43826518GNA,36,HRM,SB801R,Attended,27/12/19,0,30/12/19,3,GHND,1,12:00:00,13:51:00,20,4B,Moderate
+27/12/19,15:30,43826514ERC,58,HRM,SB706W,Attended,27/12/19,0,31/12/19,4,GHND,2,08:50:00,13:55:00,8,4C,Moderate
+27/12/19,11:30,43826404AGB,29,Urology,SH808P,Attended,29/11/19,28,30/12/19,31,GURO,1,11:47:00,14:22:00,23,1B,Low
+27/12/19,15:30,43826834EGF,76,GI/BARIATRIC,SF819A,Attended,27/12/19,0,15/1/20,19,GS0G,2,11:47:00,15:07:00,36,3B,Low
+27/12/19,15:00,43826383HMB,75,VASCULAR SUR,SD821A,Attended,2/12/19,25,2/1/20,31,GS0V,2,09:07:00,13:32:00,66,3C,Low
+30/12/19,8:00,43829747DHA,43,Orthop Surg,SB700H,Attended,27/12/19,3,8/1/20,12,GOTO,2,08:03:00,08:56:00,9,4A,Low
+30/12/19,10:00,43829556END,51,Gynaecology,SI803U,Attended,30/12/19,0,3/1/20,4,GGYN,1,08:24:00,10:02:00,19,4A,Moderate
+30/12/19,15:30,43829802FHB,65,Gynaecology,SI803U,Attended,30/12/19,0,3/1/20,4,GGYN,2,08:30:00,11:13:00,23,4A,Moderate
+30/12/19,11:30,43829314DNG,51,Orthop Surg,SB701C,Attended,30/12/19,0,31/12/19,1,GOTO,2,10:10:00,11:31:00,18,4A,Moderate
+30/12/19,12:00,43829849HIE,31,Gynaecology,SI820U,Attended,30/12/19,0,31/12/19,1,GGYN,1,08:56:00,12:25:00,16,2A,Low
+30/12/19,11:00,43829570AGD,61,Gen Surgery ,SF808A,Attended,30/12/19,0,3/1/20,4,GSUR,2,10:52:00,12:59:00,33,3A,Moderate
+30/12/19,11:30,43829470HGD,38,Gynaecology,SI815U,Attended,28/12/19,2,2/1/20,5,GGYN,1,10:00:00,13:00:00,60,5A,Moderate
+30/12/19,10:00,43829814GYJ,86,Urology,SH835P,Attended,30/12/19,0,15/1/20,16,GURO,2,10:11:00,12:24:00,72,2A,Low
+30/12/19,12:30,43829457GEH,68,Orthop Surg,SB839H,Attended,30/12/19,0,16/1/20,17,GOTO,2,09:06:00,14:12:00,40,6A,Moderate
+30/12/19,12:00,43829805FGG,73,Otolary,SM714N,Attended,30/12/19,0,2/1/20,3,GENT,2,12:01:00,14:55:00,46,2C,Low
+30/12/19,13:30,43829553JIE,27,Gynaecology,SI802O,Attended,30/12/19,0,31/12/19,1,GGYN,1,12:02:00,15:22:00,23,4A,Moderate
+30/12/19,12:30,43829260JEF,70,Orthop Surg,SB810K,Attended,28/12/19,2,2/1/20,5,GOTO,2,10:59:00,17:51:00,0,6A,Moderate
+30/12/19,14:00,43829148FGJ,25,Orthop Surg,SM714S,Attended,27/12/19,3,2/1/20,6,GENT,2,13:51:00,15:18:00,32,5C,Moderate
+30/12/19,15:00,43829455AAI,65,Orthop Surg,SB700H,Attended,18/12/19,12,2/1/20,15,GOTO,2,13:53:00,16:22:00,45,4A,Low
+30/12/19,15:00,43829858JGZ,41,Gynaecology,SI707C,Attended,27/12/19,3,8/1/20,12,GGYN,1,15:01:00,16:42:00,8,2A,Low
+30/12/19,14:30,43829244HUJ,56,Orthop Surg,SB715K,Attended,30/12/19,0,2/1/20,3,GOTO,2,13:04:00,16:57:00,35,5A,Low
+30/12/19,14:30,43829496QGC,36,Obstetrics,SI834U,Attended,27/12/19,3,31/12/19,4,GOBS,1,15:22:00,17:20:00,24,4A,Moderate
+31/12/19,8:00,43830251ALH,49,Orthop Surg,SA721S,Attended,30/12/19,1,3/1/20,4,GOTO,2,08:01:00,09:28:00,10,4A,Low
+31/12/19,10:30,43830516IUB,52,Urology,SG800U,Attended,30/12/19,1,2/1/20,3,GURO,2,08:46:00,10:22:00,10,4A,Low
+31/12/19,10:00,43830757HNC,47,Orthop Surg,SA716S,Attended,19/11/19,42,22/11/19,3,GOTO,1,09:14:00,10:54:00,18,4A,Low
+31/12/19,11:00,43830003BEI,19,HRM,SB826B,Attended,31/12/19,0,3/1/20,3,GHND,1,09:27:00,11:02:00,18,1C,Low
+31/12/19,11:30,43830239JIA,27,HRM,SB705H,Attended,31/12/19,0,3/1/20,3,GHND,1,08:54:00,11:19:00,12,2C,Low
+31/12/19,10;30,43830427ZHE,26,HRM,SB704H,Attended,31/12/19,0,3/1/20,3,GHND,1,10:12:00,13:07:00,68,3C,Low
+31/12/19,12:00,43830359BIA,42,Orthop Surg,SB710K,Attended,27/12/19,4,2/1/20,6,GOTO,2,11:30:00,12:17:00,(blank),6A,Low
+31/12/19,10:00,43830272BEC,51,VASCULAR SUR,SD720A,Attended,2/1/20,-2,7/1/20,5,GS0V,3,09:41:00,11:05:00,(blank),4A,Moderate
+31/12/19,12:00,43830514ENJ,56,Urology,SG714B,Attended,31/12/19,0,2/1/20,2,GURO,2,11:44:00,13:25:00,62,4A,Moderate

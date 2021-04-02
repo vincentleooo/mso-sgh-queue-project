@@ -8,6 +8,11 @@ library(tidyverse)
 library(dplyr)
 library(purrr)
 library(lubridate)
+library(GGally)
+library(viridis)
+library(hrbrthemes)
+library(ggplot2)
+library(lattice)
 ```
 
 Reading into the 2020 csv files.
@@ -36,11 +41,12 @@ cleaned_planned_2020 <- planned_2020 %>%
       as.integer(`No. of days between PAC date and listing date`),
     `Surgery Date` = dmy(`Surgery Date`),
     `Lead time to Surgery` = as.integer(`Lead time to Surgery`),
-    `ASA Score` = as.integer(`ASA Score`),
+    `ASA Score` = as.character(`ASA Score`),
     `PAC Registration Time` = hms(`PAC Registration Time`),
     `PAC End Time` = hms(`PAC End Time`),
     `PAC Consult Duration` = as.integer(`PAC Consult Duration`)
-  )
+  ) %>% 
+  filter(`Lead time to Surgery` < 40000)
 
 head(cleaned_planned_2020)
 ```
@@ -51,19 +57,215 @@ Some summary of `cleaned_planned_2020`.
 summary(cleaned_planned_2020)
 ```
 
-Let's try to visualise something.
+## Consult duration distribution
+
 ```{r}
 consult_duration <- ggplot(cleaned_planned_2020) +
-  geom_histogram(aes(`PAC Consult Duration`), bins = 50)
+  # stat_qq(aes(sample = `PAC Consult Duration`)) +
+  labs(
+    title = "Histogram Plot for Consult Duration",
+    subtitle = "Blanks and NAs cleaned up",
+    caption = "Modified 2021-03-30"
+  ) + geom_histogram(aes(`PAC Consult Duration`), bins = 50)
 
-# consult_duration
+consult_duration
 
-test <- cleaned_planned_2020 %>% 
-  select(`Age`, `PAC Consult Duration`) %>% 
-  na.omit() %>% 
-  mutate(AgeGroup = findInterval(Age, c(0, 20, 40, 60, 80, 100, 120))) %>% 
-  pivot_wider()
+consult_duration_boxplot <- cleaned_planned_2020 %>% 
+  filter(!is.na(`PAC Consult Duration`))
 
-test
+
+ggplot(consult_duration_boxplot) + geom_boxplot(aes(`PAC Consult Duration`)) +
+  labs(
+    title = "Box Plot for Consult Duration",
+    subtitle = "Blanks and NAs cleaned up",
+    caption = "Modified 2021-03-30"
+  )
+library(fitdistrplus)
+consult_duration_na_omitted <- cleaned_planned_2020 %>% 
+  filter(!is.na(`PAC Consult Duration`), `PAC Consult Duration` >= 15, `PAC Consult Duration` < 400) # %>% 
+  # mutate(normalised_consult_duration = log(`PAC Consult Duration` + 1))
+# consult_duration_na_omitted
+# nrow(consult_duration_na_omitted)
+descdist(consult_duration_na_omitted$`PAC Consult Duration`, discrete=FALSE)
+write.csv(consult_duration_na_omitted$`PAC Consult Duration`, file = "consult_duration_clean.csv")
+
+
+ggplot(consult_duration_na_omitted) + geom_histogram(aes(`PAC Consult Duration`)) +
+  labs(
+    title = "Histogram Plot for Consult Duration",
+    subtitle = "For [15, 319]",
+    caption = "Modified 2021-03-31"
+  )
+
+consult_mean <- mean(consult_duration_na_omitted$`PAC Consult Duration`)
+consult_sd <- sd(consult_duration_na_omitted$`PAC Consult Duration`)
+
+# Null hypothesis: Consult is exponentially distributed. Alpha is 0.05.
+breaks = c(0, 40, 80, 120, 160)
+# labels = c(
+#   "[0-40]",
+#   "[40-79]",
+#   "[80-119]",
+#   "[120-159]",
+#   "[160-199]",
+#   "[200-239]",
+#   "[240-279]",
+#   "[280-319]"
+# )
+exp_cdf <- c()
+
+mu <- log(consult_mean^2/sqrt(consult_mean^2 + consult_sd^2))
+sigma <- log(1 + consult_sd^2 / consult_mean^2)
+consult_duration_na_omitted %>% 
+  mutate(
+    ConsultGroup = cut(`PAC Consult Duration`, 
+                  breaks=breaks, 
+                  include.lowest=TRUE, 
+                  right=FALSE)
+  ) -> consult_duration_na_omitted
+
+for (i in 2:length(breaks)) {
+  # if (i == length(breaks)) {
+  #   exp_cdf <- c(exp_cdf, 1-sum(exp_cdf))
+  # } else {
+  exp_cdf <- c(exp_cdf, 
+              pexp(breaks[i], rate = 1/consult_mean) -
+               pexp(breaks[i-1], rate = 1/consult_mean))
+}
+
+consult_summary <- summary(consult_duration_na_omitted$ConsultGroup)
+
+expected <- exp_cdf * sum(consult_summary)
+observed <- consult_summary
+
+error <- (observed-expected)^2 / expected
+error
+sum(observed)
+sum(expected)
+sum(error)
+qchisq(1-0.05, 17-2)
 ```
 
+Age distribution
+
+```{r}
+breaks = c(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 110)
+labels = c(
+  "[0-9]",
+  "[10-19]",
+  "[20-29]",
+  "[30-39]",
+  "[40-49]",
+  "[50-59]",
+  "[60-69]",
+  "[70-79]",
+  "[80-89]",
+  "[90-110]"
+)
+cleaned_planned_2020 %>% 
+  mutate(
+    AgeGroup = cut(Age, 
+                  breaks=breaks, 
+                  include.lowest=TRUE, 
+                  right=FALSE, 
+                  labels=labels)
+  ) -> cleaned_planned_2020
+
+AgeGroup <- cleaned_planned_2020$AgeGroup
+
+AgeGroup <- na.omit(AgeGroup)
+age_summary <- as_tibble(summary(AgeGroup))
+age_summary$labels <- labels
+age_summary <- age_summary %>% dplyr::select(labels, value)
+
+age_mean <- mean(cleaned_planned_2020$Age, na.rm = TRUE)
+age_sd <- sd(cleaned_planned_2020$Age, na.rm = TRUE)
+
+# Null hypothesis: Age is normally distributed. Alpha is 0.05.
+normal_cdf <- c()
+
+for (i in c(2:length(breaks))) {
+  normal_cdf <- c(normal_cdf, 
+                  pnorm(breaks[i], mean = age_mean, sd = age_sd) - 
+                    pnorm(breaks[i-1], mean = age_mean, sd = age_sd))
+}
+
+expected <- normal_cdf * sum(age_summary$value)
+observed <- age_summary$value
+
+error <- (observed-expected)^2 / expected
+error
+sum(observed)
+sum(expected)
+sum(error)
+qchisq(1-0.05, 10-3)
+
+# Age is not not normal
+age_mean
+age_sd
+
+descdist(age_summary$value, discrete=FALSE)
+```
+
+```{r}
+consult_lead_time <- 
+  cleaned_planned_2020$`No. of days between PAC date and listing date`
+
+consult_lead_time[consult_lead_time < 0] <- NA
+
+consult_lead_time <- na.omit(consult_lead_time) %>% tibble(consult_lead_time)
+
+consult_lead_time <- consult_lead_time %>% 
+  rename(index = ".", values = "consult_lead_time")
+
+ggplot(consult_lead_time) + geom_histogram(aes(consult_lead_time))
+```
+
+```{r}
+parallel_data <- cleaned_planned_2020 %>% 
+  select(# `Visit Time`,
+         Age,
+         `No. of days between PAC date and listing date`,
+         `PAC Consult Duration`,
+         `ASA Score`,
+         `Lead time to Surgery`,
+         `No Show / Attended`
+         ) %>% 
+  filter(`No. of days between PAC date and listing date` >= 0,
+         `Lead time to Surgery` < 40000) %>% 
+  rename(`Attended` = `No Show / Attended`) %>% 
+  drop_na(Age, `No. of days between PAC date and listing date`) %>% 
+  mutate(Attended = as.logical(Attended),
+         `ASA Score` = as.character(`ASA Score`))# %>% 
+  # mutate(`Visit Time` = paste(minute(`Visit Time`), ":", second(`Visit Time`)))
+
+write.csv(parallel_data, "parallel_data_2020.csv", row.names = FALSE)
+
+ggparcoord(parallel_data,
+           columns = 1:5,
+           groupColumn = 6,
+           showPoints = TRUE, 
+           title = "Parallel Coordinate Plot for the Iris Data",
+           alphaLines = 0.3
+           ) + 
+  scale_color_viridis(discrete=TRUE) +
+  theme_ipsum()+
+  theme(
+    plot.title = element_text(size=10)
+  )
+other_parallel <- parallel_data %>% select(-`ASA Score`)
+parallelplot(~other_parallel | `ASA Score`, group = Attended, data = parallel_data, horizontal.axis = TRUE,
+             main = "2020 PAC Parallel Line Plot by ASA Category", xlab = "Relative Value", ylab = "Parameters")
+```
+
+```{r}
+ggplot(cleaned_planned_2020) + geom_point(aes(Age, `PAC Consult Duration`, colour = `ASA Score`))
+
+ggplot(cleaned_planned_2020) + geom_histogram(aes(Age), bins = 20)
+
+ggplot(cleaned_planned_2020) + stat_qq(aes(sample = Age)) + stat_qq_line(aes(sample = Age))
+```
+
+```{r}
+
+```
