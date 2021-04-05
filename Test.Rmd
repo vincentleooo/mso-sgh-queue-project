@@ -33,7 +33,7 @@ Trying to clean up the date and time using `lubridate` function.
 cleaned_planned_2020 <- planned_2020 %>% 
   mutate(
     `PAC Date` = dmy(`PAC Date`),
-    `Visit Time` = hm(`Visit Time`),
+    `Visit Time` = paste(`Visit Time`, ":00", sep=""),
     Age = as.integer(Age),
     `No Show / Attended` = if_else(`No Show / Attended` == "Attended", 1, 0),
     `Listing Date` = dmy(`Listing Date`),

@@ -1,7 +1,7 @@
 ---
 title: "Amount of Time Being Served in PAC (Appointments)"
 subtitle: "2020"
-date: "Friday, 2 April 2021"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 author: "Vincent Leonardo"
 output:
   pdf_document:
@@ -21,17 +21,19 @@ monofont: Fira Code
 # Remove all variables from the R environment to create a fresh start
 rm(list=ls())
 # Execute our custom script for loading packages
-source("usePackages.R")
+source("Functions/usePackages.R")
 # Name of the packages 
 pkgnames <- c("ggplot2","dplyr","GGally","fmsb","tidyverse","knitr","lubridate",
               "patchwork", "fitdistrplus")
 # Use our custom load function
 loadPkgs(pkgnames)
 
-source("2020_PAC_initial_cleaner.R")
-source("histogram_maker.R")
-source("cf_graph.R")
-source("find_dist.R")
+source("Functions/2020_PAC_initial_cleaner.R")
+source("Functions/histogram_maker.R")
+source("Functions/cf_graph.R")
+source("Functions/find_dist.R")
+source("Functions/chi_squared_exp.R")
+source("Functions/chi_squared_gamma.R")
 ```
 
 ```{r include=FALSE}
@@ -39,15 +41,19 @@ planned_2020 <- PAC_initial_cleaner("Unedited CSV/2020_planned.csv")
 # head(planned_2020)
 ```
 
-Some things to note:
+**Some things to note:**
 
--   Not sure if total duration as denoted by the difference between `PAC Registration Time` and `PAC End Time` is a better fit than the `PAC Consult Duration`.
+-   Not sure if total duration as denoted by the difference between `PAC Registration Time` and `PAC End Time` is a better fit than the `PAC Consult Duration`. Question for SGH.
 -   Hence, both distributions are included.
 -   We are also looking preliminarily into other histograms, though we are not sure what to use it for yet.
--   `PAC Consult Duration` is for $\geq$ 15 minutes, then translated to start at 0 instead for CF and exponential. Gamma is not translated. \textbf{Not sure if this is correct.}
+-   `PAC Consult Duration` is for $\geq$ 15 minutes, then translated to start at 0 instead for initial histogram, CF and exponential parameter approximation. Gamma is not translated. \textbf{Not sure if this is correct.}
 -   We should decide on whether to split based on ASA, Department or both.
 
-Some questions:
+\textbf{Disclaimer}: Some distributions are not validated by chi-squared test yet but through other tests. Will do the chi-squared tests soon.
+
+\textbf{Chi-squared tests at $\alpha=0.05$.}
+
+<!--Some questions:
 
 -   Clarify that:
     -   Visit time = time allocated
@@ -61,7 +67,9 @@ Some questions:
     -   e.g. H&N ENT is it the same as ENT?
     -   Maybe can have a brief explanation so that we can try to cluster things
 
--   How was PAC registration/end time calculated?
+-   How was PAC registration/end time calculated?-->
+
+\newpage
 
 # Histograms
 
@@ -84,8 +92,6 @@ cf_graph(planned_2020)
 
 # Distribution for Consult Duration
 
-\textbf{Disclaimer}: distributions are not validated by chi-squared test yet but through other tests. Will need to ask James about these too. Will do the chi-squared tests soon.
-
 
 ## Exponential Fit (PAC Consult Duration Adjusted)
 ```{r echo=FALSE, warning=FALSE}
@@ -93,26 +99,90 @@ planned_2020_modified <- planned_2020 %>%
   filter(PAC_consult_duration >= 15) %>% 
   mutate(PAC_consult_duration = PAC_consult_duration - 15)
 
+planned_2020_modified <- 
+  planned_2020_modified[!is.na(planned_2020_modified$PAC_consult_duration),]
+
 find_dist(planned_2020_modified$PAC_consult_duration, "exp")
+
+kable(
+  chi_squared_exp(planned_2020_modified,
+                planned_2020_modified$PAC_consult_duration,
+                c(0,25,50,75,100,125,150,175,200,225,10000),
+                0.04995227),
+  caption = "Chi-Squared Test for Exponential Distribution"
+)
+
 ```
 ## Gamma Distribution (Not Adjusted)
 ```{r echo=FALSE, warning=FALSE}
 planned_2020_modified_a <- planned_2020 %>% 
   filter(PAC_consult_duration >= 15)
 find_dist(planned_2020_modified_a$PAC_consult_duration, "gamma")
+
+planned_2020_modified_a <- 
+  planned_2020_modified_a[!is.na(planned_2020_modified_a$PAC_consult_duration),]
+
+kable(
+  chi_squared_gamma(planned_2020_modified_a,
+                planned_2020_modified_a$PAC_consult_duration,
+                c(0,25,50,75,100,125,150,175,200,225,10000),
+                3.9019472,
+                0.1114137),
+  caption = "Chi-Squared Test for Gamma Distribution"
+)
 ```
 
 
 # Distribution for Total Duration
 
-\textbf{Disclaimer}: distributions are not validated by chi-squared test yet but through other tests. Will need to ask James about these too. Will do the chi-squared tests soon.
-
 ```{r echo=FALSE, warning=FALSE}
 find_dist(planned_2020$PAC_duration_total, "gamma")
+
+planned_2020_total_duration_na <- 
+  planned_2020[!is.na(planned_2020$PAC_duration_total),] %>% 
+  mutate(PAC_duration_total = as.integer(PAC_duration_total)) %>% 
+  filter(PAC_duration_total > 0)
+
+kable(
+  chi_squared_gamma(planned_2020_total_duration_na,
+                planned_2020_total_duration_na$PAC_duration_total,
+                c(0,20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,
+                  340,360,380,400,420,440,460,480,500,550,10000),
+                4.56048704,
+                0.02781078),
+  caption = "Chi-Squared Test for Gamma Distribution"
+)
 ```
 # Splitting by ASA
 
 ## Consult Duration
+
+```{r echo=FALSE}
+planned_2020_modified_a_1 <- planned_2020_modified_a %>% filter(asa == "1")
+planned_2020_modified_a_2 <- planned_2020_modified_a %>% filter(asa == "2")
+planned_2020_modified_a_3 <- planned_2020_modified_a %>% filter(asa == "3")
+planned_2020_modified_a_4 <- planned_2020_modified_a %>% filter(asa == "4")
+
+mean_1 <- mean(planned_2020_modified_a_1$PAC_consult_duration)
+mean_2 <- mean(planned_2020_modified_a_2$PAC_consult_duration)
+mean_3 <- mean(planned_2020_modified_a_3$PAC_consult_duration)
+mean_4 <- 0
+
+mean_asa <- tibble(
+  ASA = c(1:4),
+  Average = c(mean_1,mean_2,mean_3,mean_4)
+)
+
+ggplot(mean_asa) + geom_col(aes(ASA,Average)) +
+  labs(
+    title = "Average Consult Duration",
+    subtitle = "For ASA 1, 2, 3 and 4",
+    caption = "For ASA 4, the value is zero",
+    x = "ASA Score",
+    y = "Average Consult Duration"
+  )
+```
+
 
 ### Exponential
 ```{r echo=FALSE, warning=FALSE}
@@ -128,11 +198,6 @@ find_dist(planned_2020_modified_3$PAC_consult_duration, "exp")
 ```
 ### Gamma
 ```{r echo=FALSE, warning=FALSE}
-planned_2020_modified_a_1 <- planned_2020_modified_a %>% filter(asa == "1")
-planned_2020_modified_a_2 <- planned_2020_modified_a %>% filter(asa == "2")
-planned_2020_modified_a_3 <- planned_2020_modified_a %>% filter(asa == "3")
-# planned_2020_modified_a_4 <- planned_2020_modified_a %>% filter(asa == "4")
-
 find_dist(planned_2020_modified_a_1$PAC_consult_duration, "gamma")
 find_dist(planned_2020_modified_a_2$PAC_consult_duration, "gamma")
 find_dist(planned_2020_modified_a_3$PAC_consult_duration, "gamma")

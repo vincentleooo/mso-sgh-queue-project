@@ -42,9 +42,12 @@ PAC_initial_cleaner <- function(file_name) {
       PAC_end_date_time = dmy_hms(paste(PAC_date, PAC_end_time)),
       PAC_consult_duration = as.integer(PAC_consult_duration),
       age = as.integer(age),
+      arrival_interval = PAC_register_date_time - lag(PAC_register_date_time)
     ) %>% 
+    arrange(PAC_register_date_time) %>% 
     mutate(
-      PAC_duration_total = PAC_end_date_time - PAC_register_date_time
+      PAC_duration_total = PAC_end_date_time - PAC_register_date_time,
+      arrival_interval = PAC_register_date_time - lag(PAC_register_date_time)
     ) %>% 
     dplyr::select(
       identifier,
@@ -56,6 +59,7 @@ PAC_initial_cleaner <- function(file_name) {
       PAC_assigned_date_time,
       PAC_register_date_time,
       PAC_end_date_time,
+      arrival_interval,
       PAC_consult_duration,
       PAC_duration_total,
       visit_dept,
