@@ -33,7 +33,7 @@ PAC_initial_cleaner <- function(file_name) {
       surgery_complexity = `Complexity of Surgery`
     ) %>% 
     mutate(
-      PAC_assigned_date_time = dmy_hms(paste(PAC_date, visit_time)),
+      PAC_assigned_date_time = dmy_hm(paste(PAC_date, visit_time)),
       listing_date = dmy(listing_date),
       PAC_to_listing_days = as.integer(PAC_to_listing_days),
       surgery_date = dmy(surgery_date),
@@ -41,13 +41,12 @@ PAC_initial_cleaner <- function(file_name) {
       PAC_register_date_time = dmy_hms(paste(PAC_date, PAC_register_time)),
       PAC_end_date_time = dmy_hms(paste(PAC_date, PAC_end_time)),
       PAC_consult_duration = as.integer(PAC_consult_duration),
-      age = as.integer(age),
-      arrival_interval = PAC_register_date_time - lag(PAC_register_date_time)
+      age = as.integer(age)
     ) %>% 
-    arrange(PAC_register_date_time) %>% 
     mutate(
-      PAC_duration_total = PAC_end_date_time - PAC_register_date_time,
-      arrival_interval = PAC_register_date_time - lag(PAC_register_date_time)
+      PAC_duration_total = 
+        as.integer(PAC_end_date_time - PAC_register_date_time),
+      PAC_queue_time = PAC_duration_total - PAC_consult_duration
     ) %>% 
     dplyr::select(
       identifier,
@@ -59,7 +58,7 @@ PAC_initial_cleaner <- function(file_name) {
       PAC_assigned_date_time,
       PAC_register_date_time,
       PAC_end_date_time,
-      arrival_interval,
+      PAC_queue_time,
       PAC_consult_duration,
       PAC_duration_total,
       visit_dept,
@@ -73,7 +72,9 @@ PAC_initial_cleaner <- function(file_name) {
     filter(
       PAC_to_listing_days >= 0,
       PAC_to_listing_days <= 40000,
-      surgery_lead_time <= 40000
+      surgery_lead_time <= 40000,
+      PAC_consult_duration >= 15,
+      PAC_duration_total >= 15
     )
   
   
