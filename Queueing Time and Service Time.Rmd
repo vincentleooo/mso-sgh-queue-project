@@ -1,15 +1,19 @@
 ---
-title: "Analysis of Queue Time & Service Times"
+title: "Annex A: Analysis of Queue Time & Service Times"
 subtitle: "SGH PAC Data (2020--2021)"
 date: "Sunday, 11 April 2021"
 author: "Vincent Leonardo"
-output: 
-  prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
-    toc: true
-    toc_depth: 5
+output:
+  pdf_document:
+    highlight: tango
+    latex_engine: xelatex
     number_sections: true
+    toc: true
+fontsize: 11pt
+geometry: margin=1in
+mainfont: Bookerly
+mathfont: STIX Two Math
+monofont: Fira Code
 ---
 
 ```{r setup, include=FALSE}
@@ -35,7 +39,13 @@ source("Functions/find_dist.R")
 # source("Functions/chi_squared_exp.R")
 source("Functions/chi_squared_tests.R")
 source("Functions/2021_PAC_planned_initial_cleaner.R")
+
+theme_set(
+  theme_light() + theme(legend.position = "top")
+  )
 ```
+
+\newpage
 
 # Introduction
 
@@ -52,13 +62,12 @@ Acknowledging that the real world data may not be ideal, we would like to lay do
 
 1.  There is no exact data for queueing time. Therefore, it will be assumed that the queueing time is the total duration that the patient is in PAC subtracted by the actual consult duration. Implicitly, the other PAC stations (e.g. Radiology) where patients are assessed are considered as a "queue" in this case. For our purposes, this decision is justified as the project focuses on the anaesthesiologists and the consults thereof.
 2.  That any service time below 15 minutes is considered a data error. We must also acknowledge the assumption that any data above that is fully accurate to a reasonable degree, except when in the case that it is unrealistically high.
-3.  Seasonality near the Chinese New Year, which is usually in February. This information is provided to us by SGH through their past experience.
 
 # Methodology
 
-This is a mostly quantitative analysis. The data will be cleaned, meaning that any data error will be removed, and appropriate data types shall be applied to each variable. Data from 2020 and 2021 will then be aggregated into two tibbles (in essence, a better version of a data frame for R), one for planned appointments and walk-in appointments. From the master tibble, they will be split based on both seasonality (February versus the rest of the months) and ASA Score (measure of health in a pre-surgery assessment). There will be sixteen tibbles formed through this split, knowing that ASA Scores range from 1 to 4. However, there may not be enough data to form a distribution for the ASA Score of 4 due to its rarity.
+This is a mostly quantitative analysis. The data will be cleaned, meaning that any data error will be removed, and appropriate data types shall be applied to each variable. Data from 2020 and 2021 will then be aggregated into two tibbles (in essence, a better version of a data frame for R), one for planned appointments and walk-in appointments. There will be eight tibbles formed through this split, knowing that ASA Scores range from 1 to 4. However, there may not be enough data to form a distribution for the ASA Score of 4 due to its rarity.
 
-The sixteen tibbles will be analysed using descriptive statistics in the beginning, and then we will try to fit likely distributions to it. Ideally, the distributions will all be exponential. The main test that will be done to corroborate the distribution and its parameters will be the chi-squared test at $\alpha$ = 0.05.
+The eight tibbles will be analysed using descriptive statistics in the beginning, and then we will try to fit likely distributions to it. Ideally, the distributions will all be exponential. The main test that will be done to corroborate the distribution and its parameters will be the chi-squared test at $\alpha$ = 0.05.
 
 # Data Cleaning
 
@@ -95,6 +104,8 @@ raw_walk_in_2021 <- read_csv("Unedited CSV/2021_add_on.csv")
 
 head(raw_walk_in_2021)
 ```
+
+\newpage
 
 ## Cleaned Data
 
@@ -181,6 +192,8 @@ ggplot(planned_appointments) +
     color = "ASA Score"
   )
 ```
+
+\newpage
 
 ### Walk-In Appointments Aggregate
 
@@ -270,6 +283,8 @@ ggplot(add_on_appointments) +
   )
 ```
 
+\newpage
+
 ### Appointments Aggregate
 
 ```{r}
@@ -293,6 +308,21 @@ appointments <- tibble(
 )
 
 head(appointments)
+```
+
+```{r fig.cap="Histogram for queuing time in PAC"}
+ggplot(appointments) + 
+  geom_histogram(aes(queue_time), bins = 30) +
+  facet_wrap(~asa, scales = 'free_y', ncol = 2) +
+  theme_minimal() +
+  labs(
+    title = "Histogram for Queue Times in PAC",
+    subtitle = "From 1 July 2020 to 5 March 2021",
+    caption = "",
+    x = "Queue Time",
+    y = "Count",
+    color = "ASA Score"
+  )
 ```
 
 ```{r fig.cap="Histogram for consult duration in PAC"}
@@ -325,31 +355,66 @@ ggplot(appointments) +
   )
 ```
 
+\newpage
+
 ### Counts Per Month
+
 #### 2020
+
+\
+
 ```{r fig.cap="Histogram for patient counts in 2020"}
 ggplot(appointments[appointments$month!=1&appointments$month!=2&appointments$month!=3,]) + 
-  geom_histogram(aes(month), bins=6, binwidth = 0.5) +
+  geom_bar(aes(month)) +
   labs(
-    title = "Histogram for the Number of Patients in 2020",
+    title = "Bar Chart for the Number of Patients in 2020",
     subtitle = "From 1 July 2020 to 1 December 2020",
     caption = "Cleaned up data that will be used for distribution analysis",
     x = "Month",
-    y = "Relative Count"
+    y = "Count"
   ) + theme_minimal()
 ```
+
 #### 2021
+
+\
+
 ```{r fig.cap="Histogram for patient counts in 2021"}
 ggplot(appointments[appointments$month==1|appointments$month==2|appointments$month==3,]) + 
-  geom_histogram(aes(month), bins = 3, binwidth = 0.5) +
+  geom_bar(aes(month)) +
   labs(
-    title = "Histogram for the Number of Patients in 2021",
+    title = "Bar Chart for the Number of Patients in 2021",
     subtitle = "From 1 January 2021 to 5 March 2021",
     caption = "Cleaned up data that will be used for distribution analysis",
     x = "Month",
-    y = "Relative Count"
+    y = "Count"
   ) + theme_minimal()
 ```
+
+#### Compared by ASA
+
+\
+
+```{r fig.cap="Counts by ASA"}
+ggplot(appointments) + geom_bar(aes(asa)) +
+  labs(
+    title = "Patient Counts by ASA",
+    subtitle = "From 1 July 2020 to 5 March 2021",
+    caption = "Cleaned up data that will be used for distribution analysis",
+    x = "ASA",
+    y = "Count"
+  ) + theme_minimal()
+```
+
+```{r}
+asa_prob_table <- tibble(
+  `ASA 1` = nrow(appointments[appointments$asa==1,])/nrow(appointments),
+  `ASA 2` = nrow(appointments[appointments$asa==2,])/nrow(appointments),
+  `ASA 3-4` = nrow(appointments[appointments$asa==3|appointments$asa==4,])/nrow(appointments)
+)
+kable(asa_prob_table, caption = "Ratio of Patients by ASA")
+```
+
 # Finding Distributions
 
 ## Planned and Walk-In Appointments
@@ -358,16 +423,22 @@ ggplot(appointments[appointments$month==1|appointments$month==2|appointments$mon
 
 #### ASA 1
 
+\
+
 ```{r}
 descdist(appointments[appointments$asa=="1",]$queue_time)
 ```
 
 ##### Testing for Lognormal Distribution
 
+\
+
 ```{r}
 find_dist(appointments[appointments$asa=="1",]$queue_time,"lnorm", "mme")
 # c("mle", "mme", "qme", "mge", "mse"))
 ```
+
+\
 
 ```{r}
 chi_squared_lnorm(
@@ -380,6 +451,8 @@ chi_squared_lnorm(
 ```
 
 ##### Testing for Gamma Distribution
+
+\
 
 ```{r}
 find_dist(appointments[appointments$asa=="1",]$queue_time,"gamma", "mme")
@@ -398,11 +471,15 @@ chi_squared_gamma(
 
 #### ASA 2
 
+\
+
 ```{r}
 descdist(appointments[appointments$asa=="2",]$queue_time)
 ```
 
 ##### Testing for Gamma Distribution
+
+\
 
 ```{r}
 find_dist(appointments[appointments$asa=="2",]$queue_time,"gamma", "mme")
@@ -420,6 +497,8 @@ chi_squared_gamma(
 
 ##### Testing for Lognormal Distribution
 
+\
+
 ```{r}
 find_dist(appointments[appointments$asa=="2",]$queue_time,"lnorm", "mme")
 ```
@@ -436,11 +515,15 @@ chi_squared_lnorm(
 
 #### ASA 3
 
+\
+
 ```{r}
 descdist(appointments[appointments$asa=="3",]$queue_time)
 ```
 
 ##### Testing for Gamma Distribution
+
+\
 
 ```{r}
 find_dist(appointments[appointments$asa=="3",]$queue_time,"gamma", "mme")
@@ -463,6 +546,8 @@ Adjusted version, meaning that the consult duration was shifted by 15 minutes, u
 
 #### ASA 1
 
+\
+
 ```{r}
 appointments_adj <- appointments %>% 
   mutate(consult_duration = consult_duration - 15)
@@ -477,6 +562,8 @@ descdist(appointments_adj[appointments_adj$asa=="1",]$consult_duration)
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 The lognormal distribution requires numbers above 0. Hence, the shifting in this case is by 14, such that the minimum is 1.
 
@@ -496,6 +583,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(appointments_adj[appointments_adj$asa=="1",]$consult_duration,"gamma", "mme")
 
@@ -513,6 +602,8 @@ chi_squared_gamma(
 
 ##### Testing for Exponential Distribution
 
+\
+
 ```{r}
 find_dist(appointments_adj[appointments_adj$asa=="1",]$consult_duration,"exp", "mme")
 
@@ -529,11 +620,15 @@ chi_squared_exp(
 
 #### ASA 2
 
+\
+
 ```{r}
 descdist(appointments_adj_1[appointments_adj_1$asa=="2",]$consult_duration)
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 The lognormal distribution requires numbers above 0. Hence, the shifting in this case is by 14, such that the minimum is 1.
 
@@ -553,6 +648,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(appointments_adj[appointments_adj$asa=="2",]$consult_duration,"gamma", "mme")
 ```
@@ -569,6 +666,8 @@ chi_squared_gamma(
 
 ##### Testing for Exponential Distribution
 
+\
+
 ```{r}
 find_dist(appointments_adj[appointments_adj$asa=="2",]$consult_duration,"exp", "mme")
 ```
@@ -584,11 +683,15 @@ chi_squared_exp(
 
 #### ASA 3
 
+\
+
 ```{r}
 descdist(appointments_adj_1[appointments_adj$asa=="3",]$consult_duration)
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 The lognormal distribution requires numbers above 0. Hence, the shifting in this case is by 14, such that the minimum is 1.
 
@@ -608,6 +711,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(appointments_adj[appointments_adj$asa=="3",]$consult_duration,"gamma", "mme")
 ```
@@ -623,6 +728,8 @@ chi_squared_gamma(
 ```
 
 ##### Testing for Exponential Distribution
+
+\
 
 ```{r}
 find_dist(appointments_adj[appointments_adj$asa=="3",]$consult_duration,"exp", "mme")
@@ -643,11 +750,15 @@ chi_squared_exp(
 
 #### ASA 1
 
+\
+
 ```{r}
 descdist(planned_appointments[planned_appointments$asa=="1",]$queue_time)
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 ```{r}
 find_dist(planned_appointments[planned_appointments$asa=="1",]$queue_time,"lnorm", "mme")
@@ -666,6 +777,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(planned_appointments[planned_appointments$asa=="1",]$queue_time,"gamma", "mme")
 ```
@@ -682,11 +795,15 @@ chi_squared_gamma(
 
 #### ASA 2
 
+\
+
 ```{r}
 descdist(planned_appointments[planned_appointments$asa=="2",]$queue_time)
 ```
 
 ##### Testing for Gamma Distribution
+
+\
 
 ```{r}
 find_dist(planned_appointments[planned_appointments$asa=="2",]$queue_time,"gamma", "mme")
@@ -704,6 +821,8 @@ chi_squared_gamma(
 
 ##### Testing for Lognormal Distribution
 
+\
+
 ```{r}
 find_dist(planned_appointments[planned_appointments$asa=="2",]$queue_time,"lnorm", "mme")
 ```
@@ -720,11 +839,15 @@ chi_squared_lnorm(
 
 #### ASA 3
 
+\
+
 ```{r}
 descdist(planned_appointments[planned_appointments$asa=="3",]$queue_time)
 ```
 
 ##### Testing for Gamma Distribution
+
+\
 
 ```{r}
 find_dist(planned_appointments[planned_appointments$asa=="3",]$queue_time,"gamma", "mme")
@@ -747,6 +870,8 @@ Adjusted version, meaning that the consult duration was shifted by 15 minutes, u
 
 #### ASA 1
 
+\
+
 ```{r}
 planned_appointments_adj <- planned_appointments %>% 
   mutate(consult_duration = consult_duration - 15)
@@ -761,6 +886,8 @@ descdist(planned_appointments_adj[planned_appointments_adj$asa=="1",]$consult_du
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 The lognormal distribution requires numbers above 0. Hence, the shifting in this case is by 14, such that the minimum is 1.
 
@@ -778,9 +905,9 @@ chi_squared_lnorm(
 )
 ```
 
-##### 
-
 ##### Testing for Gamma Distribution
+
+\
 
 ```{r}
 find_dist(planned_appointments_adj[planned_appointments_adj$asa=="1",]$consult_duration,"gamma", "mme")
@@ -799,6 +926,8 @@ chi_squared_gamma(
 
 ##### Testing for Exponential Distribution
 
+\
+
 ```{r}
 find_dist(planned_appointments_adj[planned_appointments_adj$asa=="1",]$consult_duration,"exp", "mme")
 
@@ -815,11 +944,15 @@ chi_squared_exp(
 
 #### ASA 2
 
+\
+
 ```{r}
 descdist(planned_appointments_adj_1[planned_appointments_adj_1$asa=="2",]$consult_duration)
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 The lognormal distribution requires numbers above 0. Hence, the shifting in this case is by 14, such that the minimum is 1.
 
@@ -839,6 +972,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(planned_appointments_adj[planned_appointments_adj$asa=="2",]$consult_duration,"gamma", "mme")
 ```
@@ -855,6 +990,8 @@ chi_squared_gamma(
 
 ##### Testing for Exponential Distribution
 
+\
+
 ```{r}
 find_dist(planned_appointments_adj[planned_appointments_adj$asa=="2",]$consult_duration,"exp", "mme")
 ```
@@ -870,11 +1007,15 @@ chi_squared_exp(
 
 #### ASA 3
 
+\
+
 ```{r}
 descdist(planned_appointments_adj_1[planned_appointments_adj$asa=="3",]$consult_duration)
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 The lognormal distribution requires numbers above 0. Hence, the shifting in this case is by 14, such that the minimum is 1.
 
@@ -894,6 +1035,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(planned_appointments_adj[planned_appointments_adj$asa=="3",]$consult_duration,"gamma", "mme")
 ```
@@ -909,6 +1052,8 @@ chi_squared_gamma(
 ```
 
 ##### Testing for Exponential Distribution
+
+\
 
 ```{r}
 find_dist(planned_appointments_adj[planned_appointments_adj$asa=="3",]$consult_duration,"exp", "mme")
@@ -929,11 +1074,15 @@ chi_squared_exp(
 
 #### ASA 1
 
+\
+
 ```{r}
 descdist(add_on_appointments[add_on_appointments$asa=="1",]$queue_time)
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 ```{r}
 find_dist(add_on_appointments[add_on_appointments$asa=="1",]$queue_time,"lnorm", "mme")
@@ -952,6 +1101,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(add_on_appointments[add_on_appointments$asa=="1",]$queue_time,"gamma", "mme")
 ```
@@ -968,11 +1119,15 @@ chi_squared_gamma(
 
 #### ASA 2
 
+\
+
 ```{r}
 descdist(add_on_appointments[add_on_appointments$asa=="2",]$queue_time)
 ```
 
 ##### Testing for Gamma Distribution
+
+\
 
 ```{r}
 find_dist(add_on_appointments[add_on_appointments$asa=="2",]$queue_time,"gamma", "mme")
@@ -990,6 +1145,8 @@ chi_squared_gamma(
 
 ##### Testing for Lognormal Distribution
 
+\
+
 ```{r}
 find_dist(add_on_appointments[add_on_appointments$asa=="2",]$queue_time,"lnorm", "mme")
 ```
@@ -1006,11 +1163,15 @@ chi_squared_lnorm(
 
 #### ASA 3
 
+\
+
 ```{r}
 descdist(add_on_appointments[add_on_appointments$asa=="3",]$queue_time)
 ```
 
 ##### Testing for Gamma Distribution
+
+\
 
 ```{r}
 find_dist(add_on_appointments[add_on_appointments$asa=="3",]$queue_time,"gamma", "mme")
@@ -1029,9 +1190,13 @@ chi_squared_gamma(
 
 ### Consult Duration
 
+\
+
 Adjusted version, meaning that the consult duration was shifted by 15 minutes, unless otherwise stated.
 
 #### ASA 1
+
+\
 
 ```{r}
 add_on_appointments_adj <- add_on_appointments %>% 
@@ -1047,6 +1212,8 @@ descdist(add_on_appointments_adj[add_on_appointments_adj$asa=="1",]$consult_dura
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 The lognormal distribution requires numbers above 0. Hence, the shifting in this case is by 14, such that the minimum is 1.
 
@@ -1066,6 +1233,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(add_on_appointments_adj[add_on_appointments_adj$asa=="1",]$consult_duration,"gamma", "mme")
 
@@ -1083,6 +1252,8 @@ chi_squared_gamma(
 
 ##### Testing for Exponential Distribution
 
+\
+
 ```{r}
 find_dist(add_on_appointments_adj[add_on_appointments_adj$asa=="1",]$consult_duration,"exp", "mme")
 
@@ -1099,11 +1270,15 @@ chi_squared_exp(
 
 #### ASA 2
 
+\
+
 ```{r}
 descdist(add_on_appointments_adj_1[add_on_appointments_adj_1$asa=="2",]$consult_duration)
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 The lognormal distribution requires numbers above 0. Hence, the shifting in this case is by 14, such that the minimum is 1.
 
@@ -1123,6 +1298,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(add_on_appointments_adj[add_on_appointments_adj$asa=="2",]$consult_duration,"gamma", "mme")
 ```
@@ -1139,6 +1316,8 @@ chi_squared_gamma(
 
 ##### Testing for Exponential Distribution
 
+\
+
 ```{r}
 find_dist(add_on_appointments_adj[add_on_appointments_adj$asa=="2",]$consult_duration,"exp", "mme")
 ```
@@ -1154,11 +1333,15 @@ chi_squared_exp(
 
 #### ASA 3
 
+\
+
 ```{r}
 descdist(add_on_appointments_adj_1[add_on_appointments_adj$asa=="3",]$consult_duration)
 ```
 
 ##### Testing for Lognormal Distribution
+
+\
 
 The lognormal distribution requires numbers above 0. Hence, the shifting in this case is by 14, such that the minimum is 1.
 
@@ -1178,6 +1361,8 @@ chi_squared_lnorm(
 
 ##### Testing for Gamma Distribution
 
+\
+
 ```{r}
 find_dist(add_on_appointments_adj[add_on_appointments_adj$asa=="3",]$consult_duration,"gamma", "mme")
 ```
@@ -1194,14 +1379,16 @@ chi_squared_gamma(
 
 ##### Testing for Exponential Distribution
 
+\
+
 ```{r}
-find_dist(add_on_appointments_adj[add_on_appointments_adj$asa=="3",]$consult_duration,"exp", "mme")
+find_dist(add_on_appointments_adj[add_on_appointments_adj$asa == "3", ]$consult_duration, "exp", "mme")
 ```
 
 ```{r}
 chi_squared_exp(
-  add_on_appointments_adj_1[add_on_appointments_adj_1$asa=="3",],
-  add_on_appointments_adj_1[add_on_appointments_adj_1$asa=="3",]$consult_duration,
+  add_on_appointments_adj_1[add_on_appointments_adj_1$asa == "3", ],
+  add_on_appointments_adj_1[add_on_appointments_adj_1$asa == "3", ]$consult_duration,
   c(0, 10, 20, 30, 40, 50, 60, Inf),
   0.03913405
 )
@@ -1213,78 +1400,88 @@ chi_squared_exp(
 
 ### Queue Time
 
-| ASA Score | Distribution                    | Error    | Critical Values |
-| :-------: |---------------------------------| :------: | :-------------: |
-|     1     | Lognormal(4.7441447, 0.4887809) | 3.790103 | 9.487729        |
-|     2     | Gamma(4.51396193, 0.02991051)   | 17.96091 | 18.30704        |
-|     3     | Gamma(4.4903452, 0.0290352)     | 13.37659 | 18.30704        |
+| ASA Score | Distribution                    |  Error   | Critical Values |
+|:---------:|---------------------------------|:--------:|:---------------:|
+|     1     | Lognormal(4.7441447, 0.4887809) | 3.790103 |    9.487729     |
+|     2     | Gamma(4.51396193, 0.02991051)   | 17.96091 |    18.30704     |
+|     3     | Gamma(4.4903452, 0.0290352)     | 13.37659 |    18.30704     |
 
-Table: Distributions for each ASA Score
+: Distributions for each ASA Score
 
 ### Consult Duration
 
-| ASA Score |           Distribution          |   Error  | Critical Values |
+| ASA Score |          Distribution           |  Error   | Critical Values |
 |:---------:|:-------------------------------:|:--------:|:---------------:|
-|     1     | Lognormal(2.4525327, 0.8756247) | 9.605517 |     15.50731    |
-|     2     | Exp(0.048233)                   |  5.7713  |     5.991465    |
-|     3     | Lognormal(3.0657644, 0.8372545) |  5.50356 |     12.59159    |
-|           | Gamma(0.92089709, 0.03126416)   | 5.842161 |     5.991465    |
-|           | Exp(0.03394968)                 | 4.483978 |     7.814728    |
+|     1     | Lognormal(2.4525327, 0.8756247) | 9.605517 |    15.50731     |
+|     2     |          Exp(0.048233)          |  5.7713  |    5.991465     |
+|     3     | Lognormal(3.0657644, 0.8372545) | 5.50356  |    12.59159     |
+|           |  Gamma(0.92089709, 0.03126416)  | 5.842161 |    5.991465     |
+|           |         Exp(0.03394968)         | 4.483978 |    7.814728     |
 
-Table: Distributions for each ASA Score
+: Distributions for each ASA Score
+
+\newpage
 
 ## Planned Appointments
 
 ### Queue Time
 
-| ASA Score |           Distribution          |   Error  | Critical Values |
+| ASA Score |          Distribution           |  Error   | Critical Values |
 |:---------:|:-------------------------------:|:--------:|:---------------:|
-|     1     | Lognormal(4.7362772, 0.4766837) | 5.192523 |     9.487729    |
-|     2     | Gamma(4.6350196, 0.0309402)     | 20.84311 |     21.02607    |
-|     3     | Gamma(4.77692467, 0.03145134)   | 13.61228 |     14.06714    |
+|     1     | Lognormal(4.7362772, 0.4766837) | 5.192523 |    9.487729     |
+|     2     |   Gamma(4.6350196, 0.0309402)   | 20.84311 |    21.02607     |
+|     3     |  Gamma(4.77692467, 0.03145134)  | 13.61228 |    14.06714     |
 
-Table: Distributions for each ASA Score
+: Distributions for each ASA Score
 
 ### Consult Duration
 
-| ASA Score |           Distribution          |   Error  | Critical Values |
+| ASA Score |          Distribution           |  Error   | Critical Values |
 |:---------:|:-------------------------------:|:--------:|:---------------:|
-|     1     | Lognormal(2.456952, 0.874598)   | 16.66601 |     16.91898    |
-|           | Gamma(0.7716552, 0.0479119)     | 13.26114 |     14.06714    |
-|     2     | Gamma(0.9400198, 0.0453387)     |  5.40839 |     5.991465    |
-|           | Exp(0.04823165)                 | 11.10927 |     12.59159    |
-|     3     | Lognormal(3.0717530, 0.8440134) | 4.778335 |     7.814728    |
-|           | Gamma(0.90118456, 0.03022804)   | 8.379399 |     9.487729    |
-|           | Exp(0.03354257)                 | 6.057588 |     11.0705     |
+|     1     |  Lognormal(2.456952, 0.874598)  | 16.66601 |    16.91898     |
+|           |   Gamma(0.7716552, 0.0479119)   | 13.26114 |    14.06714     |
+|     2     |   Gamma(0.9400198, 0.0453387)   | 5.40839  |    5.991465     |
+|           |         Exp(0.04823165)         | 11.10927 |    12.59159     |
+|     3     | Lognormal(3.0717530, 0.8440134) | 4.778335 |    7.814728     |
+|           |  Gamma(0.90118456, 0.03022804)  | 8.379399 |    9.487729     |
+|           |         Exp(0.03354257)         | 6.057588 |     11.0705     |
 
-Table: Distributions for each ASA Score
+: Distributions for each ASA Score
+
+\newpage
 
 ## Walk-In Appointments
 
 ### Queue Time
 
-| ASA Score |           Distribution          |   Error  | Critical Values |
+| ASA Score |          Distribution           |  Error   | Critical Values |
 |:---------:|:-------------------------------:|:--------:|:---------------:|
-|     1     | Lognormal(4.8384769, 0.5555817) | 5.394277 |     9.487729    |
-|           | Gamma(2.76537723, 0.01876737)   | 2.535864 |     7.814728    |
-|     2     | Gamma(3.69937258, 0.02254071)   | 21.08321 |     22.36203    |
-|           | Lognormal(4.980962, 0.489148)   | 18.26444 |     22.36203    |
-|     3     | Gamma(3.50311077, 0.01894881)   | 7.495405 |     14.06714    |
+|     1     | Lognormal(4.8384769, 0.5555817) | 5.394277 |    9.487729     |
+|           |  Gamma(2.76537723, 0.01876737)  | 2.535864 |    7.814728     |
+|     2     |  Gamma(3.69937258, 0.02254071)  | 21.08321 |    22.36203     |
+|           |  Lognormal(4.980962, 0.489148)  | 18.26444 |    22.36203     |
+|     3     |  Gamma(3.50311077, 0.01894881)  | 7.495405 |    14.06714     |
 
-Table: Distributions for each ASA Score
+: Distributions for each ASA Score
 
 ### Consult Duration
 
-| ASA Score |           Distribution          |   Error   | Critical Values |
+| ASA Score |          Distribution           |   Error   | Critical Values |
 |:---------:|:-------------------------------:|:---------:|:---------------:|
-|     1     | Lognormal(2.4071329, 0.8858606) | 0.8173222 |     7.814728    |
-|           | Gamma(0.74003981, 0.04794076)   |  12.19202 |     15.50731    |
-|           | Exp(0.06478132)                 |  10.57594 |     11.0705     |
-|     2     | Lognormal(2.692986, 0.878081)   |  11.18576 |     12.59159    |
-|           | Gamma(0.78319684, 0.03778855)   |  4.265961 |     9.487729    |
-|           | Exp(0.0482491)                  |  4.463257 |     12.59159    |
-|     3     | Lognormal(3.0349670, 0.6988318) |  2.577932 |     7.814728    |
-|           | Gamma(1.47081119, 0.05755881)   |  2.209917 |     9.487729    |
-|           | Exp(0.03913405)                 |  6.167518 |     11.0705     |
+|     1     | Lognormal(2.4071329, 0.8858606) | 0.8173222 |    7.814728     |
+|           |  Gamma(0.74003981, 0.04794076)  | 12.19202  |    15.50731     |
+|           |         Exp(0.06478132)         | 10.57594  |     11.0705     |
+|     2     |  Lognormal(2.692986, 0.878081)  | 11.18576  |    12.59159     |
+|           |  Gamma(0.78319684, 0.03778855)  | 4.265961  |    9.487729     |
+|           |         Exp(0.0482491)          | 4.463257  |    12.59159     |
+|     3     | Lognormal(3.0349670, 0.6988318) | 2.577932  |    7.814728     |
+|           |  Gamma(1.47081119, 0.05755881)  | 2.209917  |    9.487729     |
+|           |         Exp(0.03913405)         | 6.167518  |     11.0705     |
 
-Table: Distributions for each ASA Score
+: Distributions for each ASA Score
+
+
+```{r}
+
+```
+
